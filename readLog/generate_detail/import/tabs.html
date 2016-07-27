@@ -1,0 +1,77 @@
+<div style="display:flex;margin:0 -10px;">
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;color:#ff6600;border-bottom:2px solid #ff6600;border-left:0px;" data-target="#tab1"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    })
+
+    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    })
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">西柚</div>
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;" data-target="#tab2"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    })
+
+    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    })
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">牛油果</div>
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;border-right:0px;" data-target="#tab3"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    })
+
+    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    })
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">车厘子</div>
+</div>
+
+<div id="tab1" class="merch-tab">
+  diyige
+</div>
+
+<div id="tab2" class="merch-tab" style="display:none;">
+  dierge
+</div>
+
+<div id="tab3" class="merch-tab" style="display:none;">
+  disange
+</div>
