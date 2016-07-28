@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e43753-1997-4a51-8fdc-468be1b5e1f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/1.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/2.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/foot.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/foot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/head.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_order/old" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_order/read.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/import/tabs.html" afterPath="$PROJECT_DIR$/generate_detail/import/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" />
     </list>
     <ignored path="readLog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,8 +23,8 @@
     <SUITE FILE_PATH="coverage/readLog$shenghui.coverage" NAME="shenghui Coverage Results" MODIFIED="1465376225153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shenghui" />
     <SUITE FILE_PATH="coverage/readLog$address.coverage" NAME="address Coverage Results" MODIFIED="1462945115033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$seller.coverage" NAME="seller Coverage Results" MODIFIED="1465721711513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seller" />
-    <SUITE FILE_PATH="coverage/readLog$read.coverage" NAME="read Coverage Results" MODIFIED="1467612107738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beijingquxian" />
     <SUITE FILE_PATH="coverage/readLog$liucun.coverage" NAME="liucun Coverage Results" MODIFIED="1468922854582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keep" />
+    <SUITE FILE_PATH="coverage/readLog$read.coverage" NAME="read Coverage Results" MODIFIED="1469612377647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/change_order" />
     <SUITE FILE_PATH="coverage/readLog$writeNumber.coverage" NAME="writeNumber Coverage Results" MODIFIED="1465290490632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$coupon.coverage" NAME="coupon Coverage Results" MODIFIED="1467019126298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coupon_usage" />
     <SUITE FILE_PATH="coverage/readLog$formatsql.coverage" NAME="formatsql Coverage Results" MODIFIED="1468569815160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/formatsql" />
@@ -59,11 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="old" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change_order/old">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/change_order/read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formatsql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatsql/formatsql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -72,8 +103,8 @@
       <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_detail/import/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="76" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="56" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,212 +150,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/import/result.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#12;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#13;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#strong#0;n#p#0;n#section#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#section#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#strong#0;n#span#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#9;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#10;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#11;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#11;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#11;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#12;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#13;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#15;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#15;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#16;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#18;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#20;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#21;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#22;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#23;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#25;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#26;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#26;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#27;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#28;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#29;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#30;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#32;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#33;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#33;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#p#33;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#p#33;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#34;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#35;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#36;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#37;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#39;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#section#1;n#section#0;n#section#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#5;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#7;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#10;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#11;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#11;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#12;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#14;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#14;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#15;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#16;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#18;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#20;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#22;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#23;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#1;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#6;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#7;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#9;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#9;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#10;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#12;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#14;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#14;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#4;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#5;n#p#15;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#6;n#p#15;n#div#3;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/import/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#12;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#13;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/import/foot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -334,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coupon_usage/test.py" />
-        <option value="$PROJECT_DIR$/interview_import/read.py" />
-        <option value="$PROJECT_DIR$/fans/tuan" />
         <option value="$PROJECT_DIR$/fans/zhang" />
         <option value="$PROJECT_DIR$/compare_orders/compare.py" />
         <option value="$PROJECT_DIR$/compare_orders/weixin" />
@@ -380,11 +209,14 @@
         <option value="$PROJECT_DIR$/generate_detail/1.html" />
         <option value="$PROJECT_DIR$/generate_detail/3.html" />
         <option value="$PROJECT_DIR$/generate_detail/go.py" />
-        <option value="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" />
         <option value="$PROJECT_DIR$/generate_detail/kiwi/1.html" />
         <option value="$PROJECT_DIR$/generate_detail/kiwi/2.html" />
         <option value="$PROJECT_DIR$/generate_detail/kiwi/foot.html" />
         <option value="$PROJECT_DIR$/generate_detail/kiwi/head.html" />
+        <option value="$PROJECT_DIR$/generate_detail/import/tabs.html" />
+        <option value="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" />
+        <option value="$PROJECT_DIR$/change_order/old" />
+        <option value="$PROJECT_DIR$/change_order/read.py" />
       </list>
     </option>
   </component>
@@ -395,8 +227,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
-    <option name="y" value="-886" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
   </component>
@@ -481,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generate_detail" />
+              <option name="myItemId" value="formatsql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,29 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="generate_detail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kiwi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readLog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readLog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generate_detail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="import" />
+              <option name="myItemId" value="change_order" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,25 +363,7 @@
       <recent name="$PROJECT_DIR$/fans" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.go">
-    <configuration default="false" name="tuanzhangmapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fans" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="readLog" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fans/tuanzhangmapping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.read">
     <configuration default="false" name="formatsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -641,6 +432,24 @@
       <module name="readLog" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_detail/go.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/change_order" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="readLog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_order/read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -861,19 +670,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tuanzhangmapping" />
-      <item index="1" class="java.lang.String" itemvalue="Python.formatsql" />
-      <item index="2" class="java.lang.String" itemvalue="Python.liucun" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mapping" />
-      <item index="4" class="java.lang.String" itemvalue="Python.go" />
+      <item index="0" class="java.lang.String" itemvalue="Python.formatsql" />
+      <item index="1" class="java.lang.String" itemvalue="Python.liucun" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mapping" />
+      <item index="3" class="java.lang.String" itemvalue="Python.go" />
+      <item index="4" class="java.lang.String" itemvalue="Python.read" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.go" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mapping" />
-        <item index="2" class="java.lang.String" itemvalue="Python.liucun" />
-        <item index="3" class="java.lang.String" itemvalue="Python.formatsql" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tuanzhangmapping" />
+        <item index="0" class="java.lang.String" itemvalue="Python.read" />
+        <item index="1" class="java.lang.String" itemvalue="Python.go" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mapping" />
+        <item index="3" class="java.lang.String" itemvalue="Python.liucun" />
+        <item index="4" class="java.lang.String" itemvalue="Python.formatsql" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +712,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-76" y="-886" width="1440" height="841" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="841" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
@@ -912,7 +721,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36617842" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36617842" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.50840336" order="2" side_tool="true" content_ui="tabs" />
@@ -944,20 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/compare_orders/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_log/read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coupon_usage/usage">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1095,13 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatsql/formatsql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1559,14 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generate_detail/import/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="76" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1599,10 +1379,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generate_detail/import/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="56" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatsql/formatsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_order/old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_order/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

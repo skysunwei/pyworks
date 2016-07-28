@@ -2,15 +2,16 @@
   <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;color:#ff6600;border-bottom:2px solid #ff6600;border-left:0px;" data-target="#tab1"
   class="merch-tab-nav"
   onclick="(function(_this){
-    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
       _ele.style.color = 'initial'
       _ele.style.borderBottom = '1px solid #e8e8e8'
-    })
+    });
 
-    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
       _ele.style.display = 'none'
       _ele.style.color = 'initial'
-    })
+    });
 
     _this.style.color = '#ff6600'
     _this.style.borderBottom = '2px solid #ff6600'
@@ -23,15 +24,16 @@
   <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;" data-target="#tab2"
   class="merch-tab-nav"
   onclick="(function(_this){
-    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
       _ele.style.color = 'initial'
       _ele.style.borderBottom = '1px solid #e8e8e8'
-    })
+    });
 
-    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
       _ele.style.display = 'none'
       _ele.style.color = 'initial'
-    })
+    });
 
     _this.style.color = '#ff6600'
     _this.style.borderBottom = '2px solid #ff6600'
@@ -44,15 +46,16 @@
   <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;border-right:0px;" data-target="#tab3"
   class="merch-tab-nav"
   onclick="(function(_this){
-    document.querySelectorAll('.merch-tab-nav').forEach(function(_ele){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
       _ele.style.color = 'initial'
       _ele.style.borderBottom = '1px solid #e8e8e8'
-    })
+    });
 
-    document.querySelectorAll('.merch-tab').forEach(function(_ele){
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
       _ele.style.display = 'none'
       _ele.style.color = 'initial'
-    })
+    });
 
     _this.style.color = '#ff6600'
     _this.style.borderBottom = '2px solid #ff6600'
