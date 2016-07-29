@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e43753-1997-4a51-8fdc-468be1b5e1f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_order/old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_order/read.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/import/tabs.html" afterPath="$PROJECT_DIR$/generate_detail/import/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" afterPath="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keep/liucun.py" afterPath="$PROJECT_DIR$/keep/liucun.py" />
     </list>
     <ignored path="readLog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,8 +20,8 @@
     <SUITE FILE_PATH="coverage/readLog$shenghui.coverage" NAME="shenghui Coverage Results" MODIFIED="1465376225153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shenghui" />
     <SUITE FILE_PATH="coverage/readLog$address.coverage" NAME="address Coverage Results" MODIFIED="1462945115033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$seller.coverage" NAME="seller Coverage Results" MODIFIED="1465721711513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seller" />
-    <SUITE FILE_PATH="coverage/readLog$liucun.coverage" NAME="liucun Coverage Results" MODIFIED="1468922854582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keep" />
     <SUITE FILE_PATH="coverage/readLog$read.coverage" NAME="read Coverage Results" MODIFIED="1469612377647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/change_order" />
+    <SUITE FILE_PATH="coverage/readLog$liucun.coverage" NAME="liucun Coverage Results" MODIFIED="1469778661452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keep" />
     <SUITE FILE_PATH="coverage/readLog$writeNumber.coverage" NAME="writeNumber Coverage Results" MODIFIED="1465290490632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$coupon.coverage" NAME="coupon Coverage Results" MODIFIED="1467019126298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coupon_usage" />
     <SUITE FILE_PATH="coverage/readLog$formatsql.coverage" NAME="formatsql Coverage Results" MODIFIED="1468569815160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/formatsql" />
@@ -50,20 +47,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="go.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/go.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="418">
               <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
@@ -80,11 +67,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/change_order/read.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liucun.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keep/liucun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liucun.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keep/liucun.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="months" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keep/months">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="months_bak" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keep/months_bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9804">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -103,28 +130,8 @@
       <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_detail/import/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="1064">
               <caret line="56" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,16 +139,6 @@
       </file>
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/foot.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -166,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fans/zhang" />
         <option value="$PROJECT_DIR$/compare_orders/compare.py" />
         <option value="$PROJECT_DIR$/compare_orders/weixin" />
         <option value="$PROJECT_DIR$/compare_orders/yhdx" />
@@ -189,7 +185,6 @@
         <option value="$PROJECT_DIR$/formatsql/newqu" />
         <option value="$PROJECT_DIR$/formatsql/newqu_backup" />
         <option value="$PROJECT_DIR$/keep/months" />
-        <option value="$PROJECT_DIR$/keep/liucun.py" />
         <option value="$PROJECT_DIR$/express_log/a.html" />
         <option value="$PROJECT_DIR$/address_mapping/new" />
         <option value="$PROJECT_DIR$/address_mapping/source" />
@@ -217,6 +212,8 @@
         <option value="$PROJECT_DIR$/generate_detail/kiwi/tabs.html" />
         <option value="$PROJECT_DIR$/change_order/old" />
         <option value="$PROJECT_DIR$/change_order/read.py" />
+        <option value="$PROJECT_DIR$/keep/liucun_bak.py" />
+        <option value="$PROJECT_DIR$/keep/liucun.py" />
       </list>
     </option>
   </component>
@@ -284,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,6 +298,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="readLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keep" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,8 +345,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,6 +359,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/keep" />
+      <recent name="$PROJECT_DIR$/generate_detail" />
+      <recent name="$PROJECT_DIR$/formatsql" />
+      <recent name="$PROJECT_DIR$/team" />
+      <recent name="$PROJECT_DIR$/fans" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/generate_detail/import" />
       <recent name="$PROJECT_DIR$/formatsql" />
@@ -355,15 +373,8 @@
       <recent name="$PROJECT_DIR$/compare_orders/b-backup" />
       <recent name="$PROJECT_DIR$/team" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generate_detail" />
-      <recent name="$PROJECT_DIR$/keep" />
-      <recent name="$PROJECT_DIR$/formatsql" />
-      <recent name="$PROJECT_DIR$/team" />
-      <recent name="$PROJECT_DIR$/fans" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.read">
+  <component name="RunManager" selected="Python.liucun">
     <configuration default="false" name="formatsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -678,10 +689,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.read" />
-        <item index="1" class="java.lang.String" itemvalue="Python.go" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mapping" />
-        <item index="3" class="java.lang.String" itemvalue="Python.liucun" />
+        <item index="0" class="java.lang.String" itemvalue="Python.liucun" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read" />
+        <item index="2" class="java.lang.String" itemvalue="Python.go" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mapping" />
         <item index="4" class="java.lang.String" itemvalue="Python.formatsql" />
       </list>
     </recent_temporary>
@@ -715,13 +726,13 @@
     <frame x="0" y="23" width="1440" height="841" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22889842" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6088083" sideWeight="0.15208334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36617842" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36617842" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.50840336" order="2" side_tool="true" content_ui="tabs" />
@@ -753,20 +764,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coupon_usage/usage">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon_usage/coupon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fruit/pinlei">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2610">
@@ -893,27 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep/months_bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep/months">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep/liucun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formatsql/newqu_old">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
@@ -961,10 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <marker date="1469527139000" expanded="true" signature="761:802" placeholder="update `reci... " />
-            <marker date="1469527139000" expanded="true" signature="761:877" placeholder="update `reci... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56886">
           <caret line="2994" column="0" selection-start-line="2994" selection-start-column="0" selection-end-line="2994" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,52 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#strong#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#strong#0;n#span#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#13;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#20;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#23;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#25;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#26;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#26;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#27;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#28;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#29;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#30;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#32;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#33;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#33;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#33;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#33;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#34;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#35;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#36;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#37;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#39;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,44 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#section#1;n#section#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#20;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#23;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,47 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#span#0;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#p#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#17;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#19;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#20;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#21;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#23;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,29 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#13;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,15 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,146 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="214" column="5" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#13;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#section#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#strong#0;n#p#0;n#section#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#section#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#strong#0;n#span#0;n#p#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#11;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#11;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#13;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#15;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#20;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#22;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#23;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#25;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#26;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#26;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#27;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#28;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#29;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#30;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#32;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#33;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#33;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#33;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#33;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#34;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#35;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#36;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#37;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#39;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#section#1;n#section#0;n#section#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#5;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#9;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#10;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#11;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#18;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#20;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#strong#0;n#section#0;n#section#3;n#section#0;n#section#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#22;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#23;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#1;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#3;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#6;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#8;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#10;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#14;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#span#0;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#p#15;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#p#15;n#div#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1381,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generate_detail/import/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="1064">
           <caret line="56" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
@@ -1389,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generate_detail/kiwi/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="418">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
@@ -1415,6 +1086,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/months">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/months_bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9804">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/liucun_bak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="57" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/liucun.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/liucun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
