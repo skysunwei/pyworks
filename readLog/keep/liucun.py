@@ -2,6 +2,9 @@
 
 import csv
 
+file_source = 'buyer'
+output_file_name = file_source + '_liucun.csv'
+
 current_month = 7
 next_month = current_month + 1
 
@@ -17,7 +20,8 @@ stay_users = {}
 for i in range(1, next_month):
     stay_users[i] = []
 
-for line in open('months_bak'):
+
+for line in open(file_source):
     line_data = line.strip('\n').split(',')
 
     for i in range(1, len(line_data)):
@@ -25,7 +29,7 @@ for line in open('months_bak'):
             new_users[i].append(line_data[0])
             break
 
-for line in open('months_bak'):
+for line in open(file_source):
     line_data = line.strip('\n').split(',')
 
     for i in range(1, len(line_data)):
@@ -47,7 +51,7 @@ for i in range(1, next_month):
 
 # print headline
 
-output_file = file('liucun.csv', 'wb')
+output_file = file(output_file_name, 'wb')
 writer = csv.writer(output_file)
 writer.writerow(headline)
 
