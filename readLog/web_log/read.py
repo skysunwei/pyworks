@@ -51,9 +51,8 @@ merch_page = 'http://yhdx.5ixc.com/hao/#!/share/grouponMerch'
 #             first_page_pv += 1
 
 uv = len(useraction)
-#
-# pv = 0
 
+# pv = 0
 
 for userIds in useraction.keys():
     pv += len(useraction[userIds])
@@ -79,7 +78,6 @@ for userIds in useraction.keys():
     view_groupon_page = 0
     view_merch_page = 0
 
-
 print 'pv', pv
 print 'groupon page pv', groupon_page_pv
 print 'merch page pv', merch_page_pv
@@ -89,5 +87,3 @@ print
 print 'uv', uv
 print 'groupon page uv', groupon_page_uv
 print 'merch page uv', merch_page_uv
-
-
