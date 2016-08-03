@@ -26,5 +26,5 @@ for (k, v) in revert_dict:
         break
 
     print len(v), 'word: ', k
-    for i in range(0, len(v)):
-        print str(i+1) + ' : ' + v[i]
+    # for i in range(0, len(v)):
+    #     print str(i+1) + ' : ' + v[i]
