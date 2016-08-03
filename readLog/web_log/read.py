@@ -14,7 +14,6 @@ order_detail_page = '%s#!/share/orderDetail' % domain_url
 leader_apply_page = '%s#!/share/groupLeaderApply?userid=237' % domain_url
 
 
-
 for line in open('route'):
     x = line.split('[')
     str_time = (x[1].split(']'))[0]
