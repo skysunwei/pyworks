@@ -21,7 +21,7 @@ for line in open('route'):
     userId = data[0].strip('"')
     url = data[1].strip('"')
 
-    if str_time.find('2016-08-01') is 0:
+    if str_time.find('2016-07-29') is 0:
         if userId not in useraction.keys():
             useraction[userId] = []
 
