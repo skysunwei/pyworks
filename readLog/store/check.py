@@ -21,7 +21,9 @@ print '时间 :', current_time
 reader = csv.reader(file('20160805171905.csv', 'rb'))
 
 fist_line = True
+
 for line in reader:
+
     if fist_line is True:
         fist_line += False
         continue
@@ -52,6 +54,3 @@ for line in reader:
             print product_name, ', 需要补货!'
     else:
         print product_name, '新增库存,请添加'
-
-
-
