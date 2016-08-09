@@ -1,16 +1,19 @@
 #-*- coding: UTF-8 -*-
 
 import csv
+import time
 import datetime
 
 
 expire_days = {}
 backup_goods = {}
 
-for line in open('strategy'):
-    values = line.strip('\n').split(',')
-    expire_days[values[0]] = values[2]
-    backup_goods[values[0]] = values[3]
+
+def read_strategy():
+    for line in open('strategy'):
+        values = line.strip('\n').split(',')
+        expire_days[values[0]] = values[2]
+        backup_goods[values[0]] = values[3]
 
 # print expire_days
 # print backup_goods
@@ -18,39 +21,88 @@ for line in open('strategy'):
 current_time = datetime.datetime.now()
 print '时间 :', current_time
 
-reader = csv.reader(file('20160805171905.csv', 'rb'))
+source_file_name = '20160809152350.csv'
 
-fist_line = True
 
-for line in reader:
+def make_sql(file_name):
+    reader = csv.reader(file(file_name, 'rb'))
 
-    if fist_line is True:
-        fist_line += False
-        continue
+    fist_line = True
 
-    product_id = line[0]
-    product_name = line[1]
-    # print product_id
+    for line in reader:
 
-    # time
-    import_time_str = line[2]
-    import_time = datetime.datetime.strptime(import_time_str, "%Y%m%d")
-    time_interval = current_time - import_time
-    # print time_interval.days
+        if fist_line is True:
+            fist_line += False
+            continue
 
-    if product_id in expire_days.keys():
-        if time_interval.days > expire_days[product_id]:
-            print product_name, ', 将要过期!'
-    else:
-        print product_name, '新增库存,请添加'
+        product_code = line[0]
+        product_name = line[1].decode('utf8')[4:].encode('utf8')
 
-    # goods
+        # time
+        import_time_read = line[2]
+        try:
+            import_time = time.strptime(import_time_read, "%Y%m%d")
+        except:
+            try:
+                import_time = time.strptime(import_time_read, "%Y-%m-%d")
+            except:
+                print 'time format error!'
 
-    current_goods = line[3]
-    # print current_goods
+        import_time_str = time.strftime("%Y-%m-%d", import_time)
+        import_num = line[3]
+        real_num = line[4]
 
-    if product_id in backup_goods.keys():
-        if int(current_goods) < backup_goods[product_id]:
-            print product_name, ', 需要补货!'
-    else:
-        print product_name, '新增库存,请添加'
+        print 'insert `op-sunwei-store`(`code`,`name`,`time`,`num`,`real`) values(\'%s\',\'%s\',\'%s\',%s,%s);'% \
+              (product_code, product_name, import_time_str, import_num, real_num)
+
+
+
+
+def verify(file_name):
+
+    reader = csv.reader(file(file_name, 'rb'))
+
+    fist_line = True
+
+    for line in reader:
+
+        if fist_line is True:
+            fist_line += False
+            continue
+
+        product_id = line[0]
+        product_name = line[1].decode('utf8')[4:].encode('utf8')
+        # print product_id
+
+        # time
+        import_time_str = line[2]
+        try:
+            import_time = datetime.datetime.strptime(import_time_str, "%Y%m%d")
+        except:
+            try:
+                import_time = datetime.datetime.strptime(import_time_str, "%Y-%m-%d")
+            except:
+                print 'time format error!'
+
+        time_interval = current_time - import_time
+        # print time_interval.days
+
+        if product_id in expire_days.keys():
+            if time_interval.days >= expire_days[product_id]:
+                print product_name, ', 将要过期!'
+            # else:
+            #     print product_id, product_name, '新增库存,请添加'
+
+        # goods
+
+        current_goods = line[3]
+        # print current_goods
+
+        if product_id in backup_goods.keys():
+            if int(current_goods) <= int(backup_goods[product_id]):
+                print product_name, ', 需要补货!'
+            else:
+                print product_name, '报警库存:', backup_goods[product_id], '当前库存:', current_goods, '不用补货'
+
+
+make_sql(source_file_name)
