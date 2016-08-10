@@ -19,12 +19,15 @@ def read_strategy():
 # print backup_goods
 
 current_time = datetime.datetime.now()
-print '时间 :', current_time
+# print '时间 :', current_time
 
-source_file_name = '20160809152350.csv'
+source_file_name = '20160810110315.csv'
 
 
 def make_sql(file_name):
+
+    print 'truncate table `op-sunwei-store`;'
+
     reader = csv.reader(file(file_name, 'rb'))
 
     fist_line = True
@@ -52,10 +55,10 @@ def make_sql(file_name):
         import_num = line[3]
         real_num = line[4]
 
+
+
         print 'insert `op-sunwei-store`(`code`,`name`,`time`,`num`,`real`) values(\'%s\',\'%s\',\'%s\',%s,%s);'% \
               (product_code, product_name, import_time_str, import_num, real_num)
-
-
 
 
 def verify(file_name):

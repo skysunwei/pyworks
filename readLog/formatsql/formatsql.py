@@ -6,22 +6,23 @@
 qus = {}
 current_qu = ''
 
-for line in open('qu'):
-    qukv = line.strip('\n').split(',')
-    qus[qukv[1]] = qukv[0]
+for line in open('store'):
+    store = line.strip('\n').split(',')
+    print 'insert `op-sunwei-store-mapping`(`merchtypeid`,`code`) values(%s, \'%s\');' % \
+          (store[0], store[1])
 
 # print qus.keys()
 
-for line in open('newqu'):
-    qu = line.strip('\n')
-
-    if qu == '':
-        continue
-
-    if qu in qus.keys():
-        current_qu = qu;
-    else:
-        print 'insert `district`(`title`,`level`,`usetype`,`parentid`,`deleted`) values(\'' + qu + '\',3, 0, ' + qus[current_qu] + ', 0);'
-        # break
+# for line in open('newqu'):
+#     qu = line.strip('\n')
+#
+#     if qu == '':
+#         continue
+#
+#     if qu in qus.keys():
+#         current_qu = qu;
+#     else:
+#         print 'insert `district`(`title`,`level`,`usetype`,`parentid`,`deleted`) values(\'' + qu + '\',3, 0, ' + qus[current_qu] + ', 0);'
+#         # break
 
 
