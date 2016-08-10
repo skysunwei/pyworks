@@ -54,14 +54,15 @@ def make_sql(file_name):
         import_time_str = time.strftime("%Y-%m-%d", import_time)
         import_num = line[3]
         real_num = line[4]
+        danwei = line[5]
 
-
-
-        print 'insert `op-sunwei-store`(`code`,`name`,`time`,`num`,`real`) values(\'%s\',\'%s\',\'%s\',%s,%s);'% \
-              (product_code, product_name, import_time_str, import_num, real_num)
+        print 'insert `op-sunwei-store`(`code`,`name`,`time`,`num`,`real`, `danwei`) ' \
+              'values(\'%s\',\'%s\',\'%s\',%s,%s,\'%s\');'% \
+              (product_code, product_name, import_time_str, import_num, real_num, danwei)
 
 
 def verify(file_name):
+    read_strategy()
 
     reader = csv.reader(file(file_name, 'rb'))
 
@@ -102,6 +103,7 @@ def verify(file_name):
         # print current_goods
 
         if product_id in backup_goods.keys():
+            print current_goods, backup_goods[product_id]
             if int(current_goods) <= int(backup_goods[product_id]):
                 print product_name, ', 需要补货!'
             else:
