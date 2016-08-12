@@ -21,7 +21,7 @@ def read_strategy():
 current_time = datetime.datetime.now()
 # print '时间 :', current_time
 
-source_file_name = '20160811155647.csv'
+source_file_name = '20160812103919.csv'
 
 
 def make_sql(file_name):
