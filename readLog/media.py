@@ -27,7 +27,6 @@ def median(data):
 
     return data[(size-1)//2]
 
-#
 # print avg(my_list)
 # print median(my_list)
 
