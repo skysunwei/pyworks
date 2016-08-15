@@ -5,3 +5,4 @@ for line in open('product'):
 
     img = qrcode.make(data[1])
     img.save(data[0] + '.png')
+
