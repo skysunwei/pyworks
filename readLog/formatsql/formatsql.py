@@ -6,10 +6,19 @@
 qus = {}
 current_qu = ''
 
-for line in open('store'):
-    store = line.strip('\n').split(',')
-    print 'insert `op-sunwei-store-mapping`(`merchtypeid`,`code`) values(%s, \'%s\');' % \
-          (store[0], store[1])
+
+def insert_sql():
+    for line in open('store'):
+        store = line.strip('\n').split(',')
+        print 'insert `op-sunwei-store-mapping`(`merchtypeid`,`code`) values(%s, \'%s\');' % \
+              (store[0], store[1])
+
+
+def update_sql():
+    for line in open('wrongtuan'):
+        exp = line.strip('\n').split(',')
+        print 'update `paysuborder` set `expressid`=\'%s\' where `suborderid`=%s;' % \
+              (exp[1], exp[0])
 
 # print qus.keys()
 
@@ -22,7 +31,6 @@ for line in open('store'):
 #     if qu in qus.keys():
 #         current_qu = qu;
 #     else:
-#         print 'insert `district`(`title`,`level`,`usetype`,`parentid`,`deleted`) values(\'' + qu + '\',3, 0, ' + qus[current_qu] + ', 0);'
+#         print 'insert `district`(`title`,`level`,`usetype`,`parentid`,`deleted`)
+# values(\'' + qu + '\',3, 0, ' + qus[current_qu] + ', 0);'
 #         # break
-
-
