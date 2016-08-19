@@ -21,7 +21,6 @@ def update_sql():
               (exp[1], exp[0])
 
 # print qus.keys()
-
 # for line in open('newqu'):
 #     qu = line.strip('\n')
 #
