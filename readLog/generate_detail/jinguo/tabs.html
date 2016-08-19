@@ -1,0 +1,59 @@
+<div style="display:flex;margin:0 -10px;">
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;color:#ff6600;border-bottom:2px solid #ff6600;border-left:0px;" data-target="#tab1"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    });
+
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    });
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">绿奇异果</div>
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;" data-target="#tab2"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    });
+
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    });
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">金奇异果</div>
+</div>
+
+<div id="tab1" class="merch-tab">
+  <br>
+  <br>
+  diyige
+</div>
+
+<div id="tab2" class="merch-tab" style="display:none;">
+  <br>
+  <br>
+  dierge
+</div>
+

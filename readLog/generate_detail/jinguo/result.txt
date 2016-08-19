@@ -1,0 +1,387 @@
+<p>
+    <span style="font-size: 14px;">小马哥我寻遍30多家供应商终于大家找到了享有新西兰“新国宝”美誉并且性价比极高的新西兰Zespri阳光金色奇异果和绿色奇异果！保证让你一口爱上它！</span>
+</p>
+<p>
+    <br/>
+</p><div style="display:flex;margin:0 -10px;">
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;color:#ff6600;border-bottom:2px solid #ff6600;border-left:0px;" data-target="#tab1"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    });
+
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    });
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">绿奇异果</div>
+  <div style="flex:1;text-align:center;padding:14px 0px;border:1px solid #e8e8e8;border-left:0px;" data-target="#tab2"
+  class="merch-tab-nav"
+  onclick="(function(_this){
+
+    [].forEach.call(document.querySelectorAll('.merch-tab-nav'), function(_ele){
+      _ele.style.color = 'initial'
+      _ele.style.borderBottom = '1px solid #e8e8e8'
+    });
+
+    [].forEach.call(document.querySelectorAll('.merch-tab'), function(_ele){
+      _ele.style.display = 'none'
+      _ele.style.color = 'initial'
+    });
+
+    _this.style.color = '#ff6600'
+    _this.style.borderBottom = '2px solid #ff6600'
+
+    var target = _this.dataset.target
+    var ele = document.querySelector(target)
+    ele.style.display = 'block'
+
+  })(this)">金奇异果</div>
+</div>
+
+<div id="tab1" class="merch-tab">
+  <br>
+  <br>
+  
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <strong><span style="font-size: 14px;">新西兰Zespri绿色奇异果</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">新西兰Zespri绿色奇异果有一百多年的历史，1904年伊莎贝尔女士把中国湖北宜昌的猕猴桃种子带回新西兰之后，把种子转送给当地的果树专家，之后辗转送到当地知名的园艺专家亚历山大手中，培植出新西兰第一株奇异果树。迄今为止，新西兰出产的绿色奇异果“kiwifruit”的名字已经风行全世界。</span>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    视频<br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><br/></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">价格亲民，超高的性价比</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="line-height: inherit; font-size: 14px;">目前市面上新西兰Zespri绿奇异果的规格都是单果100g以下的，售价在6元/个，而我为大家带来的是单果为140g以上的高规格<span style="line-height: 22.3999996185303px;">Zespri绿奇异果和</span></span><strong style="line-height: inherit; font-size: 14px;">【有好东西】专属福利：现在参团，就可以享受109元/22〜27粒/箱(大果装)的惊爆团购价，每个仅4元！</strong><br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong style="font-size: 14px; line-height: inherit;"><br/></strong>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1471591014.jpg!o"/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">果皮薄透，酸甜爽口</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">新西兰Zespri经典绿色奇异果外型浑圆、果皮薄透毛较多，口感清新，具有多层次的清爽口感，水润香甜中带有怡人的淡淡微酸滋味，有猕猴桃独有的浓郁味道。</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1471606258.jpg!o"/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">维Ｃ及钙含量高居水果榜首</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-family: 宋体; font-size: 13px; text-indent: 27px; line-height: inherit;"><br/></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">绿奇异果含有其他水果中很少见的营养成分——叶酸、胡萝卜素、钙、黄体素、氨基酸、天然肌醇，被营养师称之为“营养活力的来源”，维Ｃ及钙含量高居水果榜首</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1471606252.jpg!o"/><br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">总觉得绿果酸？那只是时机不对</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px; line-height: 22.3999996185303px;">熟软后的绿果，不仅清甜甘爽，水嫩的果肉也变得超级细腻，完全符合你对<span style="line-height: 22.3999996185303px;">奇异果的要求！</span></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;"><img src="http://youhaodongxi.b0.upaiyun.com//upload/test1471606032.jpg!o"/></span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <strong><span style="font-size: 14px;">产品详情：</span></strong>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">产地：新西兰</span><br style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);"/>
+</p>
+<p>
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">规格：</span><span style="font-size: 14px;">109元/22〜27粒/箱(大果装)</span><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;"></span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">物流：目前仅支持京津冀地区</span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <strong style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);"><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">团购价：109元</span></strong><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">；</span><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px; text-decoration: line-through;">零售价：119元</span>
+</p>
+<p>
+    <br/>
+</p>
+</div>
+
+<div id="tab2" class="merch-tab" style="display:none;">
+  <br>
+  <br>
+  <p style="text-align: center;">
+    <strong><span style="font-size: 14px;">新西兰Zespri阳光金色奇异果</span></strong>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><strong><br/></strong></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; text-align: center;">
+    <span style="font-size: 14px;"><strong>视频</strong></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><strong><br/></strong></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><strong>规格说明：</strong></span><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px; line-height: inherit;">1.高规格的大果装，每箱约22-27个果，单果重约130-159克。</span><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">22粒/箱：9元/个（市场价 13元/个起）</span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">25粒/箱：8元/个（市场无货）</span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">27粒/箱：7元/个（市场价 8元/个起）</span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">ps:每箱果的个数越少，单果重量越大。</span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">2.12粒中果装，单果重量106-116克，即使家里人少也吃起来毫无压力！</span><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; text-align: left;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464366490.jpg!o"/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; text-align: left;">
+    <strong style="line-height: inherit;"><span style="font-size: 14px;">现在参团就可以享受惊爆市场最低价的福利！</span></strong><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">1.22〜27粒/箱,大果装 198元/箱</span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;">（ps:22〜27粒随机发）<br/></span>
+</p>
+<p>
+    <section>
+        <section>
+            <p style="margin-top: 5px; margin-bottom: 5px;">
+                <span style="font-size: 14px;">2.12粒/箱中果装 89元/箱</span>
+            </p>
+        </section>
+    </section>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; text-align: center;">
+    <span style="font-size: 14px;"><img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464343668.jpg!o"/></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <strong style="color: inherit; font-size: 14px;">超高的营养价值，补充每日所需营养</strong><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px; line-height: inherit;">阳光金果富含身体所需多种维生素和矿物质、丰富的维生素C和胡萝卜素！可以帮助小朋友提高免疫力，保护视力，每天给小朋友吃适量奇异果作为水果加餐可以补充每日所需营养哦~而对于准妈妈和繁忙的上班族，阳光金果是绝佳的健康选择。</span><br/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px;">
+    <span style="font-size: 14px;"><br/></span>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464343780.jpg!o" title="" alt=""/>
+</p>
+<p>
+    <strong><span style="font-size: 14px;">产品详情：</span></strong>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">产地：新西兰</span><br style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);"/>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">规格：22-27个大果装/箱（单果重约130-159克）</span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <strong style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);"><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;团购价：198元</span></strong><span style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);">；</span><span style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); text-decoration: line-through;">零售价：218元</span><span style="font-size: 14px;">&nbsp;</span><br/>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;"><br/></span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12粒/箱中果装（单果重量106-116克）</span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;"><strong style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);"><span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;团购价：89元</span></strong><span style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314);">；</span><span style="font-size: 14px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); text-decoration: line-through;">零售价：99元</span><span style="font-size: 14px;">&nbsp;</span>&nbsp;</span>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <br/>
+</p>
+<p style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); word-break: break-all; line-height: 20px; color: rgb(51, 51, 51); font-family: &#39;Microsoft YaHei&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: medium; widows: 1;">
+    <span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0.00784314); font-size: 14px;">物流：目前仅支持京津冀地区</span>
+</p>
+</div>
+
+<p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; line-height: normal;">
+    <strong style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;, Arial, sans-serif; line-height: inherit;"><span style="font-size: 14px;">为何Zespri佳沛新西兰奇异果是品质最好的奇异果?</span></strong><br/>
+</p>
+<section>
+    <section>
+        <section>
+            <p>
+                <br/>
+            </p>
+        </section>
+    </section>
+</section>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">1、充足的光照、纯净的水源</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">奇异果属于藤蔓植物，果园周围必须有超过10公尺的树群挡风作为庇护。果园必须兼具肥沃土壤、充足的日照和雨水、冬天低温天数达一定标准才能种出绝佳的奇异果。</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">我为大家推荐的<span style="line-height: 22.3999996185303px;">新西兰</span>Zespri奇异果拥有充足的光照、纯净的水源、温热的海洋性气候和火山岩浆孕育的土壤，<span style="line-height: 22.3999996185303px;">非常适合<span style="line-height: 22.3999996185303px;">奇异果</span>生长的自然环境。</span></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464343694.jpg!o" title="" alt=""/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">2、严格把控果园环境</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">Zespri与当地果农深度合作，十多年的精心耕耘，严格把控果园环境，蜂群自然授粉，生态除虫，定时检测果实酸甜度和成熟度，确保每颗果实在下树那一刻都能达到最理想的成熟状态。</span>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464347589.jpg!o" title="" alt=""/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">3、每一颗都是经过严格的人工拣选</span></strong>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">我有幸亲自参观了Zespri现代化的分拣中心，采摘的果实都会经过严格的人工拣选，然后按照大小分类装箱，每箱都有一个专属条形码，可以准确追溯箱内果实的产地信息。</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px; text-align: center;">
+    <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1464347528.jpg!o"/>
+</p>
+<p style="margin-top: 5px; margin-bottom: 5px; font-family: sans-serif; line-height: normal;">
+    <br/>
+</p>
+<section>
+    <section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section>
+            <p>
+                <br/>
+            </p>
+            <p>
+                <span style="font-size: 14px; line-height: 22.3999996185303px;">（奇异果奇异果标签上的号码有4030、3079或是条形码，条形码是为了在特定超市中容易刷取结帐金额用的，至于4030和3279则分别代表了绿奇异果与黄金奇异果，看到代号4030或是3279，大家也能马上知道它们指的就是绿奇异果与黄金奇异果啰!）</span>
+            </p>
+            <p>
+                <br/>
+            </p>
+            <p style="text-align: center;">
+                <img src="http://youhaodongxi.b0.upaiyun.com//upload/test1471598005.jpg!o"/>
+            </p>
+            <p>
+                <br/>
+            </p>
+            <p>
+                <strong><span style="font-size: 14px;">小贴士：</span></strong>
+            </p>
+            <p>
+                <span style="font-size: 14px; line-height: 22.3999996185303px;">我为大家挑选的都是软硬适中的果实，如果想立即食用，请挑选手握起来稍软的果实，熟度和口感更好！较硬的果实</span><span style="font-size: 14px; line-height: inherit;">可放在室温下2-3天催熟，或是和苹果、香蕉一起装进塑胶袋内存放均具催熟效果。</span>
+            </p>
+            <p>
+                <br/>
+            </p>
+        </section>
+    </section>
+</section>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;"><strong>物流：京津冀包邮，同城配送/快递</strong></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;"><strong>储藏：置于冰箱冷藏保鲜，约可存储20天</strong></span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <strong><span style="font-size: 14px;">售后/团购相关咨询</span></strong><br/>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">首席吃货</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">微信：shouxichihuo</span>
+</p>
+<p style="line-height: 25.6000003814697px;">
+    <span style="font-size: 14px;">热线：13269033434</span>
+</p>
