@@ -1,3 +1,5 @@
+#-*- coding: UTF-8 -*-
+
 # for line in open('goodtuanzhang'):
 #     tuanzhang = line.strip('\n').split(',')
 #     # print tuanzhang[0] + tuanzhang[1]
@@ -15,11 +17,16 @@ def insert_sql():
 
 
 def update_sql():
-    for line in open('wrongtuan'):
-        exp = line.strip('\n').split(',')
-        print 'update `paysuborder` set `expressid`=\'%s\' where `suborderid`=%s;' % \
-              (exp[1], exp[0])
+    i = 1
 
+    for line in open('wrongkuaidi'):
+        exp = line.strip('\n').split(',')
+        print 'update express, paysuborder set express.expressno = \'%s\', ' \
+              '`express`.`company` = \'中通快递\', `express`.`companycode` = \'zhongtong\' ' \
+              'where express.expressid = paysuborder.expressid ' \
+              'and `paysuborder`.suborderid = %s;' % \
+              (exp[1], exp[0])
+        i += 1
 
 update_sql()
 
