@@ -20,6 +20,9 @@ def update_sql():
         print 'update `paysuborder` set `expressid`=\'%s\' where `suborderid`=%s;' % \
               (exp[1], exp[0])
 
+
+update_sql()
+
 # print qus.keys()
 # for line in open('newqu'):
 #     qu = line.strip('\n')
