@@ -4,24 +4,22 @@ import csv
 import time
 import datetime
 
-
-expire_days = {}
-backup_goods = {}
+source_file_name = '20160824174858.csv'
 
 
 def read_strategy():
-    for line in open('strategy'):
-        values = line.strip('\n').split(',')
-        expire_days[values[0]] = values[2]
-        backup_goods[values[0]] = values[3]
+    expire_days = {}
+    backup_goods = {}
 
-# print expire_days
-# print backup_goods
 
-current_time = datetime.datetime.now()
-# print '时间 :', current_time
+    def read_strategy():
+        for line in open('strategy'):
+            values = line.strip('\n').split(',')
+            expire_days[values[0]] = values[2]
+            backup_goods[values[0]] = values[3]
 
-source_file_name = '20160812103919.csv'
+            # print expire_days
+            # print backup_goods
 
 
 def make_sql(file_name):
@@ -62,6 +60,9 @@ def make_sql(file_name):
 
 
 def verify(file_name):
+    current_time = datetime.datetime.now()
+    # print '时间 :', current_time
+
     read_strategy()
 
     reader = csv.reader(file(file_name, 'rb'))
@@ -110,4 +111,27 @@ def verify(file_name):
                 print product_name, '报警库存:', backup_goods[product_id], '当前库存:', current_goods, '不用补货'
 
 
-make_sql(source_file_name)
+def category(file_name):
+
+    store_dict = {}
+
+    reader = csv.reader(file(file_name, 'rb'))
+
+    fist_line = True
+
+    for line in reader:
+
+        if fist_line is True:
+            fist_line += False
+            continue
+
+        product_code = line[0]
+        product_name = line[1].decode('utf8')[4:].encode('utf8')
+
+        store_dict[product_code] = product_name
+
+    for k in store_dict:
+        print k, store_dict[k]
+
+
+category(source_file_name)
