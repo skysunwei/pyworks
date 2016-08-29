@@ -6,7 +6,7 @@
 	
 修改下面对应的位置
 
-```SQL
+```
 SELECT
 	`userweixin`.`nickname`, SUM(`paysuborder`.`quantity`)
 FROM `paysuborder`, `payorder`, `saler`, `userweixin`
@@ -31,7 +31,7 @@ GROUP BY `userweixin`.`nickname`
 	
 修改下面对应的位置
 
-```SQL
+```
 SELECT
 	`userweixin`.`nickname`, SUM(`paysuborder`.`quantity`)
 FROM `paysuborder`, `payorder`, `saler`, `userweixin`
@@ -45,4 +45,28 @@ AND FROM_UNIXTIME(`payorder`.`dateline`, '%Y-%m-%d %H:%m:%s') <= '2016-08-25 20:
 AND `paysuborder`.`orderstatus` IN (2, 5)
 AND `payorder`.`merchandiseid` = 168
 GROUP BY `userweixin`.`nickname`
+```
+
+#一个月的零售订单
+
+	起始月份：`orderday` >= '2016-08-01'
+    截止时间：`orderday` <= '2016-08-31'
+
+修改下面对应的位置
+
+```
+SELECT `userweixin`.`nickname`, `recipientaddress`.`recipient`, `recipientaddress`.`address`,  `merchandise`.`abbreviation`,
+`paysuborder`.`merchtypecontent`,
+`recipientaddress`.`tel`, `recipientaddress`.`type`
+FROM `payorder`, `user` , `userweixin`, `recipientaddress`, `paysuborder`, `merchandise`
+WHERE `payorder`.`recommenduserid` = 0
+AND `orderday` >= '2016-08-01'
+AND `orderday` <= '2016-08-31'
+AND `paysuborder`.`orderstatus` IN (2, 5)
+AND `payorder`.`buyerid` = `user`.`userid`
+AND `payorder`.`orderid` = `paysuborder`.`orderid`
+AND `user`.`userid` = `userweixin`.`userid`
+AND `payorder`.`merchandiseid` = `merchandise`.`merchandiseid`
+AND `user`.`leaderid` =0 
+AND `recipientaddress`.`addressid` = `payorder`.`addressid` 
 ```
