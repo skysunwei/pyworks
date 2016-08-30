@@ -14,14 +14,14 @@ order_detail_page = '%s#!/share/orderDetail' % domain_url
 leader_apply_page = '%s#!/share/groupLeaderApply?userid=237' % domain_url
 
 
-for line in open('route'):
+for line in open('20160830.log'):
     x = line.split('[')
     str_time = (x[1].split(']'))[0]
     data = (x[2].split(']'))[0].split(',"')
     userId = data[0].strip('"')
     url = data[1].strip('"')
 
-    if str_time.find('2016-07-29') is 0:
+    if str_time.find('2016-08-30') is 0:
         if userId not in useraction.keys():
             useraction[userId] = []
 

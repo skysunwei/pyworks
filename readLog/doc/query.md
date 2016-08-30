@@ -70,3 +70,23 @@ AND `payorder`.`merchandiseid` = `merchandise`.`merchandiseid`
 AND `user`.`leaderid` =0 
 AND `recipientaddress`.`addressid` = `payorder`.`addressid` 
 ```
+
+#给团长生成文字的版本
+
+    团长ID：`saler`.`userid` = 21
+
+修改下面对应的位置
+
+```
+SELECT
+ concat(`merchandise`.`abbreviation`,'\n',`groupon`.`slogon`,'\n',
+        'http://yhdx.5ixc.com/hao/share.php?grouponid=', `groupon`.`grouponid`, '&mid=', `merchandise`.`merchandiseid`, '\n' )
+AS '内容'
+FROM `saler`, `groupon`, `merchandise`
+WHERE `saler`.`userid` = 21
+AND `groupon`.`merchandiseid` = `merchandise`.`merchandiseid`
+AND `saler`.`userid` = `groupon`.`salerid`
+AND `saler`.`status` = 1
+AND `groupon`.`grouponstatus` = 2
+ORDER BY `groupon`.`dateline` DESC
+```
