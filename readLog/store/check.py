@@ -4,22 +4,20 @@ import csv
 import time
 import datetime
 
-source_file_name = '20160824174858.csv'
+source_file_name = 'test'
+
+expire_days = {}
+backup_goods = {}
 
 
 def read_strategy():
-    expire_days = {}
-    backup_goods = {}
+    for line in open('test'):
+        values = line.strip('\n').split(',')
+        expire_days[values[0]] = values[2]
+        backup_goods[values[0]] = values[3]
 
-
-    def read_strategy():
-        for line in open('strategy'):
-            values = line.strip('\n').split(',')
-            expire_days[values[0]] = values[2]
-            backup_goods[values[0]] = values[3]
-
-            # print expire_days
-            # print backup_goods
+        # print expire_days
+        # print backup_goods
 
 
 def make_sql(file_name):
@@ -126,9 +124,9 @@ def category(file_name):
             continue
 
         product_code = line[0]
-        product_name = line[1].decode('utf8')[4:].encode('utf8')
+        # product_name = line[1].decode('utf8')[4:].encode('utf8')
 
-        store_dict[product_code] = product_name
+        # store_dict[product_code] = product_name
 
     for k in store_dict:
         print k, store_dict[k]
