@@ -1,30 +1,28 @@
 import dbSource
-import os.path
 
-rootdir = "frontroute"
 
-dbSource.mysql_connect()
+def read_log_file(log_file, day):
+    dbSource.mysql_connect()
 
-for parent, dirNames, filenames in os.walk(rootdir):
-    for filename in filenames:
-        print os.path.join(parent,filename)
+    for line in open(log_file):
 
-        for line in open(os.path.join(parent,filename)):
+        try:
+            x = line.split('[')
+            str_time = (x[1].split(']'))[0]
+            data = (x[2].split(']'))[0].split(',"')
+            userId = data[0].strip('"')
+            client = data[2].strip('"')
+            url = data[1].strip('"')
 
-            try:
-                x = line.split('[')
-                time = (x[1].split(']'))[0]
-                data = (x[2].split(']'))[0].split(',"')
-
-                userId = data[0].strip('"')
-                url = data[1].strip('"')
-                client = data[2].strip('"')
-
-                sql = 'INSERT INTO view(userId, url, client, dateline) VALUES(' + userId + ',"' + url + '","' + client + '","' + time + '");'
+            if str_time.find(day) is 0:
+                sql = 'INSERT INTO view(userId, url, client, dateline, day) ' \
+                      'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\');' \
+                      % (userId, url, client, str_time, day)
 
                 dbSource.mysql_query(sql)
-            except:
-                print parent,filename
-                print line
+        except:
+            print line
+    dbSource.mysql_close()
 
-dbSource.mysql_close()
+
+read_log_file('20160831.log', '2016-08-31')

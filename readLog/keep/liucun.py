@@ -2,10 +2,10 @@
 
 import csv
 
-file_source = 'saler'
+file_source = 'buyer'
 output_file_name = file_source + '_liucun.csv'
 
-current_month = 7
+current_month = 8
 next_month = current_month + 1
 
 new_users = {}
