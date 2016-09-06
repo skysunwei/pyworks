@@ -2,7 +2,7 @@
 
 import csv
 
-file_source = 'buyer'
+file_source = 'saler'
 output_file_name = file_source + '_liucun.csv'
 
 current_month = 9
@@ -85,3 +85,5 @@ for i in stay_users_with_percent.keys():
 writer.writerows(data)
 
 output_file.close()
+
+print 'done'
