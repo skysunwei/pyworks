@@ -2,88 +2,89 @@
 
 import csv
 
-file_source = 'saler'
-output_file_name = file_source + '_liucun.csv'
+source_files = ['buyer', 'saler']
+output_file_names = []
 
 current_month = 9
 next_month = current_month + 1
 
-new_users = {}
-for i in range(1, next_month):
-    new_users[i] = []
+for source_file in source_files:
+    output_file_name = source_file + '_liucun.csv'
 
-users = {}
-for i in range(1, next_month):
-    users[i] = []
+    new_users = {}
+    for i in range(1, next_month):
+        new_users[i] = []
 
-stay_users = {}
-for i in range(1, next_month):
-    stay_users[i] = []
+    users = {}
+    for i in range(1, next_month):
+        users[i] = []
 
-stay_users_with_percent = {}
-for i in range(1, next_month):
-    stay_users_with_percent[i] = []
+    stay_users = {}
+    for i in range(1, next_month):
+        stay_users[i] = []
 
+    stay_users_with_percent = {}
+    for i in range(1, next_month):
+        stay_users_with_percent[i] = []
 
-for line in open(file_source):
-    line_data = line.strip('\n').split(',')
+    for line in open(source_file):
+        line_data = line.strip('\n').split(',')
 
-    for i in range(1, len(line_data)):
-        if int(line_data[i]) > 0:
-            new_users[i].append(line_data[0])
-            break
+        for i in range(1, len(line_data)):
+            if int(line_data[i]) > 0:
+                new_users[i].append(line_data[0])
+                break
 
-for line in open(file_source):
-    line_data = line.strip('\n').split(',')
+    for line in open(source_file):
+        line_data = line.strip('\n').split(',')
 
-    for i in range(1, len(line_data)):
-        if int(line_data[i]) > 0:
-            users[i].append(line_data[0])
-            continue
+        for i in range(1, len(line_data)):
+            if int(line_data[i]) > 0:
+                users[i].append(line_data[0])
+                continue
 
-for i in new_users.keys():
-    for j in users.keys():
-        if j >= i:
-            stay = len(set(new_users[i]).intersection(set(users[j])))
-            # print stay
-            stay_users[i].append(stay)
+    for i in new_users.keys():
+        for j in users.keys():
+            if j >= i:
+                stay = len(set(new_users[i]).intersection(set(users[j])))
+                # print stay
+                stay_users[i].append(stay)
 
+    # format with %
 
-# format with %
+    for stay_user in stay_users.keys():
+        # print stay_users[stay_user]
+        for i in range(0, len(stay_users[stay_user])):
+            if i is not 0:
+                with_percent = str(stay_users[stay_user][i]) + '\n(' + \
+                      "%.2f" %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
+                stay_users_with_percent[stay_user].append(with_percent)
+            else:
+                stay_users_with_percent[stay_user].append(stay_users[stay_user][i])
+            # stay_users_with_percent.append()
 
-for stay_user in stay_users.keys():
-    # print stay_users[stay_user]
-    for i in range(0, len(stay_users[stay_user])):
-        if i is not 0:
-            with_percent = str(stay_users[stay_user][i]) + '\n(' + \
-                  "%.2f" %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
-            stay_users_with_percent[stay_user].append(with_percent)
-        else:
-            stay_users_with_percent[stay_user].append(stay_users[stay_user][i])
-        # stay_users_with_percent.append()
+    # print stay_users_with_percent
 
-# print stay_users_with_percent
+    headline = ['月份']
+    for i in range(1, next_month):
+        headline.append(str(i) + '月')
 
-headline = ['月份']
-for i in range(1, next_month):
-    headline.append(str(i) + '月')
+    # print headline
 
-# print headline
+    output_file = file(output_file_name, 'wb')
+    writer = csv.writer(output_file)
+    writer.writerow(headline)
 
-output_file = file(output_file_name, 'wb')
-writer = csv.writer(output_file)
-writer.writerow(headline)
+    data = []
 
-data = []
+    for i in stay_users_with_percent.keys():
+        data.append([str(i) + '月'] +
+                    ['']*(current_month - len(stay_users_with_percent[i])) + stay_users_with_percent[i])
 
-for i in stay_users_with_percent.keys():
-    data.append([str(i) + '月'] +
-                ['']*(current_month - len(stay_users_with_percent[i])) + stay_users_with_percent[i])
+    # print data
 
-# print data
+    writer.writerows(data)
 
-writer.writerows(data)
-
-output_file.close()
+    output_file.close()
 
 print 'done'
