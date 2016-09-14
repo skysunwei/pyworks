@@ -1,5 +1,3 @@
-import json
-
 controllers = {}
 
 for line in open('nav'):
@@ -11,7 +9,6 @@ for line in open('nav'):
     if keyword not in controllers.keys():
         controllers[keyword] = []
     controllers[keyword].append(line)
-
     # print data[0]
     # print keyword
 
