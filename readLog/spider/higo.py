@@ -6,12 +6,15 @@ import json
 import requests
 from urllib import unquote
 
+
 username = "C00000083"
 password = "yhdx_5ixc"
 
-host_url = 'http://higo-express.cn/'
-login_url = host_url + 'system/login.do'
-download_url = host_url + 'wms/report/ajax/queryStockReport.do?warehouseID=1&ownerID=617'
+table_name = '`op-sunwei-higo`'
+
+host_url = 'http://higo-express.cn'
+login_url = host_url + '/system/login.do'
+download_url = host_url + '/wms/report/ajax/queryStockReport.do?warehouseID=1&ownerID=617'
 
 para = {
     'loginUserNO': username,
@@ -22,7 +25,7 @@ headers = {
     'Host': 'higo-express.cn',
     'Content-Length': '55',
     'Accept': 'application/json, text/javascript, */*; q=0.01',
-    'Origin': 'http://higo-express.cn',
+    'Origin': host_url,
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) '
                   'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
     'Content-Type': 'application/json',
@@ -47,12 +50,12 @@ def read_storage_from_higo():
     csv_file.write(data.encode('utf-8'))
     csv_file.close()
 
+    return file_name
 
-def higo_storage_analyse():
 
-    file_name = '北京行知守仁科技有限公司库存(大兴黄村仓库)20160913175905.csv'
+def higo_storage_analyse(file_name):
 
-    print 'truncate table `op-sunwei-store`;'
+    print 'truncate table %s;' %table_name
 
     reader = csv.reader(file(file_name, 'rb'))
 
@@ -64,7 +67,7 @@ def higo_storage_analyse():
             fist_line += False
             continue
 
-        product_code = line[0]
+        product_code = line[0].strip('yhdx')
         product_name = line[1]
 
         # time
@@ -86,9 +89,9 @@ def higo_storage_analyse():
         real_num = line[4]
         danwei = line[5]
 
-        print 'insert `op-sunwei-store`(`code`,`name`,`time`,`num`,`real`, `danwei`) ' \
-              'values(\'%s\',\'%s\',\'%s\',%s,%s,\'%s\');' % \
-              (product_code, product_name, import_time, import_num, real_num, danwei)
+        print 'insert %s(`code`,`name`,`time`,`num`,`real`, `danwei`) ' \
+              'values(%s,\'%s\',\'%s\',%s,%s,\'%s\');' % \
+              (table_name, product_code, product_name, import_time, import_num, real_num, danwei)
 
 
-higo_storage_analyse()
+higo_storage_analyse(read_storage_from_higo())
