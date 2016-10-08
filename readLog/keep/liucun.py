@@ -2,7 +2,14 @@
 
 import csv
 
-source_files = ['buyer', 'saler']
+
+source_files = ['buyer',
+                'buyer_tel',
+                'buyer_saler_841',
+                'buyer_saler_237',
+                'buyer_saler_typical',
+                'buyer_tel_saler_typical']
+
 output_file_names = []
 
 current_month = 9
@@ -30,10 +37,14 @@ for source_file in source_files:
     for line in open(source_file):
         line_data = line.strip('\n').split(',')
 
-        for i in range(1, len(line_data)):
-            if int(line_data[i]) > 0:
-                new_users[i].append(line_data[0])
-                break
+        try:
+            for i in range(1, len(line_data)):
+                if int(line_data[i]) > 0:
+                    new_users[i].append(line_data[0])
+                    break
+        except:
+            print source_file
+            print line_data
 
     for line in open(source_file):
         line_data = line.strip('\n').split(',')
@@ -56,9 +67,12 @@ for source_file in source_files:
         # print stay_users[stay_user]
         for i in range(0, len(stay_users[stay_user])):
             if i is not 0:
-                with_percent = str(stay_users[stay_user][i]) + '\n(' + \
-                      "%.2f" %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
-                stay_users_with_percent[stay_user].append(with_percent)
+                if stay_users[stay_user][0] is not 0:
+                    with_percent = str(stay_users[stay_user][i]) + '\n(' + \
+                          "%.2f" %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
+                    stay_users_with_percent[stay_user].append(with_percent)
+                else:
+                    stay_users_with_percent[stay_user].append('0%')
             else:
                 stay_users_with_percent[stay_user].append(stay_users[stay_user][i])
             # stay_users_with_percent.append()
