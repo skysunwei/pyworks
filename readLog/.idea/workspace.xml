@@ -4,21 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/keep/liucun.py" description="line_data = line.strip('\n').split(',')" line="37" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7e43753-1997-4a51-8fdc-468be1b5e1f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_237" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_237_liucun.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_841" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_841_liucun.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_typical" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_saler_typical_liucun.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_tel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/buyer_tel_liucun.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keep/liucun_tel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keep/buyer" afterPath="$PROJECT_DIR$/keep/buyer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keep/buyer_liucun.csv" afterPath="$PROJECT_DIR$/keep/buyer_liucun.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keep/liucun.py" afterPath="$PROJECT_DIR$/keep/liucun.py" />
-    </list>
+    <list default="true" id="b7e43753-1997-4a51-8fdc-468be1b5e1f0" name="Default" comment="" />
     <ignored path="readLog.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -76,8 +62,8 @@
       <file leaf-file-name="liucun.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keep/liucun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="163">
+              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -713,7 +699,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1021" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25079873" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -721,7 +707,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3240043" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3240043" sideWeight="0.84791666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21173105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.50840336" order="2" side_tool="true" content_ui="tabs" />
@@ -1082,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keep/liucun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="163">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
           <folding />
         </state>
       </provider>
