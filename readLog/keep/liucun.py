@@ -3,20 +3,22 @@
 import csv
 
 
-source_files = ['buyer',
-                'buyer_tel',
-                'buyer_saler_841',
-                'buyer_saler_237',
-                'buyer_saler_typical',
-                'buyer_tel_saler_typical']
+# source_files = ['buyer',
+#                 'buyer_tel',
+#                 'buyer_saler_841',
+#                 'buyer_saler_237',
+#                 'buyer_saler_typical',
+#                 'buyer_tel_saler_typical']
+
+source_files = ['buyer_10.csv']
 
 output_file_names = []
 
-current_month = 9
+current_month = 11
 next_month = current_month + 1
 
 for source_file in source_files:
-    output_file_name = source_file + '_liucun.csv'
+    output_file_name = source_file + '_' + str(current_month) + '_liucun.csv'
 
     new_users = {}
     for i in range(1, next_month):

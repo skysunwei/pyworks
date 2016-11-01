@@ -21,13 +21,13 @@
 weixin = []
 yhdx = []
 
-folder = '7-backup'
+folder = '10-backup'
 
-for line in open(folder + '/weixin_money'):
+for line in open(folder + '/weixin-jiaoyi'):
 
     weixin.append(line.strip('\n'))
 
-for line in open(folder + '/yhdx_money'):
+for line in open(folder + '/yhdx-jiaoyi'):
     yhdx.append(line.strip('\n'))
 
 print [i for i in weixin if i not in yhdx]
