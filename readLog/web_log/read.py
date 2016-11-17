@@ -2,6 +2,7 @@
 
 userViews = {}
 
+
 def read_month_log_file(log_file):
     for line in open(log_file):
 

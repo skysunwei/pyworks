@@ -1,46 +1,15 @@
 # coding:utf-8
 
-from numpy import *
+import networkx as nx
 
 
-def loadData():#coding:utf-8
-
-from numpy import *
-
-def loadData():
-    return [[1,1,1,0,0],
-             [2,2,2,0,0],
-             [3,3,3,0,0],
-             [5,5,3,2,2],
-             [0,0,0,3,3],
-             [0,0,0,6,6]]
-
-data=loadData()
-
-u,sigma,vt=linalg.svd(data)
-
-print sigma
-
-sig3=mat([[sigma[0],0,0],
-      [0,sigma[1],0],
-      [0,0,sigma[2]]])
-
-print u[:,:3]*sig3*vt[:3,:]
-    return [1, 1, 1, 0, 0]
-
-
-data = loadData()
-
-u, sigma, vt = linalg.svd(data)
-
-print sigma
-
-sig3 = mat([[sigma[0], 0, 0],
-            [0, sigma[1], 0],
-            [0, 0, sigma[2]]])
-
-print u[:, :3] * sig3 * vt[:3, :]
-
+G=nx.Graph()
+G.add_node("spam")
+G.add_edge(1,2)
+print list(G.nodes())
+[1, 2, 'spam']
+print list(G.edges())
+[(1, 2)]
 
 
 # higo = []
