@@ -1,7 +1,5 @@
 # coding: utf-8
 
-import pageView
-
 user_actions = {}
 
 domain_url = 'http://yhdx.5ixc.com/hao/'
@@ -17,6 +15,8 @@ merch_detail_page = '%s#!/share/merch' % domain_url
 mine_order_page = '%s#!/share/mineOrder' % domain_url
 order_detail_page = '%s#!/share/orderDetail' % domain_url
 leader_apply_page = '%s#!/share/groupLeaderApply?userid=237' % domain_url
+discover_page = '%s#!/share/discover' % domain_url
+
 
 groupon_page_users = []
 leader_page_users = []
@@ -26,6 +26,7 @@ mine_order_page_users = []
 order_detail_page_users = []
 merch_detail_page_users = []
 leader_apply_page_users = []
+discover_page_users = []
 other_users = []
 
 
@@ -70,6 +71,7 @@ def remove_salers():
             user_actions_without_saler.pop(k)
 
     print 'user without saler num', len(user_actions_without_saler)
+    print
 
 
 def user_first_page_view():
@@ -111,6 +113,10 @@ def user_first_page_view():
             leader_apply_page_users.append(userId)
             continue
 
+        if page_url.find(discover_page) is 0:
+            discover_page_users.append(userId)
+            continue
+
         other_users.append(userId)
 
     print 'groupon_page_users', ':', len(groupon_page_users)
@@ -121,6 +127,7 @@ def user_first_page_view():
     print 'order_detail_page_users', ':', len(order_detail_page_users)
     print 'merch_detail_page_users', ':', len(merch_detail_page_users)
     print 'leader_apply_page_users', ':', len(leader_apply_page_users)
+    print 'discover_page_users', ':', len(discover_page_users)
     print 'other_user', ':', len(other_users)
 
     # for userId in user_actions_without_saler.keys():
@@ -145,54 +152,55 @@ def user_next_page_count(current_page_users, next_page):
     print 'then view', count_num
 
 
-def show_pv_uv():
+def show_pv_uv(search_page, page_name):
     uv = len(user_actions)
     pv = 0
-    groupon_page_pv = 0
-    groupon_page_uv = 0
-    view_groupon_page = 0
-
-    merch_page_pv = 0
-    merch_page_uv = 0
-    view_merch_page = 0
+    page_pv = 0
+    page_uv = 0
+    view_page = 0
 
     for userIds in user_actions.keys():
         pv += len(user_actions[userIds])
         for page in user_actions[userIds]:
+
             # print sorted(a.items(), key=lambda d: d[0])
             for (k, v) in page.items():
-                if v.find(groupon_page) >= 0:
-                    groupon_page_pv += 1
+                if v.find(search_page) >= 0:
+                    page_pv += 1
 
-                    if view_groupon_page is 0:
-                        print '[', userIds, ']'
-                        view_groupon_page = 1
-                        groupon_page_uv += 1
-
-                if v.find(merch_page) >= 0:
-                    merch_page_pv += 1
-
-                    if view_merch_page is 0:
+                    if view_page is 0:
                         # print '[', userIds, ']'
-                        view_merch_page = 1
-                        merch_page_uv += 1
-        view_groupon_page = 0
-        view_merch_page = 0
+                        view_page = 1
+                        page_uv += 1
+
+        view_page = 0
 
     print 'pv', pv
-    print 'groupon page pv', groupon_page_pv
-    print 'merch page pv', merch_page_pv
-    print
     print 'uv', uv
-    print 'groupon page uv', groupon_page_uv
-    print 'merch page uv', merch_page_uv
+
+    print
+
+    print page_name, 'pv', page_pv
+    print page_name, 'uv', page_uv
+
+    print
 
 
-read_log_file('20160831.log', '2016-08-31')
+
+read_log_file('201611.log', '2016-11-19')
+
+show_pv_uv(discover_page, 'discoverpage')
+show_pv_uv(groupon_page, 'grouponpage')
+show_pv_uv(leader_page, 'leadrpage')
+
 remove_salers()
+
+show_pv_uv(discover_page, 'discoverpage')
+
 
 user_first_page_view()
 user_next_page_count(groupon_page_users, leader_page)
 user_next_page_count(groupon_page_users, merch_page)
+user_next_page_count(discover_page_users, merch_detail_page)
 
-print first_page_users
+# print first_page_users

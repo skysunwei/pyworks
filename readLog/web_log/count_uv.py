@@ -27,5 +27,5 @@ def read_month_log_file(log_file):
 
     print len(userViews)
 
-read_month_log_file('all10.log')
+read_month_log_file('201611.log')
 
