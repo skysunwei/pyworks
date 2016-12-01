@@ -21,14 +21,23 @@
 weixin = []
 yhdx = []
 
-folder = '10-backup'
+folder = '11-backup'
 
-for line in open(folder + '/weixin-jiaoyi'):
-
+for line in open(folder + '/tk-weixin'):
     weixin.append(line.strip('\n'))
 
-for line in open(folder + '/yhdx-jiaoyi'):
-    yhdx.append(line.strip('\n'))
+for line in open(folder + '/tk-yhdx'):
+    yhdx.append(line.strip('\n').split(',')[0])
+
+print len(weixin)
+print len(yhdx)
+
+a = {}
+for i in yhdx:
+    if yhdx.count(i)>1:
+       a[i] = yhdx.count(i)
+
+print a
 
 print [i for i in weixin if i not in yhdx]
 
