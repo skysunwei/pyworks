@@ -10,11 +10,11 @@ import csv
 #                 'buyer_saler_typical',
 #                 'buyer_tel_saler_typical']
 
-source_files = ['buyer_10.csv']
+source_files = ['buyer_11.csv']
 
 output_file_names = []
 
-current_month = 11
+current_month = 12
 next_month = current_month + 1
 
 for source_file in source_files:
