@@ -4,7 +4,7 @@ for line in open('test'):
     datas = line.strip('\n').split(',')
     # print datas[0]
     # print datas[1]
-    sql = 'insert `op-sunwei-merchtype-mapping`(`merchtypeid`,`product`) values(%s,\'%s\');' % (datas[0], datas[1])
+    sql = 'update `merchandise` set `quantity`=%s where `merchandiseid`=%s;' % (datas[2], datas[1])
     print sql
 
 # higo = []
