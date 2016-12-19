@@ -1,6 +1,7 @@
+import datetime
+
 __author__ = 'colin'
 
-import datetime
 
 deadline = '2017-07-26'
 

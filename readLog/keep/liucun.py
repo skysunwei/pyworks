@@ -10,7 +10,7 @@ import csv
 #                 'buyer_saler_typical',
 #                 'buyer_tel_saler_typical']
 
-source_files = ['buyer_11.csv']
+source_files = ['saler']
 
 output_file_names = []
 
