@@ -16,21 +16,24 @@ for line in open('share'):
         continue
 
 for t in cont.keys():
+
     words = pseg.cut(cont[t])
 
     cis = []
 
     for w in words:
-        cis.append(w.word)
+        if w.flag != 'x':
+            cis.append(w.word)
 
     lenth = len(cis)
 
-    if lenth < 6:
+    if lenth < 15:
         continue
 
     counter = Counter(cis)
 
     for k in counter.keys():
-        if counter[k] > lenth/2:
-            print t
+
+        if counter[k] > float(lenth)/5:
+            print t, k, float(lenth)/5, lenth, counter[k], cont[t]
             break

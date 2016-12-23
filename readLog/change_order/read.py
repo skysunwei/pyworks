@@ -2,11 +2,12 @@
 
 import csv
 
-csvfile = file('rank_2016-07-29.csv', 'rb')
-reader = csv.reader(csvfile)
+# csvfile = file('rank_2016-07-29.csv', 'rb')
+# reader = csv.reader(csvfile)
 
-for line in reader:
+for line in open('new'):
+    datas = line.strip('\n').split(',')
     print 'insert `op-sunwei-merchtype-mapping`(`merchtypeid`,`product`) values(' + \
-          str(line[0]) + ', \'' + line[3] + '\');'
+          str(datas[0]) + ', \'' + datas[1] + '\');'
 
-csvfile.close() 
+# csvfile.close()
