@@ -8,12 +8,6 @@ for line in open('test'):
     datas = line.strip('\n').split(',')
     # print
     vars = datas[1].split('a:5:')[1].split(';')
-    #
-    # if len(vars) > 11:
-    #     print vars
-    #     break
-
-
 
     print datas[0], ',', \
         int(vars[9].split(':')[2])/100, ',', \
