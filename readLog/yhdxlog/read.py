@@ -26,7 +26,5 @@ def saler_upgrade():
         print datas[1], datas[4], datas[2].split(';')[1].split(':')[2], datas[3].split(';')[1].split(':')[1]
 
 
-
-
 saler_upgrade()
 
