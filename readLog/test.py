@@ -2,17 +2,54 @@
 
 import json
 
-print '渠道,金额,张数,优惠券编号'
-
 for line in open('test'):
     datas = line.strip('\n').split(',')
-    # print
-    vars = datas[1].split('a:5:')[1].split(';')
 
-    print datas[0], ',', \
-        int(vars[9].split(':')[2])/100, ',', \
-        vars[3].split(':')[1], ',', \
-        vars[5].split(':')[1]
+    output = {}
+    output['107'] = {}
+    output['108'] = {}
+
+    if datas[2] is '1':
+        type = {}
+        type['2'] = ''
+        type['3'] = 3
+        type['4'] = 3
+
+        output['107']['3'] = type
+        output['108']['3'] = type
+
+    if datas[2] is '2':
+        type = {}
+        type['2'] = datas[1]
+        type['3'] = 3
+        type['4'] = 3
+
+        output['107']['2'] = type
+        output['108']['2'] = type
+
+    sql = 'update `youhaodongxi`.`merchandise` set `despatchtype`=\'%s\' where ' \
+          '`merchandiseid`=%s;' % (json.dumps(output), datas[0])
+
+    print sql
+
+
+
+    # if datas[2] is '2':
+
+
+    #
+    # for line in open('test'):
+    #     datas = line.strip('\n').split(',')
+    #     # print
+    #     vars = datas[1].split('a:5:')[1].split(';')
+    #
+    #     print datas[0], ',', \
+    #         int(vars[9].split(':')[2])/100, ',', \
+    #         vars[3].split(':')[1], ',', \
+    #         vars[5].split(':')[1]
+
+
+
 
     # split = datas[1].split(',')
     #

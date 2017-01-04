@@ -31,7 +31,7 @@
     <SUITE FILE_PATH="coverage/readLog$median.coverage" NAME="median Coverage Results" MODIFIED="1473064042915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$liucun_tel.coverage" NAME="liucun_tel Coverage Results" MODIFIED="1475207423904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keep" />
     <SUITE FILE_PATH="coverage/readLog$video.coverage" NAME="video Coverage Results" MODIFIED="1477388663628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/soup" />
-    <SUITE FILE_PATH="coverage/readLog$test.coverage" NAME="test Coverage Results" MODIFIED="1482846309092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/readLog$test.coverage" NAME="test Coverage Results" MODIFIED="1483436403241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/readLog$read__2_.coverage" NAME="read (2) Coverage Results" MODIFIED="1470107221260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_log" />
     <SUITE FILE_PATH="coverage/readLog$higo.coverage" NAME="higo Coverage Results" MODIFIED="1477965960373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/readLog$get.coverage" NAME="get Coverage Results" MODIFIED="1465900939755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fruit" />
@@ -50,8 +50,8 @@
     <SUITE FILE_PATH="coverage/readLog$go.coverage" NAME="go Coverage Results" MODIFIED="1471831244946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generate_detail" />
     <SUITE FILE_PATH="coverage/readLog$formatsql.coverage" NAME="formatsql Coverage Results" MODIFIED="1471923530948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/formatsql" />
     <SUITE FILE_PATH="coverage/readLog$tuanzhangmapping.coverage" NAME="tuanzhangmapping Coverage Results" MODIFIED="1468390820843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fans" />
-    <SUITE FILE_PATH="coverage/readLog$compare.coverage" NAME="compare Coverage Results" MODIFIED="1480570150703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/compare_orders" />
     <SUITE FILE_PATH="coverage/readLog$check.coverage" NAME="check Coverage Results" MODIFIED="1482128955933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/phone" />
+    <SUITE FILE_PATH="coverage/readLog$compare.coverage" NAME="compare Coverage Results" MODIFIED="1483444307445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/compare_orders" />
     <SUITE FILE_PATH="coverage/readLog$express.coverage" NAME="express Coverage Results" MODIFIED="1470388988576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/express_log" />
     <SUITE FILE_PATH="coverage/readLog$match.coverage" NAME="match Coverage Results" MODIFIED="1468208500849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/match_saler" />
   </component>
@@ -64,21 +64,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="read.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yhdxlog/read.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="608">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <marker date="1483436958000" expanded="true" signature="534:589" placeholder="update `youh... " />
+                <marker date="1483436958000" expanded="true" signature="534:591" placeholder="update `youh... " />
+                <marker date="1483436958000" expanded="true" signature="534:633" placeholder="update `youh... " />
+                <marker date="1483436958000" expanded="true" signature="534:635" placeholder="update `youh... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compare.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compare_orders/compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upgrade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yhdxlog/upgrade">
+      <file leaf-file-name="12-weixin" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/12-weixin">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+            <state relative-caret-position="331">
+              <caret line="43693" column="28" selection-start-line="43693" selection-start-column="0" selection-end-line="43693" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12-yhdx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/12-yhdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="43696" column="7" selection-start-line="43696" selection-start-column="7" selection-end-line="43696" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tk-weixin" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/tk-weixin">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2239">
+              <caret line="2013" column="17" selection-start-line="2013" selection-start-column="17" selection-end-line="2013" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tk-yhdx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/tk-yhdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="712" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="2030" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -87,38 +132,8 @@
       <file leaf-file-name="test" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4408">
-              <caret line="232" column="90" selection-start-line="232" selection-start-column="85" selection-end-line="232" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ciku" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenci/ciku">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cut.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenci/cut.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="share" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenci/share">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97033">
-              <caret line="5107" column="28" selection-start-line="5107" selection-start-column="28" selection-end-line="5107" selection-end-column="28" />
+            <state relative-caret-position="376">
+              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -170,10 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/soup/video.py" />
-        <option value="$PROJECT_DIR$/cost/read.py" />
-        <option value="$PROJECT_DIR$/keep/sqlresult_882288.csv" />
-        <option value="$PROJECT_DIR$/keep/source/buyer_11.csv" />
         <option value="$PROJECT_DIR$/keep/buyer_11.csv" />
         <option value="$PROJECT_DIR$/compare_orders/10-backup/yhdx-tixian" />
         <option value="$PROJECT_DIR$/compare_orders/10-backup/weixin-tixian" />
@@ -197,7 +208,6 @@
         <option value="$PROJECT_DIR$/compare_orders/11-backup/11-yhdx" />
         <option value="$PROJECT_DIR$/compare_orders/11-backup/tk-weixin" />
         <option value="$PROJECT_DIR$/compare_orders/11-backup/tk-yhdx" />
-        <option value="$PROJECT_DIR$/compare_orders/compare.py" />
         <option value="$PROJECT_DIR$/keep/buyer_10.csv" />
         <option value="$PROJECT_DIR$/recommand/source.txt" />
         <option value="$PROJECT_DIR$/recommand/sources.txt" />
@@ -217,10 +227,15 @@
         <option value="$PROJECT_DIR$/keep/buyer_12_no_groupon" />
         <option value="$PROJECT_DIR$/keep/buyer_12_shouxi" />
         <option value="$PROJECT_DIR$/keep/liucun.py" />
-        <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/yhdxlog/upgrade" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/yhdxlog/read.py" />
+        <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/compare_orders/12-backup/tk-weixin" />
+        <option value="$PROJECT_DIR$/compare_orders/12-backup/12-weixin" />
+        <option value="$PROJECT_DIR$/compare_orders/12-backup/tk-yhdx" />
+        <option value="$PROJECT_DIR$/compare_orders/12-backup/12-yhdx" />
+        <option value="$PROJECT_DIR$/compare_orders/compare.py" />
       </list>
     </option>
   </component>
@@ -356,7 +371,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -385,12 +399,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="keep" />
+              <option name="myItemId" value="compare_orders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,6 +420,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/compare_orders/12-backup" />
+      <recent name="$PROJECT_DIR$/yhdxlog" />
+      <recent name="$PROJECT_DIR$/fenci" />
+      <recent name="$PROJECT_DIR$/web_log" />
+      <recent name="$PROJECT_DIR$/recommand" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/compare_orders/11-backup" />
       <recent name="$PROJECT_DIR$/web_log" />
@@ -412,15 +434,8 @@
       <recent name="$PROJECT_DIR$/soup" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/yhdxlog" />
-      <recent name="$PROJECT_DIR$/fenci" />
-      <recent name="$PROJECT_DIR$/web_log" />
-      <recent name="$PROJECT_DIR$/recommand" />
-      <recent name="$PROJECT_DIR$/warnning" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.read (1)">
+  <component name="RunManager" selected="Python.compare">
     <configuration default="false" name="liucun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -457,24 +472,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="read" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/change_order" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="readLog" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_order/read.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -507,6 +504,24 @@
       <module name="readLog" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yhdxlog/read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/compare_orders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="readLog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_orders/compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -729,17 +744,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.liucun" />
       <item index="1" class="java.lang.String" itemvalue="Python.bad" />
-      <item index="2" class="java.lang.String" itemvalue="Python.read" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.read (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.read (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.compare" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.read (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.compare" />
         <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.liucun" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bad" />
-        <item index="4" class="java.lang.String" itemvalue="Python.read" />
+        <item index="2" class="java.lang.String" itemvalue="Python.read (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.liucun" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bad" />
       </list>
     </recent_temporary>
   </component>
@@ -772,13 +787,13 @@
     <frame x="0" y="23" width="1440" height="841" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3590844" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26969293" sideWeight="0.31043664" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.317757" sideWeight="0.31402004" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44455957" sideWeight="0.6895634" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.317757" sideWeight="0.68597996" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21173105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.50840336" order="2" side_tool="true" content_ui="tabs" />
@@ -819,7 +834,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -829,34 +844,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spider/snowball.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cost/10_update.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="96" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cost/cost_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warnning/saler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/warnning/all.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040649">
@@ -939,13 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="358" column="28" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare_orders/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18506">
           <caret line="974" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="979" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,6 +1081,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18601">
           <caret line="979" column="29" selection-start-line="979" selection-start-column="29" selection-end-line="979" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep/saler_12_liucun.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhdxlog/read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhdxlog/upgrade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1156,42 +1157,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4408">
-          <caret line="232" column="90" selection-start-line="232" selection-start-column="85" selection-end-line="232" selection-end-column="90" />
+        <state relative-caret-position="376">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="608">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
-            <marker date="1482907440000" expanded="true" signature="503:564" placeholder="update `merc... " />
+            <marker date="1483436958000" expanded="true" signature="534:589" placeholder="update `youh... " />
+            <marker date="1483436958000" expanded="true" signature="534:591" placeholder="update `youh... " />
+            <marker date="1483436958000" expanded="true" signature="534:633" placeholder="update `youh... " />
+            <marker date="1483436958000" expanded="true" signature="534:635" placeholder="update `youh... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yhdxlog/upgrade">
+    <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/tk-weixin">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="2239">
+          <caret line="2013" column="17" selection-start-line="2013" selection-start-column="17" selection-end-line="2013" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep/saler_12_liucun.csv">
+    <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/tk-yhdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="712" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="2030" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yhdxlog/read.py">
+    <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/12-yhdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="445">
+          <caret line="43696" column="7" selection-start-line="43696" selection-start-column="7" selection-end-line="43696" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_orders/12-backup/12-weixin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="43693" column="28" selection-start-line="43693" selection-start-column="0" selection-end-line="43693" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_orders/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
