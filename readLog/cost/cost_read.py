@@ -5,7 +5,7 @@ import xlrd
 
 def read_xlsx():
 
-    month = '10'
+    month = '12'
     file_name = '%s.xlsx' % month
     sql_file = "%s_update.sql" % month
 
@@ -24,8 +24,13 @@ def read_xlsx():
             cost = booksheet.cell(row, 8).value
             store = booksheet.cell(row, 9).value
 
-            sql = 'update `paysuborder` set `supplyprice` = %s, `repositoryfee` = %s where `suborderid` = %s;\n' % \
-                (int(cost* 100) , int(store * 100), int(subOrderid))
+            try:
+                sql = 'update `paysuborder` set `supplyprice` = %s, ' \
+                      '`repositoryfee` = %s ' \
+                      'where `suborderid` = %s;\n' % \
+                    (int(cost * 100), int(store * 100), int(subOrderid))
+            except:
+                continue
 
             f.writelines(sql)
 
