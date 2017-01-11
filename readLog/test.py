@@ -1,36 +1,43 @@
 # coding:utf-8
 
-import json
 
 for line in open('test'):
     datas = line.strip('\n').split(',')
-
-    output = {}
-    output['107'] = {}
-    output['108'] = {}
-
-    if datas[2] is '1':
-        type = {}
-        type['2'] = ''
-        type['3'] = 3
-        type['4'] = 3
-
-        output['107']['3'] = type
-        output['108']['3'] = type
-
-    if datas[2] is '2':
-        type = {}
-        type['2'] = datas[1]
-        type['3'] = 3
-        type['4'] = 3
-
-        output['107']['2'] = type
-        output['108']['2'] = type
-
-    sql = 'update `youhaodongxi`.`merchandise` set `despatchtype`=\'%s\' where ' \
-          '`merchandiseid`=%s;' % (json.dumps(output), datas[0])
-
+    # print
+    sql = 'update `youhaodongxi`.`saler` set `dateline`=%s where `userid`=%s;' % (datas[1], datas[0])
     print sql
+
+# import json
+#
+# for line in open('test'):
+#     datas = line.strip('\n').split(',')
+#
+#     output = {}
+#     output['107'] = {}
+#     output['108'] = {}
+#
+#     if datas[2] is '1':
+#         type = {}
+#         type['2'] = ''
+#         type['3'] = 3
+#         type['4'] = 3
+#
+#         output['107']['3'] = type
+#         output['108']['3'] = type
+#
+#     if datas[2] is '2':
+#         type = {}
+#         type['2'] = datas[1]
+#         type['3'] = 3
+#         type['4'] = 3
+#
+#         output['107']['2'] = type
+#         output['108']['2'] = type
+#
+#     sql = 'update `youhaodongxi`.`merchandise` set `despatchtype`=\'%s\' where ' \
+#           '`merchandiseid`=%s;' % (json.dumps(output), datas[0])
+#
+#     print sql
 
 
 
