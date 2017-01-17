@@ -1,11 +1,29 @@
 # coding:utf-8
 
 
-for line in open('test'):
+# for line in open('test'):
+#     datas = line.strip('\n').split(',')
+#     # print
+#     sql = 'update `youhaodongxi`.`saler` set `dateline`=%s where `userid`=%s;' % (datas[1], datas[0])
+#     print sql
+
+
+# for line in open('test'):
+#     datas = line.strip('\n')
+#     show = '{"company": "1002", "time": "12,17,22", "city": "%s"},' % datas
+#     print show
+
+i = 0
+
+for line in open('test1.txt'):
     datas = line.strip('\n').split(',')
-    # print
-    sql = 'update `youhaodongxi`.`saler` set `dateline`=%s where `userid`=%s;' % (datas[1], datas[0])
-    print sql
+
+    i += 1
+
+    for data in datas:
+        sql = 'update `youhaodongxi`.`merchandise` set `recommendlayoutid`=%s where `merchandiseid`=%s;' % (i, data)
+        print sql
+
 
 # import json
 #
