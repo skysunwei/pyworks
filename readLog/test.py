@@ -13,16 +13,71 @@
 #     show = '{"company": "1002", "time": "12,17,22", "city": "%s"},' % datas
 #     print show
 
-i = 0
+# jiuye = []
+#
+# notin = []
+#
+# for line in open('jiuye'):
+#     jiuye.append(line.strip('\n'))
+#
+# for line in open('higo'):
+#     datas = line.strip('\n').split(',')
+#
+#     if datas[1] not in jiuye:
+#         notin.append(datas[1])
+#
+# print notin
+#
+# for line in open('higo'):
+#     datas = line.strip('\n').split(',')
+#
+#     if datas[1] in notin:
+#         print datas[0]
 
-for line in open('test1.txt'):
+nav = []
+
+for line in open('nav'):
+    nav.append(line.strip('\n'))
+
+express = {}
+
+for line in open('express'):
     datas = line.strip('\n').split(',')
 
-    i += 1
+    express[datas[0]] = datas[1]
 
-    for data in datas:
-        sql = 'update `youhaodongxi`.`merchandise` set `recommendlayoutid`=%s where `merchandiseid`=%s;' % (i, data)
+send = {}
+
+for line in open('higo'):
+    datas = line.strip('\n').split(',')
+
+    if datas[0] == 173940:
+        continue
+
+    if datas[0] in nav:
+        send[datas[0]] = datas[1]
+
+        sql = 'update `youhaodongxi`.`express` set `expressno`=\'%s\',`companycode`=\'%s\',`company`=\'%s\' ' \
+              'where `expressid`=%s;' % (datas[1], 'pjbest', '品骏', express[datas[0]])
+
         print sql
+
+# print len(send)
+
+#
+# for k in send.keys():
+#     print k, send[k]
+
+# i = 0
+#
+# for line in open('test1.txt'):
+#     datas = line.strip('\n').split(',')
+#
+#     i += 1
+#
+#     for data in datas:
+#         sql = 'update `youhaodongxi`.`merchandise` set `recommendlayoutid`=%s where `merchandiseid`=%s;' % (i, data)
+#         print sql
 
 
 # import json

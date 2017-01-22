@@ -24,7 +24,7 @@ for data in line_two.split(','):
     line_two_data.append(data)
 
 
-
 for i in range(0, len(line_one_data) - 1):
-    show = '\'%s\' AS \'%s\'' % (line_two_data[i], line_one_data[i])
+    show = '\'%s\' AS \'%s\',' % (line_two_data[i], line_one_data[i])
     print show
+
