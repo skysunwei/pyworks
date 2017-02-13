@@ -21,12 +21,12 @@
 weixin = []
 yhdx = []
 
-folder = 'higo'
+folder = '17-1'
 
-for line in open(folder + '/higo'):
+for line in open(folder + '/12-weixin'):
     weixin.append(line.strip('\n'))
 
-for line in open(folder + '/jiuye'):
+for line in open(folder + '/12-yhdx'):
     yhdx.append(line.strip('\n').split(',')[0])
 
 print len(weixin)
