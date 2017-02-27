@@ -5,8 +5,8 @@ def avg(data):
 def median():
     my_list = []
 
-    for line in open('median/source'):
-        my_list.append(int(line.strip('\n')))
+    for line in open('source'):
+        my_list.append(int(line.strip('\n').split('.')[0]))
 
     data = sorted(my_list)
     size = len(data)
