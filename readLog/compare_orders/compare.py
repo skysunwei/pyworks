@@ -21,12 +21,12 @@
 weixin = []
 yhdx = []
 
-folder = '17-1'
+folder = '17-2'
 
-for line in open(folder + '/12-weixin'):
+for line in open(folder + '/weixin'):
     weixin.append(line.strip('\n'))
 
-for line in open(folder + '/12-yhdx'):
+for line in open(folder + '/yhdx'):
     yhdx.append(line.strip('\n').split(',')[0])
 
 print len(weixin)
@@ -45,9 +45,9 @@ print
 
 print [i for i in yhdx if i not in weixin]
 
-print
-
-print [i for i in yhdx if i in weixin]
+# print
+#
+# print [i for i in yhdx if i in weixin]
 
 # weixin = []
 # revoke = []
