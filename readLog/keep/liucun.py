@@ -10,11 +10,23 @@ import csv
 #                 'buyer_saler_typical',
 #                 'buyer_tel_saler_typical']
 
-source_files = ['buyer_12_shouxi']
+def month_to_year_str_format(i):
+    start_year_num = 2016
+    month_of_year = 12
+
+    month_str = '12月'
+    year_str = str(start_year_num + (i - 1) / month_of_year) + '年'
+    if i % month_of_year is not 0:
+        month_str = str(i % month_of_year) + '月'
+
+    return year_str + month_str
+
+
+source_files = ['buyer']
 
 output_file_names = []
 
-current_month = 12
+current_month = 14
 next_month = current_month + 1
 
 for source_file in source_files:
@@ -83,7 +95,7 @@ for source_file in source_files:
 
     headline = ['月份']
     for i in range(1, next_month):
-        headline.append(str(i) + '月')
+        headline.append(month_to_year_str_format(i))
 
     # print headline
 
@@ -94,7 +106,7 @@ for source_file in source_files:
     data = []
 
     for i in stay_users_with_percent.keys():
-        data.append([str(i) + '月'] +
+        data.append([month_to_year_str_format(i)] +
                     ['']*(current_month - len(stay_users_with_percent[i])) + stay_users_with_percent[i])
 
     # print data
