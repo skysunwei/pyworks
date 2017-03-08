@@ -30,14 +30,13 @@ for line in open('data'):
     day_intervals = []
 
     for day in days[1:]:
-
         current_day = day_str_to_datetime(day)
         day_intervals.append((current_day - first_day).days)
 
     one_day_intervals = define_five(day_intervals)
 
     for one_days in one_day_intervals.split(','):
-        if len(one_days) > 9:
+        if len(one_days) > 4:
             print userid
             break
 
