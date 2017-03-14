@@ -15,6 +15,8 @@ def send_coupon():
     headline.append('金额')
     headline.append('数量')
     headline.append('优惠券编号')
+    headline.append('团长ID')
+    headline.append('团长顾问')
 
     writer.writerow(headline)
 
@@ -27,11 +29,15 @@ def send_coupon():
         try:
             vars = datas[2].split('a:5:')[1].split(';')
 
-            dateline = str(datas[0]), datas[1], int(vars[9].split(':')[2].strip('"'))/100, vars[3].split(':')[1], vars[5].split(':')[1]
+            dateline = str(datas[0]), \
+                       datas[1], \
+                       int(vars[9].split(':')[2].strip('"'))/100, \
+                       vars[3].split(':')[1], \
+                       vars[5].split(':')[1], datas[3], datas[4]
 
             writer.writerow(dateline)
-        except:
-            print line
+        except Exception, e:
+            print Exception, ":", e
             exit()
 
     output_file.close()
