@@ -34,33 +34,53 @@
 #     if datas[1] in notin:
 #         print datas[0]
 
-nav = []
+# nav = []
+#
+# for line in open('nav'):
+#     nav.append(line.strip('\n'))
+#
+# express = {}
+#
+# for line in open('express'):
+#     datas = line.strip('\n').split(',')
+#
+#     express[datas[0]] = datas[1]
+#
+# send = {}
+#
+# for line in open('higo'):
+#     datas = line.strip('\n').split(',')
+#
+#     if datas[0] == 173940:
+#         continue
+#
+#     if datas[0] in nav:
+#         send[datas[0]] = datas[1]
+#
+#         sql = 'update `youhaodongxi`.`express` set `expressno`=\'%s\',`companycode`=\'%s\',`company`=\'%s\' ' \
+#               'where `expressid`=%s;' % (datas[1], 'pjbest', '品骏', express[datas[0]])
+#
+#         print sql
 
-for line in open('nav'):
-    nav.append(line.strip('\n'))
+for line in open('test1.txt'):
+    UPDATE
+    `ticket`
+    SET
+    ticket.
+    `onsale` = 3
+    WHERE
+    ticket.
+    `ticketseatid`
+    IN(select
+    ticketseat.
+    `ticketseatid`
+    from ticketseat where
 
-express = {}
+    ticketseat.
+    `description` = '1层14排3座'
+    )
 
-for line in open('express'):
-    datas = line.strip('\n').split(',')
-
-    express[datas[0]] = datas[1]
-
-send = {}
-
-for line in open('higo'):
-    datas = line.strip('\n').split(',')
-
-    if datas[0] == 173940:
-        continue
-
-    if datas[0] in nav:
-        send[datas[0]] = datas[1]
-
-        sql = 'update `youhaodongxi`.`express` set `expressno`=\'%s\',`companycode`=\'%s\',`company`=\'%s\' ' \
-              'where `expressid`=%s;' % (datas[1], 'pjbest', '品骏', express[datas[0]])
-
-        print sql
+    print line
 
 # print len(send)
 
