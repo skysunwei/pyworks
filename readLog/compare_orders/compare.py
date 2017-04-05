@@ -21,7 +21,7 @@
 weixin = []
 yhdx = []
 
-folder = '17-2'
+folder = '17-3'
 
 for line in open(folder + '/weixin'):
     weixin.append(line.strip('\n'))
@@ -38,6 +38,13 @@ for i in yhdx:
        a[i] = yhdx.count(i)
 
 print a
+
+b = {}
+for i in weixin:
+    if weixin.count(i)>1:
+       b[i] = weixin.count(i)
+
+print b
 
 print [i for i in weixin if i not in yhdx]
 
