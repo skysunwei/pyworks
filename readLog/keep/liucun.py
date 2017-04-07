@@ -22,11 +22,11 @@ def month_to_year_str_format(i):
     return year_str + month_str
 
 
-source_files = ['buyer']
+source_files = ['saler_17_3']
 
 output_file_names = []
 
-current_month = 14
+current_month = 15
 next_month = current_month + 1
 
 for source_file in source_files:

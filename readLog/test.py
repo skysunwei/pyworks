@@ -34,6 +34,22 @@
 #     if datas[1] in notin:
 #         print datas[0]
 
+b = []
+
+for line in open('search'):
+    datas = line.strip('\n').split(';')
+    b.append(datas[1].split('"')[1])
+    # break
+
+print b[0]
+
+a = {}
+for i in b:
+    a[i] = b.count(i)
+
+for i in a.keys():
+    print i, a[i]
+
 # nav = []
 #
 # for line in open('nav'):
@@ -62,25 +78,25 @@
 #
 #         print sql
 
-for line in open('test1.txt'):
-    UPDATE
-    `ticket`
-    SET
-    ticket.
-    `onsale` = 3
-    WHERE
-    ticket.
-    `ticketseatid`
-    IN(select
-    ticketseat.
-    `ticketseatid`
-    from ticketseat where
-
-    ticketseat.
-    `description` = '1层14排3座'
-    )
-
-    print line
+# for line in open('test1.txt'):
+#     UPDATE
+#     `ticket`
+#     SET
+#     ticket.
+#     `onsale` = 3
+#     WHERE
+#     ticket.
+#     `ticketseatid`
+#     IN(select
+#     ticketseat.
+#     `ticketseatid`
+#     from ticketseat where
+#
+#     ticketseat.
+#     `description` = '1层14排3座'
+#     )
+#
+#     print line
 
 # print len(send)
 
