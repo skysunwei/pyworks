@@ -5,8 +5,8 @@ user_actions = {}
 domain_url = 'http://yhdx.5ixc.com/hao/'
 
 first_page = '%s#!/share/explore' % domain_url
-leader_page = '%s#!/share/groupLeader' % domain_url
-groupon_page = '%s#!/share/grouponStatus' % domain_url
+leader_page = 'groupLeader'
+groupon_page = 'grouponStatus'
 groupon_page_from_timeline = '%s?from=timeline&isappinstalled=0#!/share/grouponStatus' % domain_url
 groupon_page_from_groupmessage = '%s?from=groupmessage&isappinstalled=0#!/share/grouponStatus' % domain_url
 coupon_page = '%s#!/share/receiveCoupon' % domain_url
@@ -34,12 +34,13 @@ def read_log_file(log_file, day):
     for line in open(log_file):
 
         try:
-            x = line.split('[')
-            str_time = (x[1].split(']'))[0]
-            data = (x[2].split(']'))[0].split(',"')
-            userId = data[0].strip('"')
-            client = data[2].strip('"')
-            url = data[1].strip('"')
+            datas = line.strip('\n').split(']')
+            str_time = str(datas[0].strip('['))
+            temp_datas = datas[1].split(' ', 4)
+            userId = temp_datas[3]
+            detail_datas = eval(temp_datas[4].split(' {')[0])
+            url = detail_datas['1']
+            client = detail_datas['2']
 
             if str_time.find(day) is 0:
                 if userId not in user_actions.keys():
@@ -50,8 +51,11 @@ def read_log_file(log_file, day):
                 sql = 'INSERT INTO view(userId, url, client, dateline, day) ' \
                       'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\');' \
                       % (userId, url, client, str_time, day)
-        except:
+
+        except Exception, e:
+            print Exception, ":", e
             print line
+            # break
 
 
 def show_user_pages(user_id):
@@ -177,30 +181,29 @@ def show_pv_uv(search_page, page_name):
 
     print 'pv', pv
     print 'uv', uv
-
     print
 
     print page_name, 'pv', page_pv
     print page_name, 'uv', page_uv
-
     print
 
+read_log_file('20170413.log', '2017-04-13')
 
+# print len(user_actions)
 
-read_log_file('201611.log', '2016-11-19')
-
+show_pv_uv(first_page, 'firstpage')
 show_pv_uv(discover_page, 'discoverpage')
 show_pv_uv(groupon_page, 'grouponpage')
-show_pv_uv(leader_page, 'leadrpage')
+show_pv_uv(leader_page, 'leaderpage')
 
-remove_salers()
-
-show_pv_uv(discover_page, 'discoverpage')
-
-
-user_first_page_view()
-user_next_page_count(groupon_page_users, leader_page)
-user_next_page_count(groupon_page_users, merch_page)
-user_next_page_count(discover_page_users, merch_detail_page)
+# remove_salers()
+#
+# show_pv_uv(discover_page, 'discoverpage')
+#
+#
+# user_first_page_view()
+# user_next_page_count(groupon_page_users, leader_page)
+# user_next_page_count(groupon_page_users, merch_page)
+# user_next_page_count(discover_page_users, merch_detail_page)
 
 # print first_page_users
