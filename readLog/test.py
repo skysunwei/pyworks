@@ -34,21 +34,34 @@
 #     if datas[1] in notin:
 #         print datas[0]
 
-b = []
+sql_file = 'search.sql'
 
-for line in open('search'):
-    datas = line.strip('\n').split(';')
-    b.append(datas[1].split('"')[1])
+f = file(sql_file, "w+")
+
+for line in open('log1.txt'):
+    datas = line.strip('\n').split('   ')
+    sql = 'INSERT INTO search (time, word) VALUES(\'%s\', \'%s\');' % (datas[0], datas[1])
+    # print sql
     # break
+    f.writelines(sql)
 
-print b[0]
+f.close()
 
-a = {}
-for i in b:
-    a[i] = b.count(i)
-
-for i in a.keys():
-    print i, a[i]
+# b = []
+#
+# for line in open('search'):
+#     datas = line.strip('\n').split(';')
+#     b.append(datas[1].split('"')[1])
+#     # break
+#
+# print b[0]
+#
+# a = {}
+# for i in b:
+#     a[i] = b.count(i)
+#
+# for i in a.keys():
+#     print i, a[i]
 
 # nav = []
 #
