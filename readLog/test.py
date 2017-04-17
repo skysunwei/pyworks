@@ -34,18 +34,35 @@
 #     if datas[1] in notin:
 #         print datas[0]
 
-sql_file = 'search.sql'
+# sql_file = 'search.sql'
+#
+# f = file(sql_file, "w+")
+#
+# for line in open('log1.txt'):
+#     datas = line.strip('\n').split('   ')
+#     sql = 'INSERT INTO search (time, word) VALUES(\'%s\', \'%s\');' % (datas[0], datas[1])
+#     # print sql
+#     # break
+#     f.writelines(sql)
+#
+# f.close()
 
-f = file(sql_file, "w+")
+keep_days = {}
 
-for line in open('log1.txt'):
-    datas = line.strip('\n').split('   ')
-    sql = 'INSERT INTO search (time, word) VALUES(\'%s\', \'%s\');' % (datas[0], datas[1])
-    # print sql
-    # break
-    f.writelines(sql)
+for line in open('jiuyesku'):
+    datas = line.strip('\n').split('\t')
+    temp_datas = datas[0].split(',')
 
-f.close()
+    for d in temp_datas:
+        if len(d) < 4:
+            keep_days[d] = datas[10]
+    # print datas[10]
+
+
+for line in open('yhdxsku'):
+    # print line
+    datas = line.strip('\n').split(',')
+    print keep_days[datas[0]], datas[0], datas[1]
 
 # b = []
 #
