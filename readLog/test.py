@@ -1,5 +1,31 @@
 # coding:utf-8
 
+import csv
+
+file = csv.reader(file('logcontent.csv', 'rb'))
+
+searchWords = {}
+
+for line in file:
+
+    if line[3] != '':
+        continue
+
+    line[2] = line[2].split(';')[1].split('"')[1]
+
+    if line[2] == '乐纯':
+        print line[2], line
+
+    if searchWords.has_key(line[2]):
+        searchWords[line[2]].append(line[0])
+    else:
+        searchWords[line[2]] = [line[0]]
+
+hotWords = sorted(searchWords.items(), key=lambda d: len(d[1]), reverse=True)
+
+for hot in hotWords[0: 19]:
+    print hot[0], len(hot[1])
+
 
 # for line in open('test'):
 #     datas = line.strip('\n').split(',')
@@ -47,22 +73,22 @@
 #
 # f.close()
 
-keep_days = {}
-
-for line in open('jiuyesku'):
-    datas = line.strip('\n').split('\t')
-    temp_datas = datas[0].split(',')
-
-    for d in temp_datas:
-        if len(d) < 4:
-            keep_days[d] = datas[10]
-    # print datas[10]
-
-
-for line in open('yhdxsku'):
-    # print line
-    datas = line.strip('\n').split(',')
-    print keep_days[datas[0]], datas[0], datas[1]
+# keep_days = {}
+#
+# for line in open('jiuyesku'):
+#     datas = line.strip('\n').split('\t')
+#     temp_datas = datas[0].split(',')
+#
+#     for d in temp_datas:
+#         if len(d) < 4:
+#             keep_days[d] = datas[10]
+#     # print datas[10]
+#
+#
+# for line in open('yhdxsku'):
+#     # print line
+#     datas = line.strip('\n').split(',')
+#     print keep_days[datas[0]], datas[0], datas[1]
 
 # b = []
 #

@@ -31,7 +31,6 @@ for line in lines:
 
     if days_interval >= expireDays*(1 - key):
 
-
         qit = []
 
         for readline in lines:
