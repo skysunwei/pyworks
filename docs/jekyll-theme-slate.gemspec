@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 Gem::Specification.new do |s|
-  s.name          = "数据脚本"
+  s.name          = "jekyll-theme-slate"
   s.version       = "0.0.4"
   s.license       = "CC0-1.0"
   s.authors       = ["Jason Costello", "GitHub, Inc."]
