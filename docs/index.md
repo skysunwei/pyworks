@@ -1,10 +1,10 @@
 ---
-layout: default
+数据目录
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+[渠道数据](channel-page).
 
 There should be whitespace between paragraphs.
 
