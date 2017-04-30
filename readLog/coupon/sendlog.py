@@ -2,6 +2,26 @@
 
 import csv
 
+
+def read_log(log):
+    result = {}
+
+    if log.find('a:', 0) == 0:
+        details = log.split(':', 2)
+        detail_datas = details[2].strip('{').strip('}').split(';')
+
+        for i in range(0, int(details[1])):
+            result[read_log(detail_datas[i * 2])] = read_log(detail_datas[i * 2 + 1])
+
+        return result
+
+    if log.find('i:', 0) == 0:
+        return int(log.split(':')[1])
+
+    if log.find('s:', 0) == 0:
+        return log.split(':')[2].strip('"')
+
+
 def send_coupon():
 
     output_file_name = 'sendcoupons.csv'
@@ -27,16 +47,17 @@ def send_coupon():
             continue
 
         try:
-            vars = datas[2].split('a:5:')[1].split(';')
+            temp = read_log(datas[2])
 
             dateline = str(datas[0]), \
                        datas[1], \
-                       int(vars[9].split(':')[2].strip('"'))/100, \
-                       vars[3].split(':')[1], \
-                       vars[5].split(':')[1], datas[3], datas[4]
+                       temp['money'], \
+                       temp['num'], \
+                       temp['couponid'], datas[3], datas[4]
 
             writer.writerow(dateline)
         except Exception, e:
+            print read_log(datas[2])
             print Exception, ":", e
             exit()
 
