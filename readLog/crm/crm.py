@@ -49,9 +49,6 @@ for line in file:
 
     all.append(user_id)
 
-    if first_order_day == 'NULL':
-        continue
-
     first_orderday_interval = get_days_interval(first_order_day)
     last_orderday_interval = get_days_interval(last_order_day)
 
