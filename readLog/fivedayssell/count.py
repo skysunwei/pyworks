@@ -1,3 +1,4 @@
+import csv
 import time, datetime
 
 
@@ -16,32 +17,61 @@ def define_five(example):
     return out
 
 
-for line in open('data'):
-    datas = line.strip('\n').split('\t')
+def lianxu_order_day(datas, day_num):
+    user_ids = []
 
-    userid = int(datas[0])
+    for line in datas:
 
-    days = datas[1].split(',')
+        user_id = int(line[0])
+        #
+        # if user_id != 237:
+        #     continue
 
-    days.sort()
+        days = line[1].split(',')
+        days.sort()
 
-    first_day = day_str_to_datetime(days[0])
+        # print days
 
-    day_intervals = []
+        first_day = day_str_to_datetime(days[0])
 
-    for day in days[1:]:
-        current_day = day_str_to_datetime(day)
-        day_intervals.append((current_day - first_day).days)
+        # print first_day
 
-    one_day_intervals = define_five(day_intervals)
+        day_intervals = [0]
 
-    for one_days in one_day_intervals.split(','):
-        if len(one_days) > 4:
-            print userid
-            break
+        for day in days[1:]:
+            current_day = day_str_to_datetime(day)
+            day_intervals.append((current_day - first_day).days)
+
+        # print len(day_intervals)
+
+        one_day_intervals = define_five(day_intervals)
+
+        # print one_day_intervals
+
+        for one_days in one_day_intervals.split(','):
+            if len(one_days) >= day_num:
+                user_ids.append(user_id)
+                break
+
+    print user_ids
+    return len(user_ids)
+
+all_data = []
+
+file = csv.reader(file('saler.csv', 'rb'))
+
+for data in file:
+    all_data.append(data)
+
+print len(all_data)
+print lianxu_order_day(all_data, 4)
+print lianxu_order_day(all_data, 9)
+print lianxu_order_day(all_data, 19)
+print lianxu_order_day(all_data, 29)
 
 
-# example = [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]
+
+# example = [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]
 
 
 
