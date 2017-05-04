@@ -113,6 +113,6 @@ for source_file in source_files:
 
     writer.writerows(data)
 
-    output_file.close()
+output_file.close()
 
 print 'done'
