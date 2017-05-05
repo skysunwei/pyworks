@@ -22,11 +22,11 @@ def month_to_year_str_format(i):
     return year_str + month_str
 
 
-source_files = ['saler_17_3']
+source_files = ['saler_17_4.csv']
 
 output_file_names = []
 
-current_month = 15
+current_month = 16
 next_month = current_month + 1
 
 for source_file in source_files:
@@ -48,24 +48,26 @@ for source_file in source_files:
     for i in range(1, next_month):
         stay_users_with_percent[i] = []
 
-    for line in open(source_file):
-        line_data = line.strip('\n').split(',')
+    csv_file = csv.reader(file(source_file, 'rb'))
 
+    lines = []
+    for data in csv_file:
+        lines.append(data)
+
+    for line in lines:
         try:
-            for i in range(1, len(line_data)):
-                if int(line_data[i]) > 0:
-                    new_users[i].append(line_data[0])
+            for i in range(1, len(line)):
+                if int(line[i]) > 0:
+                    new_users[i].append(line[0])
                     break
         except:
             print source_file
-            print line_data
+            print line
 
-    for line in open(source_file):
-        line_data = line.strip('\n').split(',')
-
-        for i in range(1, len(line_data)):
-            if int(line_data[i]) > 0:
-                users[i].append(line_data[0])
+    for line in lines:
+        for i in range(1, len(line)):
+            if int(line[i]) > 0:
+                users[i].append(line[0])
                 continue
 
     for i in new_users.keys():
