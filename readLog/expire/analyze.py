@@ -40,7 +40,6 @@ for line in lines:
     y, m, d = t[0:3]
     days_interval = (datetime.datetime.now() - datetime.datetime(y, m, d)).days - 1  # 当天不算
 
-
     if days_interval >= expireDays * (1 - key):
 
         output_line = []

@@ -2,13 +2,13 @@
 
 import csv
 
-
 # source_files = ['buyer',
 #                 'buyer_tel',
 #                 'buyer_saler_841',
 #                 'buyer_saler_237',
 #                 'buyer_saler_typical',
 #                 'buyer_tel_saler_typical']
+
 
 def month_to_year_str_format(i):
     start_year_num = 2016
@@ -113,6 +113,6 @@ for source_file in source_files:
 
     writer.writerows(data)
 
-output_file.close()
+    output_file.close()
 
 print 'done'
