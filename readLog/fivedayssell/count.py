@@ -53,7 +53,7 @@ def lianxu_order_day(datas, day_num):
                 user_ids.append(user_id)
                 break
 
-    print user_ids
+    # print user_ids
     return len(user_ids)
 
 all_data = []
