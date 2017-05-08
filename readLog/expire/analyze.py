@@ -15,7 +15,7 @@ key = 0.33
 
 header = 'SKU编号,货物名称,入库单号,入库时间,库内保存天数,已经入库天数,2/3预警天数,过期SKU数量,当前库存数量'
 
-output_file_name = '2017-04-01.csv'
+output_file_name = time.strftime('%Y-%m-%d',time.localtime(time.time())) + '.csv'
 output_file = file(output_file_name, 'wb')
 writer = csv.writer(output_file)
 
