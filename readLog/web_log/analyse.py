@@ -30,6 +30,25 @@ discover_page_users = []
 other_users = []
 
 
+def read_log(log):
+    result = {}
+
+    if log.find('a:', 0) == 0:
+        details = log.split(':', 2)
+        detail_datas = details[2].strip('{').strip('}').split(';')
+
+        for i in range(0, int(details[1])):
+            result[read_log(detail_datas[i * 2])] = read_log(detail_datas[i * 2 + 1])
+
+        return result
+
+    if log.find('i:', 0) == 0:
+        return int(log.split(':')[1])
+
+    if log.find('s:', 0) == 0:
+        return log.split(':')[2].strip('"')
+
+
 def read_log_file(log_file, day):
     for line in open(log_file):
 
@@ -41,6 +60,14 @@ def read_log_file(log_file, day):
             detail_datas = eval(temp_datas[4].split(' {')[0])
             url = detail_datas['1']
             client = detail_datas['2']
+
+            # print datas
+
+            # print line.strip('\n').split(' ', 5)[5]
+            #
+            # print read_log(line.strip('\n').split(' ', 4)[4])
+            #
+            # break
 
             if str_time.find(day) is 0:
                 if userId not in user_actions.keys():
@@ -55,7 +82,7 @@ def read_log_file(log_file, day):
         except Exception, e:
             print Exception, ":", e
             print line
-            # break
+            break
 
 
 def show_user_pages(user_id):
