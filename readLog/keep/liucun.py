@@ -140,7 +140,6 @@ for source_file in source_files:
                 stay_users_with_percent[stay_user].append(str(stay_users[stay_user][i]) + '\n' + ava_order_str)
             # stay_users_with_percent.append()
 
-
     # print stay_users_with_percent
 
     headline = ['月份']
