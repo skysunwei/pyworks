@@ -107,18 +107,39 @@ for source_file in source_files:
     # break
     # format with
 
+    # for stay_user in stay_users.keys():
+    #     # print stay_users[stay_user]
+    #     for i in range(0, len(stay_users[stay_user])):
+    #         if i is not 0:
+    #             if stay_users[stay_user][0] is not 0:
+    #                 with_percent = str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]) + '\n(' + '%.2f' %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
+    #                 stay_users_with_percent[stay_user].append(with_percent)
+    #             else:
+    #                 stay_users_with_percent[stay_user].append('0%')
+    #         else:
+    #             stay_users_with_percent[stay_user].append(str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]))
+    #         # stay_users_with_percent.append()
+
     for stay_user in stay_users.keys():
         # print stay_users[stay_user]
         for i in range(0, len(stay_users[stay_user])):
-            if i is not 0:
-                if stay_users[stay_user][0] is not 0:
-                    with_percent = str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]) + '\n(' + '%.2f' %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
-                    stay_users_with_percent[stay_user].append(with_percent)
-                else:
-                    stay_users_with_percent[stay_user].append('0%')
+            if stay_users[stay_user][i] is not 0:
+                ava_order_str = str(round(float(stay_users_orders[stay_user][i]) / float(stay_users[stay_user][i]), 2))
             else:
-                stay_users_with_percent[stay_user].append(stay_users[stay_user][i])
+                ava_order_str = ''
+
+            if stay_users[stay_user][0] is not 0:
+                percent_str = '(%.2f' % (stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
+            else:
+                percent_str = '(0%)'
+
+            if i is not 0:
+                with_percent = str(stay_users[stay_user][i]) + '\n' + ava_order_str + '\n' + percent_str
+                stay_users_with_percent[stay_user].append(with_percent)
+            else:
+                stay_users_with_percent[stay_user].append(str(stay_users[stay_user][i]) + '\n' + ava_order_str)
             # stay_users_with_percent.append()
+
 
     # print stay_users_with_percent
 
