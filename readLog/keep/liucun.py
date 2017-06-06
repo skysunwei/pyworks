@@ -40,9 +40,15 @@ for source_file in source_files:
     for i in range(1, next_month):
         users[i] = []
 
+    user_orders = {}
+
     stay_users = {}
     for i in range(1, next_month):
         stay_users[i] = []
+
+    stay_users_orders = {}
+    for i in range(1, next_month):
+        stay_users_orders[i] = []
 
     stay_users_with_percent = {}
     for i in range(1, next_month):
@@ -66,6 +72,13 @@ for source_file in source_files:
 
     for line in lines:
         for i in range(1, len(line)):
+            user_id = line[0]
+            if user_orders.has_key(user_id) is False:
+                user_orders[user_id] = []
+            user_orders[user_id].append(int(line[i]))
+
+    for line in lines:
+        for i in range(1, len(line)):
             if int(line[i]) > 0:
                 users[i].append(line[0])
                 continue
@@ -77,15 +90,29 @@ for source_file in source_files:
                 # print stay
                 stay_users[i].append(stay)
 
-    # format with %
+    for i in new_users.keys():
+        for j in users.keys():
+            if j >= i:
+                order_num = 0
+                stay_user_ids = list(set(new_users[i]).intersection(set(users[j])))
+                for stay_user_id in stay_user_ids:
+                    # print stay_user_id, i
+                    # print user_orders[stay_user_id]
+                    order_num += user_orders[stay_user_id][j - 1]
+                # print i, j
+                stay_users_orders[i].append(order_num)
+        # break
+
+    # print stay_users_orders
+    # break
+    # format with
 
     for stay_user in stay_users.keys():
         # print stay_users[stay_user]
         for i in range(0, len(stay_users[stay_user])):
             if i is not 0:
                 if stay_users[stay_user][0] is not 0:
-                    with_percent = str(stay_users[stay_user][i]) + '\n(' + \
-                          "%.2f" %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
+                    with_percent = str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]) + '\n(' + '%.2f' %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
                     stay_users_with_percent[stay_user].append(with_percent)
                 else:
                     stay_users_with_percent[stay_user].append('0%')
