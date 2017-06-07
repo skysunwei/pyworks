@@ -16,6 +16,7 @@ def month_to_year_str_format(i):
 
     month_str = '12月'
     year_str = str(start_year_num + (i - 1) / month_of_year) + '年'
+
     if i % month_of_year is not 0:
         month_str = str(i % month_of_year) + '月'
 
@@ -101,24 +102,6 @@ for source_file in source_files:
                     order_num += user_orders[stay_user_id][j - 1]
                 # print i, j
                 stay_users_orders[i].append(order_num)
-        # break
-
-    # print stay_users_orders
-    # break
-    # format with
-
-    # for stay_user in stay_users.keys():
-    #     # print stay_users[stay_user]
-    #     for i in range(0, len(stay_users[stay_user])):
-    #         if i is not 0:
-    #             if stay_users[stay_user][0] is not 0:
-    #                 with_percent = str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]) + '\n(' + '%.2f' %(stay_users[stay_user][i] * 100 / stay_users[stay_user][0]) + '%)'
-    #                 stay_users_with_percent[stay_user].append(with_percent)
-    #             else:
-    #                 stay_users_with_percent[stay_user].append('0%')
-    #         else:
-    #             stay_users_with_percent[stay_user].append(str(stay_users[stay_user][i]) + '\n' + str(stay_users_orders[stay_user][i]))
-    #         # stay_users_with_percent.append()
 
     for stay_user in stay_users.keys():
         # print stay_users[stay_user]
@@ -138,7 +121,6 @@ for source_file in source_files:
                 stay_users_with_percent[stay_user].append(with_percent)
             else:
                 stay_users_with_percent[stay_user].append(str(stay_users[stay_user][i]) + '\n' + ava_order_str)
-            # stay_users_with_percent.append()
 
     # print stay_users_with_percent
 

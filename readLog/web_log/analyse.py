@@ -1,5 +1,7 @@
 # coding: utf-8
 
+import re
+
 user_actions = {}
 
 domain_url = 'http://yhdx.5ixc.com/hao/'
@@ -53,36 +55,35 @@ def read_log_file(log_file, day):
     for line in open(log_file):
 
         try:
-            datas = line.strip('\n').split(']')
-            str_time = str(datas[0].strip('['))
-            temp_datas = datas[1].split(' ', 4)
-            userId = temp_datas[3]
-            detail_datas = eval(temp_datas[4].split(' {')[0])
-            url = detail_datas['1']
-            client = detail_datas['2']
+            str_time = re.findall(r"\[(.+?)\]", line)[0]
 
-            # print datas
+            temp_datas = re.findall(r"{(.+?)}", line)
 
-            # print line.strip('\n').split(' ', 5)[5]
-            #
-            # print read_log(line.strip('\n').split(' ', 4)[4])
-            #
-            # break
+            view_info = temp_datas[0].split(',')
+            user_info = temp_datas[1].split(',')
+
+            user_id = int(view_info[0].split(':')[1].strip('"'))
+            url = view_info[1].split(':', 1)[1].strip('"')
+            client = view_info[2].split(':')[1].strip('"')
+            user_nickname = user_info[1].split(':')[1].strip('"')
 
             if str_time.find(day) is 0:
-                if userId not in user_actions.keys():
-                    user_actions[userId] = []
+                if user_id not in user_actions.keys():
+                    user_actions[user_id] = []
 
-                user_actions[userId].append({str_time: url})
+                user_actions[user_id].append({str_time: url})
 
-                sql = 'INSERT INTO view(userId, url, client, dateline, day) ' \
-                      'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\');' \
-                      % (userId, url, client, str_time, day)
+                sql = 'INSERT INTO view(userId, nickname,  url, client, dateline, day) ' \
+                      'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\', \'%s\');' \
+                      % (user_id, user_nickname, url, client, str_time, day)
+
+                # print sql
+                # # break
 
         except Exception, e:
             print Exception, ":", e
             print line
-            break
+            # break
 
 
 def show_user_pages(user_id):
@@ -214,7 +215,7 @@ def show_pv_uv(search_page, page_name):
     print page_name, 'uv', page_uv
     print
 
-read_log_file('20170413.log', '2017-04-13')
+read_log_file('201706.log', '2017-06-03')
 
 # print len(user_actions)
 
