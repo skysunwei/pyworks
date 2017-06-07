@@ -24,9 +24,9 @@ def read_log_file(log_file, day):
 
             if str_time.find(day) is 0:
 
-                sql = 'INSERT INTO view(userId, nickname,  url, client, dateline, day) ' \
-                      'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\', \'%s\');' \
-                      % (user_id, user_nickname, url, client, str_time, day)
+                sql = 'INSERT INTO view(userId, url, client, dateline, day) ' \
+                      'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\');' \
+                      % (user_id, url, client, str_time, day)
 
                 sqls.append(sql)
 
