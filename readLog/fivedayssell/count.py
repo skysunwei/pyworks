@@ -1,3 +1,4 @@
+import os
 import csv
 import time, datetime
 
@@ -50,25 +51,32 @@ def lianxu_order_day(datas, day_num):
 
         for one_days in one_day_intervals.split(','):
             if len(one_days) >= day_num:
-                user_ids.append(user_id)
+                user_ids.append(str(user_id) + '\n')
                 break
 
-    # print user_ids
-    return len(user_ids)
+    return user_ids
 
 all_data = []
 
-file = csv.reader(file('saler.csv', 'rb'))
+csv_file = csv.reader(file('saler_17_5.csv', 'rb'))
 
-for data in file:
+for data in csv_file:
     all_data.append(data)
 
 print len(all_data)
-print lianxu_order_day(all_data, 4)
-print lianxu_order_day(all_data, 9)
-print lianxu_order_day(all_data, 19)
-print lianxu_order_day(all_data, 29)
 
-# example = [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]
+month = 5
+folder = '%syue-%sren/' % (str(month), len(all_data))
+os.makedirs(folder)
 
-# definefive()
+levels = [5, 10, 20, 30]
+
+
+for level in levels:
+    result = lianxu_order_day(all_data, level - 1)
+    filename = 'lianxu%sdan-%sren.txt' % (level, len(result))
+    print len(result)
+
+    f = file(folder + filename, "w+")
+    f.writelines(result)
+    f.close()
