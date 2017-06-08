@@ -69,11 +69,6 @@ print lianxu_order_day(all_data, 9)
 print lianxu_order_day(all_data, 19)
 print lianxu_order_day(all_data, 29)
 
-
-
 # example = [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]
-
-
-
 
 # definefive()
