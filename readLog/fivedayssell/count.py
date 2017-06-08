@@ -58,14 +58,14 @@ def lianxu_order_day(datas, day_num):
 
 all_data = []
 
-csv_file = csv.reader(file('saler_17_5.csv', 'rb'))
+csv_file = csv.reader(file('saler_17_4.csv', 'rb'))
 
 for data in csv_file:
     all_data.append(data)
 
 print len(all_data)
 
-month = 5
+month = 4
 folder = '%syue-%sren/' % (str(month), len(all_data))
 os.makedirs(folder)
 
