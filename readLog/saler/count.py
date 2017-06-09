@@ -60,7 +60,8 @@ for data in csv_file:
             for order_info in salers[userid]:
                 for order_day in order_info:
 
-                    if ((day_str_to_datetime(order_day) - day_str_to_datetime(kaitong)).days <= day_interval -1):
+                    days = (day_str_to_datetime(order_day) - day_str_to_datetime(kaitong)).days
+                    if (days <= day_interval - 1) and days >= 0:
                         order_counts += order_info[order_day]
 
             final_count.append(order_counts)
