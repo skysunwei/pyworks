@@ -2,6 +2,11 @@
 
 import re
 
+url_mapping = {'merchandise_detial': ''}
+
+send_coupon_user_ids = []
+for line in open('userid-coupon'):
+    send_coupon_user_ids.append(int(line))
 
 def read_log_file(log_file, day):
 
@@ -18,9 +23,15 @@ def read_log_file(log_file, day):
             user_info = temp_datas[1].split(',')
 
             user_id = int(view_info[0].split(':')[1].strip('"'))
+
+            if user_id in send_coupon_user_ids is False:
+                continue
+
             url = view_info[1].split(':', 1)[1].strip('"')
+            url = url.split("/share/")[1]
+
             client = view_info[2].split(':')[1].strip('"')
-            user_nickname = user_info[1].split(':')[1].strip('"')
+            # user_nickname = user_info[1].split(':')[1].strip('"')
 
             if str_time.find(day) is 0:
 
@@ -28,7 +39,7 @@ def read_log_file(log_file, day):
                       'VALUES(%s, \'%s\', \'%s\', \'%s\', \'%s\');' \
                       % (user_id, url, client, str_time, day)
 
-                sqls.append(sql)
+                sqls.append(sql + '\n')
 
         except Exception, e:
             print Exception, ":", e
@@ -39,4 +50,4 @@ def read_log_file(log_file, day):
 
     output.close()
 
-read_log_file('201706.log', '2017-06-03')
+read_log_file('201706.log', '2017-06-04')

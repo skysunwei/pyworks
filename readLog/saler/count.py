@@ -83,8 +83,3 @@ for k, v in items:
 f.close()
 
 print 'done'
-
-
-
-
-
