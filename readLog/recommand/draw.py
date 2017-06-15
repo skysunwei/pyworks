@@ -1,29 +1,27 @@
 # coding:utf-8
 
+import csv
 
-import turtle
+source_file_name = 'saler.csv'
 
-
-source_file_name = 'source.txt'
-
-
-nicknames = {}
+lines = []
 payorders = {}
 relations = {}
 root_relations = {}
 
+source_file = csv.reader(file(source_file_name, 'rb'))
+
+for the_line in source_file:
+    lines.append(the_line)
+
 
 def read():
 
-    for line in open(source_file_name):
-        line_data = line.split(',')
-        id = int(line_data[0])
-        pid = int(line_data[1])
-        nickname = line_data[2]
-        order_num = int(line_data[3])
+    for line in lines:
 
-        if id not in nicknames.keys():
-            nicknames[id] = nickname
+        id = int(line[0])
+        pid = int(line[1])
+        order_num = int(line[2])
 
         if id not in payorders.keys():
             payorders[id] = order_num
@@ -39,10 +37,9 @@ def root():
     ids = []
     pids = []
 
-    for line in open(source_file_name):
-        line_data = line.split(',')
-        id = int(line_data[0])
-        pid = int(line_data[1])
+    for line in lines:
+        id = int(line[0])
+        pid = int(line[1])
         ids.append(id)
         pids.append(pid)
 
@@ -55,12 +52,9 @@ def root():
 
 def size():
 
-    # print rootsalers
-
-    for line in open(source_file_name):
-        line_data = line.split(',')
-        id = int(line_data[0])
-        pid = int(line_data[1])
+    for line in lines:
+        id = int(line[0])
+        pid = int(line[1])
 
         if id in relations.keys() and pid in relations.keys():
             if pid not in root_relations.keys():
@@ -73,8 +67,8 @@ read()
 root()
 size()
 
-# print relations
-# print root_relations
+# print len(relations[237])
+# print len(root_relations)
 
 
 def calculate(k):
@@ -82,9 +76,11 @@ def calculate(k):
         i = 0
         # print k, len(relations[k]), relations[k]
         # print i
+
         for saler in root_relations[k]:
-            i = i + calculate(saler)
+            i += calculate(saler)
             # print i
+
         return len(relations[k]) + i
     else:
         if k in relations:
@@ -103,14 +99,14 @@ def sum_orders(list):
     return a
 
 
-def countorders(k):
+def count_orders(k):
     if root_relations.has_key(k):
         i = 0
         # print relations[k]
         # print k, sum_orders(relations[k]), relations[k]
         # print i
         for saler in root_relations[k]:
-            i = i + countorders(saler)
+            i = i + count_orders(saler)
             # print i
         return sum_orders(relations[k]) + i
     else:
@@ -120,8 +116,22 @@ def countorders(k):
         else:
             return 0
 
-# print calculate(50112)
+# print calculate(237)
 
-for k in root():
-    print k, ',', calculate(k), ',', countorders(k)
+# for k in root():
+#     print k, ',', calculate(k), ',', count_orders(k)
 
+f = file('output.csv', "w+")
+
+for line in lines:
+    userid = int(line[0])
+    data = '%s,%s,%s\n' % (userid, calculate(userid), count_orders(userid))
+    f.writelines(data)
+
+for userid in root():
+    data = '%s,%s,%s\n' % (userid, calculate(userid), count_orders(userid))
+    f.writelines(data)
+
+f.close()
+
+print 'done'
