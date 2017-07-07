@@ -44,7 +44,7 @@ for i in weixin:
     if weixin.count(i)>1:
        b[i] = weixin.count(i)
 
-print b
+# print b
 
 print [i for i in weixin if i not in yhdx]
 
