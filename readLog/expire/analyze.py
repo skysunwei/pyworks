@@ -3,7 +3,7 @@
 import csv
 import time, datetime
 
-csv_file = csv.reader(file('warehouse.csv', 'rb'))
+csv_file = csv.reader(file('warehouse3.csv', 'rb'))
 
 lines = []
 for data in csv_file:
