@@ -5,11 +5,9 @@ import quopri
 import csv
 import datetime
 
-
 vcf = 'BEGIN:VCARD\nVERSION:2.1\nN;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:;%s;;;\n' \
     'FN;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:%s\n' \
     'TEL;CELL:%s\nEND:VCARD\n'
-
 
 file = csv.reader(file('saler.csv', 'rb'))
 
