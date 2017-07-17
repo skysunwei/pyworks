@@ -1,9 +1,12 @@
 # coding:utf-8
 
 import os
-import quopri
+import sys
 import csv
+import quopri
 import datetime
+
+type = sys.getfilesystemencoding()
 
 vcf = 'BEGIN:VCARD\nVERSION:2.1\nN;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:;%s;;;\n' \
     'FN;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:%s\n' \
@@ -26,7 +29,7 @@ for line in file:
     if zxss.has_key(zxs) is False:
         zxss[zxs] = []
 
-    contact = '%s:%s(%s在%s购买%s)' % (line[8], line[4], line[5], line[6].strip('2017-'), line[7])
+    contact = '%s:%s(%s在%s购买%s)' % (line[8], line[4], line[5], line[6].replace('2017-', ''), line[7])
     zxss[zxs].append(contact)
 
 
@@ -44,10 +47,9 @@ for guwen in guwens:
         for contact in zxss[zxs]:
             info = contact.split(':')
             tel = info[0]
-            detail = quopri.encodestring(info[1])
+            shopping = info[1].decode('utf-8').encode(type)
+            detail = quopri.encodestring(shopping)
 
             f.writelines(vcf % (detail, detail, tel))
 
         f.close()
-
-print 'done'
