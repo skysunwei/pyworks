@@ -3,7 +3,7 @@
 import csv
 import time, datetime
 
-csv_file = csv.reader(file('warehouse3.csv', 'rb'))
+csv_file = csv.reader(file('merchandise.csv', 'rb'))
 
 lines = []
 for data in csv_file:
@@ -64,7 +64,7 @@ for line in lines:
             output_line.append(expireDays)
             output_line.append(days_interval)
             output_line.append(round(expireDays* (1 - key), 2))
-            output_line.append(merchandiseQuantiy)
+            output_line.append(num)
             output_line.append(merchandiseQuantiy)
 
             output_lines.append(output_line)
