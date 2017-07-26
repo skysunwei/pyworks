@@ -1,30 +1,37 @@
 # coding:utf-8
 
-import csv
+a = ''
 
-file = csv.reader(file('logcontent.csv', 'rb'))
+for line in open('test'):
+    a += line.strip('\n') + '\t'
 
-searchWords = {}
+print a
 
-for line in file:
-
-    if line[3] != '':
-        continue
-
-    line[2] = line[2].split(';')[1].split('"')[1]
-
-    if line[2] == '乐纯':
-        print line[2], line
-
-    if searchWords.has_key(line[2]):
-        searchWords[line[2]].append(line[0])
-    else:
-        searchWords[line[2]] = [line[0]]
-
-hotWords = sorted(searchWords.items(), key=lambda d: len(d[1]), reverse=True)
-
-for hot in hotWords[0: 19]:
-    print hot[0], len(hot[1])
+# import csv
+#
+# file = csv.reader(file('logcontent.csv', 'rb'))
+#
+# searchWords = {}
+#
+# for line in file:
+#
+#     if line[3] != '':
+#         continue
+#
+#     line[2] = line[2].split(';')[1].split('"')[1]
+#
+#     if line[2] == '乐纯':
+#         print line[2], line
+#
+#     if searchWords.has_key(line[2]):
+#         searchWords[line[2]].append(line[0])
+#     else:
+#         searchWords[line[2]] = [line[0]]
+#
+# hotWords = sorted(searchWords.items(), key=lambda d: len(d[1]), reverse=True)
+#
+# for hot in hotWords[0: 19]:
+#     print hot[0], len(hot[1])
 
 
 # for line in open('test'):
