@@ -64,7 +64,7 @@ for line in lines:
             output_line.append(expireDays)
             output_line.append(days_interval)
             output_line.append(round(expireDays* (1 - key), 2))
-            output_line.append(num)
+            output_line.append(min(num, merchandiseQuantiy))
             output_line.append(merchandiseQuantiy)
 
             output_lines.append(output_line)
