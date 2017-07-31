@@ -23,11 +23,11 @@ def month_to_year_str_format(i):
     return year_str + month_str
 
 
-source_files = ['saler_17_5.csv']
+source_files = ['saler_17_6.csv']
 
 output_file_names = []
 
-current_month = 17
+current_month = 18
 next_month = current_month + 1
 
 for source_file in source_files:
@@ -64,7 +64,7 @@ for source_file in source_files:
     for line in lines:
         try:
             for i in range(1, len(line)):
-                if int(line[i]) > 0:
+                if int(line[i]) >0:
                     new_users[i].append(line[0])
                     break
         except:
