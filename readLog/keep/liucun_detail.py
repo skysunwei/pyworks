@@ -4,7 +4,8 @@ import csv
 
 
 current_month = 18
-source_files = ['buyer_17_6.csv', 'saler_17_6.1.csv']
+
+source_files = ['buyer_17_7.csv', 'saler_17_7.csv']
 
 next_month = current_month + 1
 

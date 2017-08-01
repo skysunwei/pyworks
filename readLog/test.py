@@ -1,26 +1,26 @@
 # coding:utf-8
 
-# a = ''
-#
-# for line in open('test'):
-#     a += str(int(float(line.strip('\n')) * 4.6)) + '\t'
-#
-# print a
-
-a = []
-b = {}
+a = ''
 
 for line in open('test'):
-    a.append(int(line.strip('\n')))
+    a += str(int(float(line.strip('\n')))) + '\t'
 
-for line in open('test1.txt'):
-    datas = line.strip('\n').split('\t')
-    k = int(datas[0])
-    v = datas[1]
-    b[k] = v
+print a
 
-for i in a:
-    print b[i]
+# a = []
+# b = {}
+#
+# for line in open('test'):
+#     a.append(int(line.strip('\n')))
+#
+# for line in open('test1.txt'):
+#     datas = line.strip('\n').split('\t')
+#     k = int(datas[0])
+#     v = datas[1]
+#     b[k] = v
+#
+# for i in a:
+#     print b[i]
 
 # import csv
 #
