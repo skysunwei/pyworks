@@ -18,7 +18,7 @@ for line in reader:
     try:
         print line[0],',', district_mapping[line[1]]
     except:
-        print line[1], line[]
+        print line[1]
 
 #
 # rule = {}
