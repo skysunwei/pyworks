@@ -2,23 +2,46 @@
 
 import csv
 
-district_mapping = {}
+citys = {}
+districts = {}
 
-for line in open('district'):
-    districts = line.strip('\n').split(',')
-    district_mapping[districts[0]] = districts[1] + ',' + districts[2]
+for line in open('city.txt'):
+    datas = line.strip('\n').split(',')
+    citys[datas[0]] = datas[1]
 
-print district_mapping
+for line in open('district.txt'):
+    datas = line.strip('\n').split(',')
+    districts[datas[0]] = datas[1]
 
-csvfile = file('address.csv', 'rb')
+# print citys
+# print districts
+
+csvfile = file('shanghai.csv', 'rb')
 reader = csv.reader(csvfile)
+
+
+def remove_old(inputs):
+    inputs = inputs.replace('上海市', '').replace('上海市', '')
+
+    for x in citys.values():
+        inputs = inputs.replace(x, '')
+        inputs = inputs.replace(x.replace('市', ''), '')
+
+    for x in districts.values():
+        inputs = inputs.replace(x, '')
+        inputs = inputs.replace(x.replace('市', ''), '')
+
+    return inputs
+
 
 for line in reader:
 
     try:
-        print line[0],',', district_mapping[line[1]]
+        datas = line[0], ',上海市' + citys[line[1]] + districts[line[2]] + remove_old(line[3])
     except:
-        print line[1]
+        if line[1] != '5028':
+            print line[0], line[3]
+
 
 #
 # rule = {}
