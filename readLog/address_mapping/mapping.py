@@ -37,10 +37,11 @@ def remove_old(inputs):
 for line in reader:
 
     try:
-        datas = line[0], ',上海市' + citys[line[1]] + districts[line[2]] + remove_old(line[3])
+        print line[0], ',上海市' + citys[line[1]] + districts[line[2]] + remove_old(line[3])
     except:
-        if line[1] != '5028':
-            print line[0], line[3]
+        # if line[1] != '5028':
+        #     print line[0], line[3]
+        print
 
 
 #
