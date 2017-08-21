@@ -1,11 +1,15 @@
 # coding:utf-8
 
-a = ''
+import os
 
-for line in open('test'):
-    a += str(int(float(line.strip('\n')))) + '\t'
+print os.path.exists('yhdxlog')
 
-print a
+# a = ''
+#
+# for line in open('test'):
+#     a += str(int(float(line.strip('\n')))) + '\t'
+#
+# print a
 
 # a = []
 # b = {}

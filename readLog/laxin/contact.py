@@ -3,6 +3,7 @@
 import os
 import sys
 import csv
+import string
 import quopri
 import datetime
 
@@ -17,6 +18,8 @@ file = csv.reader(file('saler.csv', 'rb'))
 guwens = {}
 zxss = {}
 
+delset = string.punctuation
+
 for line in file:
 
     zxs = line[1]
@@ -29,20 +32,24 @@ for line in file:
     if zxss.has_key(zxs) is False:
         zxss[zxs] = []
 
-    contact = '%s:%s(%s%s%s)' % (line[8], line[4], line[5], line[6].replace('2017-', ''), line[7])
+    contact = '%s:%s(%s%s%s)' % (line[8], line[4], line[5], line[6], line[7])
     zxss[zxs].append(contact)
 
 
 date_folder = datetime.datetime.now().strftime('%Y-%m-%d')
-os.makedirs(date_folder)
+
+if os.path.exists(date_folder) is False:
+    os.makedirs(date_folder)
 
 for guwen in guwens:
-    folder_guwen = date_folder + '/' + guwen
-    os.makedirs(folder_guwen)
+    folder_guwen = date_folder + '/' + guwen.translate(None, delset)
+
+    if os.path.exists(folder_guwen) is False:
+        os.makedirs(folder_guwen)
 
     for zxs in guwens[guwen]:
 
-        f = open(folder_guwen + '/' + zxs + '.vcf', "w+")
+        f = open(folder_guwen + '/' + zxs.translate(None, delset) + '.vcf', "w+")
 
         for contact in zxss[zxs]:
             info = contact.split(':')
@@ -53,5 +60,3 @@ for guwen in guwens:
             f.writelines(vcf % (detail, detail, tel))
 
         f.close()
-
-print 'done'
