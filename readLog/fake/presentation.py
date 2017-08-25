@@ -1,7 +1,7 @@
 import csv
 import random
 
-csvfile = file('presentation.csv', 'rb')
+csvfile = file('presentation-8-24.csv', 'rb')
 reader = csv.reader(csvfile)
 
 for line in reader:
