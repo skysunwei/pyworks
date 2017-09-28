@@ -2,23 +2,21 @@
 
 import csv
 
+START_YEAR = 2016
+MONTHS_OF_YEAR = 12
 
-current_month = 18
-
-source_files = ['buyer_17_7.csv', 'saler_17_7.csv']
-
+current_month = 21
+source_files = ['buyer_17_9.csv', 'saler_17_9.csv']
 next_month = current_month + 1
 
 
 def month_to_year_str_format(i):
-    start_year_num = 2016
-    month_of_year = 12
 
     month_str = '12月'
-    year_str = str(start_year_num + (i - 1) / month_of_year) + '年'
+    year_str = str(START_YEAR + (i - 1) / MONTHS_OF_YEAR) + '年'
 
-    if i % month_of_year is not 0:
-        month_str = str(i % month_of_year) + '月'
+    if i % MONTHS_OF_YEAR is not 0:
+        month_str = str(i % MONTHS_OF_YEAR) + '月'
 
     return year_str + month_str
 
