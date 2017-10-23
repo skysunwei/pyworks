@@ -47,13 +47,23 @@ for line in open(file_name):
     all_merchtypes.append(Merchtype(merchandiseId, merchandiseName, merchandiseTag, name, price, qimai))
 
 
+output = open('result.txt', 'w')
+
 for i in range(len(all_merchtypes)):
     money = all_merchtypes[i].money
 
     for j in range(i+1, len(all_merchtypes)):
         shiji = money + all_merchtypes[j].money - Coupon
         if (shiji < 10) and (shiji > 0):
-            print all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].merchandiseTag, all_merchtypes[i].money
-            print all_merchtypes[j].merchandiseName, all_merchtypes[j].name, all_merchtypes[j].merchandiseTag, all_merchtypes[j].money
-            print money + all_merchtypes[j].money
-            print
+
+            output.writelines('%s, %s, %s, %s' % (all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].merchandiseTag, all_merchtypes[i].money))
+            output.writelines('\n')
+            output.writelines('%s, %s, %s, %s' % (all_merchtypes[j].merchandiseName, all_merchtypes[j].name, all_merchtypes[j].merchandiseTag, all_merchtypes[j].money))
+            output.writelines('\n')
+            output.writelines(str(money + all_merchtypes[j].money))
+            output.writelines('\n')
+            output.writelines('\n')
+
+output.close()
+
+print 'done'
