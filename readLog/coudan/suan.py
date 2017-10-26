@@ -3,8 +3,8 @@
 
 file_name = 'data.txt'
 
-Coupon = 188
-
+Coupon = 148
+FanWei = 10
 
 class Merchtype(object):
     merchandiseId = 0
@@ -30,16 +30,19 @@ all_merchtypes = []
 
 
 for line in open(file_name):
-    datas = line.strip('\n').split('\t')
+    datas = line.strip('\n').split(',')
 
-    merchandiseId = int(datas[0])
-    merchandiseName = datas[1]
-    merchandiseTag = datas[2]
+    try:
+        merchandiseId = int(datas[0])
+        merchandiseName = datas[1]
+        merchandiseTag = datas[2]
 
-    name = datas[3]
-    price = float(datas[4])
+        name = datas[3]
+        price = float(datas[4])
 
-    qimai = int(datas[5])
+        qimai = int(datas[5])
+    except:
+        print line
 
     if (merchandiseTag == '不可用券') is True:
         continue
@@ -53,8 +56,10 @@ for i in range(len(all_merchtypes)):
     money = all_merchtypes[i].money
 
     for j in range(i+1, len(all_merchtypes)):
+
         shiji = money + all_merchtypes[j].money - Coupon
-        if (shiji < 10) and (shiji > 0):
+
+        if (shiji < FanWei) and (shiji > 0):
 
             output.writelines('%s, %s, %s, %s' % (all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].merchandiseTag, all_merchtypes[i].money))
             output.writelines('\n')
