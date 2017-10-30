@@ -6,6 +6,7 @@ file_name = 'data.txt'
 Coupon = 148
 FanWei = 10
 
+
 class Merchtype(object):
     merchandiseId = 0
     merchandiseName = ''
@@ -50,7 +51,7 @@ for line in open(file_name):
     all_merchtypes.append(Merchtype(merchandiseId, merchandiseName, merchandiseTag, name, price, qimai))
 
 
-output = open('result.txt', 'w')
+output = open('result.csv', 'w')
 
 for i in range(len(all_merchtypes)):
     money = all_merchtypes[i].money
@@ -61,12 +62,12 @@ for i in range(len(all_merchtypes)):
 
         if (shiji < FanWei) and (shiji > 0):
 
-            output.writelines('%s, %s, %s, %s' % (all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].merchandiseTag, all_merchtypes[i].money))
-            output.writelines('\n')
-            output.writelines('%s, %s, %s, %s' % (all_merchtypes[j].merchandiseName, all_merchtypes[j].name, all_merchtypes[j].merchandiseTag, all_merchtypes[j].money))
-            output.writelines('\n')
+            output.writelines('%s(%s - %s)[%s]' % (all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].money, all_merchtypes[i].merchandiseTag))
+            output.writelines(',')
+            output.writelines('%s(%s - %s)[%s]' % (all_merchtypes[j].merchandiseName, all_merchtypes[j].name, all_merchtypes[j].money, all_merchtypes[j].merchandiseTag))
+            output.writelines(',')
             output.writelines(str(money + all_merchtypes[j].money))
-            output.writelines('\n')
+
             output.writelines('\n')
 
 output.close()
