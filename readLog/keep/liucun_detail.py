@@ -5,8 +5,8 @@ import csv
 START_YEAR = 2016
 MONTHS_OF_YEAR = 12
 
-current_month = 21
-source_files = ['buyer_17_9.csv', 'saler_17_9.csv']
+current_month = 22
+source_files = ['saler_17_10.csv']
 next_month = current_month + 1
 
 
