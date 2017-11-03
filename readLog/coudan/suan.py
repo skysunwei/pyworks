@@ -3,8 +3,8 @@
 
 file_name = 'data.txt'
 
-Coupon = 148
-FanWei = 10
+Coupon = 600
+FanWei = 100
 
 
 class Merchtype(object):
