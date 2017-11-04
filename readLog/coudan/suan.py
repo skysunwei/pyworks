@@ -1,10 +1,13 @@
 #-*- coding: UTF-8 -*-
 
+import itertools
 
 file_name = 'data.txt'
 
 Coupon = 600
-FanWei = 100
+FanWei = 10
+N_Pin_Zu = 4
+Filter_Words = ['蛋糕', '大闸蟹']
 
 
 class Merchtype(object):
@@ -27,8 +30,7 @@ class Merchtype(object):
             self.money = price * qimai
     pass
 
-all_merchtypes = []
-
+price_group = {}
 
 for line in open(file_name):
     datas = line.strip('\n').split(',')
@@ -48,27 +50,56 @@ for line in open(file_name):
     if (merchandiseTag == '不可用券') is True:
         continue
 
-    all_merchtypes.append(Merchtype(merchandiseId, merchandiseName, merchandiseTag, name, price, qimai))
+    has_word = False
 
+    for word in Filter_Words:
+        if word in merchandiseName:
+            has_word = True
+            break
+
+        # print merchandiseName
+    if has_word is True:
+        continue
+
+    merchtype = Merchtype(merchandiseId, merchandiseName, merchandiseTag, name, price, qimai)
+
+    price_key = round(price * qimai, 2) if qimai != 0 else price
+
+    if price in price_group.keys():
+        price_group[price_key].append(merchtype)
+    else:
+        price_group[price_key] = [merchtype]
+
+
+prices = price_group.keys()
+price_all_zuhe = []
+
+for i in range(1, N_Pin_Zu):
+    iter = itertools.combinations(prices, i)
+    price_all_zuhe.append(list(iter))
+
+output_data = []
+
+for items in price_all_zuhe:
+    for item in items:
+        zongjia = sum(item)
+
+        gape = zongjia - Coupon
+
+        if (gape < FanWei) and (gape > 0):
+            output_data.append(item)
+            # print item, zongjia
 
 output = open('result.csv', 'w')
 
-for i in range(len(all_merchtypes)):
-    money = all_merchtypes[i].money
+for items in output_data:
+    for item in items:
 
-    for j in range(i+1, len(all_merchtypes)):
+        for merchtype in price_group[item]:
+            output.writelines('%s(%s: %s),' % (merchtype.merchandiseName, merchtype.name, merchtype.money))
+        output.writelines('\n')
 
-        shiji = money + all_merchtypes[j].money - Coupon
-
-        if (shiji < FanWei) and (shiji > 0):
-
-            output.writelines('%s(%s - %s)[%s]' % (all_merchtypes[i].merchandiseName, all_merchtypes[i].name, all_merchtypes[i].money, all_merchtypes[i].merchandiseTag))
-            output.writelines(',')
-            output.writelines('%s(%s - %s)[%s]' % (all_merchtypes[j].merchandiseName, all_merchtypes[j].name, all_merchtypes[j].money, all_merchtypes[j].merchandiseTag))
-            output.writelines(',')
-            output.writelines(str(money + all_merchtypes[j].money))
-
-            output.writelines('\n')
+    output.writelines('%s,\n\n' % sum(items))
 
 output.close()
 
