@@ -5,9 +5,14 @@
 import csv
 import xlrd
 import pandas as pd
-import numpy as np
 
 days = [20171103]
+
+
+def save(filename, contents):
+    fh = open(filename, 'w')
+    fh.write(contents)
+    fh.close()
 
 
 def read_xlsx(day, type):
@@ -38,38 +43,44 @@ def read_xlsx(day, type):
     return list(set(ids))
 
 
-for day in days:
-    active_ids = read_xlsx(day, 'Active')
+csvfile = file('saler.csv', 'rb')
+reader = csv.reader(csvfile)
 
-    action_ids = read_xlsx(day, 'Share') + read_xlsx(day, 'Retweet')
+day = days[0]
+active_ids = read_xlsx(day, 'Active')
+action_ids = read_xlsx(day, 'Share') + read_xlsx(day, 'Retweet')
 
-    print len(active_ids)
-    print len(action_ids)
+print '活跃人数 : ', len(active_ids)
+print '有核心动作人数 :', len(action_ids)
+print '甄选师人数 :', len(open("saler.csv").readlines())
 
-    csvfile = file('saler.csv', 'rb')
-    reader = csv.reader(csvfile)
+saler_ids = []
+saler_ranks = []
+saler_tags = []
+active_tags = []
+action_tags = []
 
-    saler_ids = []
-    saler_ranks = []
-    saler_tags = []
-    active_tags = []
-    action_tags = []
+for line in reader:
+    saler_id = int(line[0])
 
-    for line in reader:
-        saler_id = int(line[0])
+    saler_ids.append(saler_id)
+    saler_ranks.append(line[1])
+    saler_tags.append(line[2])
 
-        saler_ids.append(saler_id)
-        saler_ranks.append(int(line[1]))
-        saler_tags.append(int(line[2]))
+    active_tags.append('活跃' if saler_id in active_ids else '不活跃')
+    action_tags.append('有' if saler_id in action_ids else '无')
 
-        active_tags.append(1 if saler_id in active_ids else 0)
-        action_tags.append(1 if saler_id in action_ids else 0)
+df = pd.DataFrame({"id": saler_ids,
+                   "rank": saler_ranks,
+                   "tag": saler_tags,
+                   "active": active_tags,
+                   "action": action_tags
+                   });
 
-    df = pd.DataFrame({"id": saler_ids,
-                       "rank": saler_ranks,
-                       "tag": saler_tags,
-                       "active": active_tags,
-                       "action": action_tags
-                       });
+write_to_file = df.groupby(['active', 'action', 'rank']).size()
 
-    print df.groupby(['action', 'active']).size()
+(write_to_file.to_frame()).to_csv(str(day) + '_rank.csv')
+
+write_to_file = df.groupby(['active', 'action', 'tag']).size()
+
+(write_to_file.to_frame()).to_csv(str(day) + '_tag.csv')
