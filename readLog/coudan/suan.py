@@ -4,7 +4,7 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 600
+Coupon = 158
 FanWei = 10
 N_Pin_Zu = 4
 Filter_Words = ['蛋糕', '大闸蟹']
