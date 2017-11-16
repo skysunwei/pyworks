@@ -67,7 +67,7 @@ read()
 root()
 size()
 
-# print len(relations[237])
+print len(relations[237])
 # print len(root_relations)
 
 
