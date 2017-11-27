@@ -4,7 +4,7 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 158
+Coupon = 129
 FanWei = 10
 N_Pin_Zu = 4
 Filter_Words = ['蛋糕', '大闸蟹']
@@ -57,7 +57,7 @@ for line in open(file_name):
             has_word = True
             break
 
-        # print merchandiseName
+    # print merchandiseName
     if has_word is True:
         continue
 
@@ -65,7 +65,7 @@ for line in open(file_name):
 
     price_key = round(price * qimai, 2) if qimai != 0 else price
 
-    if price in price_group.keys():
+    if price_key in price_group.keys():
         price_group[price_key].append(merchtype)
     else:
         price_group[price_key] = [merchtype]
