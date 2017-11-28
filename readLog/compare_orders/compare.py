@@ -21,12 +21,21 @@
 zhongxin = []
 yhdx = []
 
+<<<<<<< HEAD
 folder = '17-6'
 
 for line in open(folder + '/a'):
     zhongxin.append(line.strip('\n'))
 
 for line in open(folder + '/b'):
+=======
+folder = '17-11'
+
+for line in open(folder + '/weixin.txt'):
+    zhongxin.append(line.strip('\n'))
+
+for line in open(folder + '/yhdx.txt'):
+>>>>>>> 653c327b65b5cae9951d5c85e5fd420ca2714c94
     yhdx.append(line.strip('\n').split(',')[0])
 
 print len(a)

@@ -4,24 +4,30 @@ import csv
 
 citys = {}
 districts = {}
+district_names = {}
 
-for line in open('city.txt'):
+folder_name = 'chongqing/'
+province_name = '重庆市'
+provinceid = '22'
+file_name = folder_name + 'chongqing.csv'
+
+for line in open(folder_name + 'city.txt'):
     datas = line.strip('\n').split(',')
     citys[datas[0]] = datas[1]
 
-for line in open('district.txt'):
+for line in open(folder_name + 'district.txt'):
     datas = line.strip('\n').split(',')
     districts[datas[0]] = datas[1]
+    district_names[datas[0]] = datas[2]
 
-# print citys
-# print districts
 
-csvfile = file('shanghai.csv', 'rb')
+csvfile = file(file_name, 'rb')
 reader = csv.reader(csvfile)
 
 
 def remove_old(inputs):
-    inputs = inputs.replace('上海市', '').replace('上海市', '')
+
+    inputs = inputs.replace(province_name, '').replace(province_name, '')
 
     for x in citys.values():
         inputs = inputs.replace(x, '')
@@ -34,10 +40,11 @@ def remove_old(inputs):
     return inputs
 
 
+print 'addressid,province,city,district,address'
 for line in reader:
 
     try:
-        print line[0], ',上海市' + citys[line[1]] + districts[line[2]] + remove_old(line[3])
+        print line[0] + ',' + provinceid + ',' + line[3] + ',' + districts[line[3]], ',' + province_name + citys[line[3]] + district_names[line[3]] + remove_old(line[4])
     except:
         # if line[1] != '5028':
         #     print line[0], line[3]
