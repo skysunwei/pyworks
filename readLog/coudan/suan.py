@@ -4,11 +4,11 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 129
-FanWei = 10
+Coupon = 499
+FanWei = 30
 N_Pin_Zu = 4
 Filter_Words = ['蛋糕', '大闸蟹']
-
+Focus_Tag = '生活'
 
 class Merchtype(object):
     merchandiseId = 0
@@ -50,15 +50,18 @@ for line in open(file_name):
     if (merchandiseTag == '不可用券') is True:
         continue
 
-    has_word = False
+    has_filter_word = False
 
     for word in Filter_Words:
         if word in merchandiseName:
-            has_word = True
+            has_filter_word = True
             break
 
     # print merchandiseName
-    if has_word is True:
+    if has_filter_word is True:
+        continue
+
+    if (Focus_Tag is not '') and (Focus_Tag != merchandiseTag):
         continue
 
     merchtype = Merchtype(merchandiseId, merchandiseName, merchandiseTag, name, price, qimai)
