@@ -23,11 +23,11 @@ def month_to_year_str_format(i):
     return year_str + month_str
 
 
-source_files = ['saler_17_6.csv']
+source_files = ['saler_17_10.csv']
 
 output_file_names = []
 
-current_month = 18
+current_month = 22
 next_month = current_month + 1
 
 for source_file in source_files:

@@ -21,16 +21,16 @@
 zhongxin = []
 yhdx = []
 
-folder = '17-7'
+folder = '17-6'
 
-for line in open(folder + '/zhongxin'):
+for line in open(folder + '/a'):
     zhongxin.append(line.strip('\n'))
 
-for line in open(folder + '/yhdx'):
+for line in open(folder + '/b'):
     yhdx.append(line.strip('\n').split(',')[0])
 
-print len(zhongxin)
-print len(yhdx)
+print len(a)
+print len(b)
 
 a = {}
 for i in zhongxin:
@@ -53,11 +53,11 @@ for i in c:
     print i, a[i], b[i]
 
 
-print 'zhongxin duo'
+print 'a duo'
 print [i for i in zhongxin if i not in yhdx]
 
 print
-print 'yhdx duo'
+print 'b duo'
 print [i for i in yhdx if i not in zhongxin]
 
 
