@@ -5,13 +5,14 @@ import csv
 START_YEAR = 2016
 MONTHS_OF_YEAR = 12
 
-current_month = 23
-source_files = ['buyer_17_11.csv', 'saler_17_11.csv']
+current_month = 25
+source_files = {'buyer_17_11_all.csv': ['buyer_17_12.csv', 'buyer_18_1.csv']}
 next_month = current_month + 1
+
+KONG_MONTH = ['' for x in range(23)]
 
 
 def month_to_year_str_format(i):
-
     month_str = '12月'
     year_str = str(START_YEAR + (i - 1) / MONTHS_OF_YEAR) + '年'
 
@@ -41,8 +42,6 @@ def write_keep_file(stay_users, file_attach, stay_users_moneys):
     for i in range(1, next_month):
         headline.append(month_to_year_str_format(i))
 
-    # print headline
-
     output_file = file(output_file_name, 'wb')
     writer = csv.writer(output_file)
     writer.writerow(headline)
@@ -53,14 +52,36 @@ def write_keep_file(stay_users, file_attach, stay_users_moneys):
         data.append([month_to_year_str_format(i)] +
                     ['']*(current_month - len(stay_users_with_percent[i])) + stay_users_with_percent[i])
 
-    # print data
-
     writer.writerows(data)
-
     output_file.close()
 
 
-for source_file in source_files:
+def read_source_file():
+    user_datas = {}
+
+    for data in csv.reader(file(source_file, 'rb')):
+        temp_data = data[0]
+        data.remove(temp_data)
+        user_datas[temp_data] = data
+
+    for i in range(len(source_files[source_file])):
+        addition_user_datas = {}
+
+        for data in csv.reader(file(source_files[source_file][i], 'rb')):
+            addition_user_datas[data[0]] = str(data[1])
+
+        for key in user_datas.keys():
+            if addition_user_datas.has_key(key):
+                user_datas[key] += [addition_user_datas[key]]
+
+        for key in addition_user_datas.keys():
+            if user_datas.has_key(key) is False:
+                user_datas[key] = []
+                user_datas[key] += KONG_MONTH + ['' for x in range(i)] + [addition_user_datas[key]]
+
+    return user_datas
+
+for source_file in source_files.keys():
 
     new_users = {}
     for i in range(1, next_month):
@@ -85,11 +106,11 @@ for source_file in source_files:
     for i in range(1, next_month):
         stay_users_moneys[i] = []
 
-    csv_file = csv.reader(file(source_file, 'rb'))
+    user_datas = read_source_file()
 
     lines = []
-    for data in csv_file:
-        lines.append(data)
+    for key in user_datas.keys():
+        lines.append([key] + user_datas[key])
 
     for line in lines:
         try:
@@ -97,8 +118,7 @@ for source_file in source_files:
                 if '&' in line[i]:
                     new_users[i].append(line[0])
                     break
-        except:
-            print source_file
+        except Exception, e:
             print line
             exit()
 
@@ -121,7 +141,6 @@ for source_file in source_files:
             if user_moneys.has_key(user_id) is False:
                 user_moneys[user_id] = []
             user_moneys[user_id].append(the_money)
-
 
     for line in lines:
         for i in range(1, len(line)):
@@ -147,6 +166,7 @@ for source_file in source_files:
                     # print user_orders[stay_user_id]
                     order_num += user_orders[stay_user_id][j - 1]
                     money_spend += user_moneys[stay_user_id][j - 1]
+
                 # print i, j
                 stay_users_orders[i].append(order_num)
                 stay_users_moneys[i].append(money_spend)
@@ -154,6 +174,5 @@ for source_file in source_files:
     write_keep_file(stay_users, 'users', stay_users)
     write_keep_file(stay_users, 'orders', stay_users_orders)
     write_keep_file(stay_users, 'moneys', stay_users_moneys)
-
 
 print 'done'
