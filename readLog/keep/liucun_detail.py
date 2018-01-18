@@ -6,10 +6,14 @@ START_YEAR = 2016
 MONTHS_OF_YEAR = 12
 
 current_month = 25
-source_files = {'buyer_17_11_all.csv': ['buyer_17_12.csv', 'buyer_18_1.csv']}
 next_month = current_month + 1
 
 KONG_MONTH = ['' for x in range(23)]
+
+source_files = {
+        'buyer_17_11_all.csv': ['buyer_17_12.csv', 'buyer_18_1.csv'],
+        'saler_17_11_all.csv': ['saler_17_12.csv']
+    }
 
 
 def month_to_year_str_format(i):
