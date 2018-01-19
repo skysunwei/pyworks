@@ -12,7 +12,7 @@ KONG_MONTH = ['' for x in range(23)]
 
 source_files = {
         'buyer_17_11_all.csv': ['buyer_17_12.csv', 'buyer_18_1.csv'],
-        'saler_17_11_all.csv': ['saler_17_12.csv']
+        'saler_17_11_all.csv': ['saler_17_12.csv', 'saler_18_1.csv']
     }
 
 
