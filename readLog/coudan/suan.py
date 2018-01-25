@@ -45,7 +45,7 @@ for line in open(file_name):
 
         qimai = int(datas[5])
     except:
-        print line
+        print(line)
 
     if (merchandiseTag == '不可用券') is True:
         continue
@@ -106,4 +106,4 @@ for items in output_data:
 
 output.close()
 
-print 'done'
+print('done')
