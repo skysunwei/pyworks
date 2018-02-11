@@ -61,6 +61,7 @@ def write_keep_file(stay_users, file_attach, stay_users_moneys):
 
 
 def read_source_file():
+
     user_datas = {}
 
     for data in csv.reader(file(source_file, 'rb')):
@@ -71,17 +72,24 @@ def read_source_file():
     for i in range(len(source_files[source_file])):
         addition_user_datas = {}
 
+        print source_files[source_file][i]
+
         for data in csv.reader(file(source_files[source_file][i], 'rb')):
             addition_user_datas[data[0]] = str(data[1])
+
+        print len(addition_user_datas)
 
         for key in user_datas.keys():
             if addition_user_datas.has_key(key):
                 user_datas[key] += [addition_user_datas[key]]
 
         for key in addition_user_datas.keys():
-            if user_datas.has_key(key) is False:
-                user_datas[key] = []
-                user_datas[key] += KONG_MONTH + ['' for x in range(i)] + [addition_user_datas[key]]
+            if key not in user_datas:
+                user_datas[key] = KONG_MONTH + ['' for x in range(i)] + [addition_user_datas[key]]
+
+        for key in user_datas.keys():
+            if key not in addition_user_datas:
+                user_datas[key] += ['']
 
     return user_datas
 
