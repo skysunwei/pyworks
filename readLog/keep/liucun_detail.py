@@ -1,10 +1,11 @@
 # coding: utf-8
 
 import csv
+import os
+
 
 START_YEAR = 2016
 MONTHS_OF_YEAR = 12
-
 current_month = 25
 next_month = current_month + 1
 
@@ -26,10 +27,15 @@ def month_to_year_str_format(i):
     return year_str + month_str
 
 
+def get_folder_name():
+    return str(START_YEAR + current_month / MONTHS_OF_YEAR) + '-' + \
+           str(current_month % MONTHS_OF_YEAR)
+
+
 def write_keep_file(stay_users, file_attach, stay_users_moneys):
 
     # generate file name
-    output_file_name = source_file + '_' + str(current_month) + '_' + file_attach + '.csv'
+    output_file_name = get_folder_name() + '/' + source_file + '_' + str(current_month) + '_' + file_attach + '.csv'
 
     stay_users_with_percent = {}
     for i in range(1, next_month):
@@ -92,6 +98,11 @@ def read_source_file():
                 user_datas[key] += ['']
 
     return user_datas
+
+
+if os.path.exists(get_folder_name()) is False:
+    os.mkdir(get_folder_name())
+
 
 for source_file in source_files.keys():
 
