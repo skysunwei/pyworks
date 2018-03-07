@@ -1,3 +1,5 @@
+import time
+
 salerids = []
 
 for line in open('salerid'):
@@ -14,4 +16,17 @@ for line in open('salerid'):
     except Exception, e:
         print line, e
 
-print ','.join(salerids)
+todaysalerids = ','.join(salerids)
+
+todaydatestr = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+
+infile = open('base.sql','r')
+outfile = open('check.sql', 'w')
+
+for line in infile:
+    outfile.write(line.replace('todaysalerids', todaysalerids).replace('todaydatestr', todaydatestr))
+
+infile.close()
+outfile.close()
+
+print 'done'
