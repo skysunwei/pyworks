@@ -1,4 +1,5 @@
 import time
+import datetime
 
 salerids = []
 
@@ -18,13 +19,15 @@ for line in open('salerid'):
 
 todaysalerids = ','.join(salerids)
 
-todaydatestr = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+today = datetime.date.today()
+oneday = datetime.timedelta(days=1)
+yesterdaydatestr = today - oneday
 
 infile = open('base.sql','r')
 outfile = open('check.sql', 'w')
 
 for line in infile:
-    outfile.write(line.replace('todaysalerids', todaysalerids).replace('todaydatestr', todaydatestr))
+    outfile.write(line.replace('todaysalerids', todaysalerids).replace('todaydatestr', yesterdaydatestr))
 
 infile.close()
 outfile.close()
