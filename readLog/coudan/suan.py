@@ -4,11 +4,11 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 499
-FanWei = 20
+Coupon = 168
+FanWei = 15
 N_Pin_Zu = 3
 Filter_Words = ['蛋糕', '大闸蟹','礼品卡']
-Focus_Tag = '生活'
+Focus_Tag = '仙女节'
 
 class Merchtype(object):
     merchandiseId = 0
