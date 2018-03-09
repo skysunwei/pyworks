@@ -4,7 +4,7 @@ import csv
 
 source_file_name = 'saler.csv'
 
-saler_guwens = {1916:1, 237:6}
+saler_guwens = {27997: 69, 38617: 70, 67413: 71, 145007: 72, 48416: 73, 89159: 74, 237: 75, 81560: 76}
 
 lines = []
 
@@ -24,7 +24,11 @@ def read():
     for line in lines:
         id = int(line[0])
         pid = int(line[1])
-        order_num = int(line[2])
+
+        try:
+            order_num = int(line[2])
+        except:
+            order_num = 0
 
         if id not in payorders.keys():
             payorders[id] = order_num
