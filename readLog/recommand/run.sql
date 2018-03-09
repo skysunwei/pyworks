@@ -10,4 +10,4 @@ FROM saler
 	LEFT JOIN vipuser_rebate ON saler.userid = vipuser_rebate.user_id
 WHERE saler.status=1
 	AND saler.pid != 0
-    AND saler.userid NOT IN (27997,38617,67413,145007,48416,89159,237,81560)
+    AND saler.userid NOT IN (27997,38617,67413,145007,48416,89159,237,81560, )
