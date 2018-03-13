@@ -3,20 +3,15 @@
 
 -- 购买人和推荐人关系表
 
-SELECT a.user_id,
-       a.recommend_user_id,
-       b.tel,
+SELECT payorder.buyerid,
+       saler.pid,
+       recipientaddress.tel,
        '1' AS '1'
 FROM
-  (SELECT vipuser_rebate.order_id,
-          vipuser_rebate.user_id,
-          vipuser_rebate.recommend_user_id
-   FROM vipuser_rebate
-   WHERE vipuser_rebate.order_status=2) a
-LEFT JOIN
-  (SELECT payorder.orderid,
-          recipientaddress.userid,
-          recipientaddress.tel
-   FROM payorder,
-        recipientaddress
-   WHERE payorder.addressid=recipientaddress.addressid) b ON a.order_id=b.orderid
+  payorder
+    LEFT JOIN saler ON payorder.buyerid = saler.userid
+, paysuborder, recipientaddress
+WHERE payorder.orderid = paysuborder.orderid
+AND payorder.addressid = recipientaddress.addressid
+AND paysuborder.merchandiseid = 998
+AND saler.pid != 0
