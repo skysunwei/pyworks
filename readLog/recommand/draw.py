@@ -4,13 +4,17 @@ import csv
 
 source_file_name = 'saler.csv'
 
-saler_guwens = {27997: 69, 38617: 70, 67413: 71, 145007: 72, 48416: 73, 89159: 74, 237: 75, 81560: 76}
+#saler_guwens = {27997: 69, 38617: 70, 67413: 71, 145007: 72, 48416: 73, 89159: 74, 237: 75, 81560: 76}
+
+# saler_guwens = {27997: '星星', 38617: '王哲君', 67413: '笑笑', 145007: '小颖', 48416: '靖', 89159: '建新', 237: '赵影', 81560: '峥'}
+
+saler_guwens = {27997: '星星', 38617: '王哲君', 67413: '笑笑', 145007: '小颖', 48416: '靖', 89159: '建新', 237: '赵影'}
 
 lines = []
 
 vips = []
 
-payorders = {}
+tels = {}
 
 relations = {}
 root_relations = {}
@@ -24,14 +28,10 @@ def read():
     for line in lines:
         id = int(line[0])
         pid = int(line[1])
+        tel = line[2]
 
-        try:
-            order_num = int(line[2])
-        except:
-            order_num = 0
-
-        if id not in payorders.keys():
-            payorders[id] = order_num
+        if id not in tels.keys():
+            tels[id] = tel
 
         if pid not in relations.keys():
             relations[pid] = []
@@ -115,7 +115,7 @@ def calculate(root_saler_id):
 
 f = file('output.csv', "w+")
 
-f.writelines('guwenID, zxsID \n')
+f.writelines('guwenID, zxsID, phone \n')
 
 for gonghuizhang in saler_guwens.keys():
 
@@ -123,7 +123,7 @@ for gonghuizhang in saler_guwens.keys():
     intersection = [v for v in all_zxs if v in vips]
 
     for vip_zxs in intersection:
-        f.writelines(str(saler_guwens[gonghuizhang]) + ',' + str(vip_zxs) + '\n')
+        f.writelines(str(saler_guwens[gonghuizhang]) + ',' + str(vip_zxs) + ',' + tels[vip_zxs] + '\n')
 
 f.close()
 
@@ -137,7 +137,7 @@ exit()
 def sum_orders(list):
     a = 0
     for l in list:
-        a += payorders[l]
+        a += tels[l]
     return a
 
 
