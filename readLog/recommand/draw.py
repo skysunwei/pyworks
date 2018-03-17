@@ -2,13 +2,13 @@
 
 import csv
 
-source_file_name = 'saler.csv'
+source_file_name = 'payorder.csv'
 
 #saler_guwens = {27997: 69, 38617: 70, 67413: 71, 145007: 72, 48416: 73, 89159: 74, 237: 75, 81560: 76}
 
 # saler_guwens = {27997: '星星', 38617: '王哲君', 67413: '笑笑', 145007: '小颖', 48416: '靖', 89159: '建新', 237: '赵影', 81560: '峥'}
 
-saler_guwens = {27997: '星星', 38617: '王哲君', 67413: '笑笑', 145007: '小颖', 48416: '靖', 89159: '建新', 237: '赵影'}
+saler_guwens = {67413: '笑笑', 89159: '建新', 237: '赵影', 1167969: '白夜'}
 
 lines = []
 
@@ -115,7 +115,7 @@ def calculate(root_saler_id):
 
 f = file('output.csv', "w+")
 
-f.writelines('guwenID, zxsID, phone \n')
+f.writelines('guwenID, zxsID, phone, day, nickname \n')
 
 for gonghuizhang in saler_guwens.keys():
 
