@@ -1,0 +1,3600 @@
+{
+	"status_code": 0,
+	"aweme_list": [{
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 482092,
+			"aweme_id": "6435202335290428673",
+			"comment_count": 285,
+			"share_count": 742,
+			"digg_count": 7496
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "抖音小助手",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/c150001fefe4bb52d5a.jpg"],
+				"uri": "c150001fefe4bb52d5a"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/c150001fefe4bb52d5a.jpg"],
+				"uri": "c150001fefe4bb52d5a"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/c150001fefe4bb52d5a.jpg"],
+				"uri": "c150001fefe4bb52d5a"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/29c200003eb4eb97bc30"],
+				"uri": "29c200003eb4eb97bc30"
+			},
+			"mid": "6398380504197892865",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/c150001fefe4bb52d5a.jpg"],
+				"uri": "c150001fefe4bb52d5a"
+			},
+			"source": 22,
+			"music_name": "在自习室吃东西",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "60182557810",
+			"avatar_larger": {
+				"url_list": ["https://wx.qlogo.cn/mmopen/PiajxSqBRaEIcjyatLCFEt34vYj0LLaO8cjjP9G2c2X78m5moU8yJJOeY5NvfK2Iv53DYRRt1C7USXAxqPywYnQ/0"],
+				"uri": ""
+			},
+			"birthday": "1993-07-28",
+			"nickname": "夏YanLucy_aus",
+			"short_id": "14204169",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://wx.qlogo.cn/mmopen/PiajxSqBRaEIcjyatLCFEt34vYj0LLaO8cjjP9G2c2X78m5moU8yJJOeY5NvfK2Iv53DYRRt1C7USXAxqPywYnQ/0"],
+				"uri": ""
+			},
+			"signature": "一枚在通向网红路越走越偏的女孩子",
+			"avatar_thumb": {
+				"url_list": ["https://wx.qlogo.cn/mmopen/PiajxSqBRaEIcjyatLCFEt34vYj0LLaO8cjjP9G2c2X78m5moU8yJJOeY5NvfK2Iv53DYRRt1C7USXAxqPywYnQ/0"],
+				"uri": ""
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @夏YanLucy_aus 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@夏YanLucy_aus发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6435202335290428673",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1498312310,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=4a66371ffd0f49f5b59df3a2a8ec2bba&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=4a66371ffd0f49f5b59df3a2a8ec2bba&line=1"],
+				"uri": "4a66371ffd0f49f5b59df3a2a8ec2bba"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/2ab70012cd919cde539e.jpg", "https://pb3.pstatp.com/large/2ab70012cd919cde539e.jpg", "https://pb3.pstatp.com/large/2ab70012cd919cde539e.jpg"],
+				"uri": "large/2ab70012cd919cde539e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/2aba00027c2182cbe535", "http://pb9.pstatp.com/obj/2aba00027c2182cbe535", "http://pb3.pstatp.com/obj/2aba00027c2182cbe535"],
+				"uri": "2aba00027c2182cbe535"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6435202335290428673",
+		"user_digged": 0,
+		"group_id": 6435202335290428673,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 832297,
+			"aweme_id": "6520164945366093063",
+			"comment_count": 351,
+			"share_count": 741,
+			"digg_count": 44539
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "古力娜扎",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg"],
+				"uri": "5ade0027261867c7797b"
+			},
+			"duration": 14,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ade0027261867c7797b.jpeg"],
+				"uri": "5ade0027261867c7797b"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ade0027261867c7797b.jpeg"],
+				"uri": "5ade0027261867c7797b"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5e6900033c1da7b603d9"],
+				"uri": "5e6900033c1da7b603d9"
+			},
+			"mid": "6516968041186757379",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ade0027261867c7797b.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ade0027261867c7797b.jpeg"],
+				"uri": "5ade0027261867c7797b"
+			},
+			"source": 23,
+			"music_name": "@古力娜扎创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "67876311056",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6cbc0023262b8ec94368.jpeg"],
+				"uri": "6cbc0023262b8ec94368"
+			},
+			"birthday": "2003-05-07",
+			"nickname": "高湘x.",
+			"short_id": "67917406",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/720x720/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/720x720/6cbc0023262b8ec94368.jpeg"],
+				"uri": "6cbc0023262b8ec94368"
+			},
+			"signature": "不忘初心❤️",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/100x100/6cbc0023262b8ec94368.jpeg", "https://pb3.pstatp.com/aweme/100x100/6cbc0023262b8ec94368.jpeg"],
+				"uri": "6cbc0023262b8ec94368"
+			},
+			"is_verified": true,
+			"unique_id": "g2003x"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @高湘x. 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@高湘x.发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6520164945366093063",
+			"share_desc": "咦～"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518094208,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=cb23a7284d76417db254b5c56498ab6f&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=cb23a7284d76417db254b5c56498ab6f&line=1"],
+				"uri": "cb23a7284d76417db254b5c56498ab6f"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/60ec00140b96925de90e.jpg", "https://pb3.pstatp.com/large/60ec00140b96925de90e.jpg", "https://pb3.pstatp.com/large/60ec00140b96925de90e.jpg"],
+				"uri": "large/60ec00140b96925de90e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/60ee0008cde4fdfb7579", "http://pb9.pstatp.com/obj/60ee0008cde4fdfb7579", "http://pb3.pstatp.com/obj/60ee0008cde4fdfb7579"],
+				"uri": "60ee0008cde4fdfb7579"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6520164945366093063",
+		"user_digged": 0,
+		"group_id": 6520164945366093063,
+		"desc": "咦～"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 430038,
+			"aweme_id": "6520576765247622403",
+			"comment_count": 186,
+			"share_count": 685,
+			"digg_count": 12525
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "何炅",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/2efc0050d3c2d21fcb41.jpg"],
+				"uri": "2efc0050d3c2d21fcb41"
+			},
+			"duration": 41,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/2efc0050d3c2d21fcb41.jpg"],
+				"uri": "2efc0050d3c2d21fcb41"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/2efc0050d3c2d21fcb41.jpg"],
+				"uri": "2efc0050d3c2d21fcb41"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/3391000000a590a4acb6"],
+				"uri": "3391000000a590a4acb6"
+			},
+			"mid": "6449156555354049294",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/2efc0050d3c2d21fcb41.jpg"],
+				"uri": "2efc0050d3c2d21fcb41"
+			},
+			"source": 22,
+			"music_name": "栀子花开",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "72530558859",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad4000734bafd8b4806.jpeg"],
+				"uri": "5ad4000734bafd8b4806"
+			},
+			"birthday": "1999-07-16",
+			"nickname": "@我家静敏猪🐷",
+			"short_id": "99433294",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad4000734bafd8b4806.jpeg"],
+				"uri": "5ad4000734bafd8b4806"
+			},
+			"signature": "做一个开心的小仙女",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad4000734bafd8b4806.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad4000734bafd8b4806.jpeg"],
+				"uri": "5ad4000734bafd8b4806"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @@我家静敏猪🐷 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@@我家静敏猪🐷发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6520576765247622403",
+			"share_desc": "有一种友情叫何炅和谢娜，有一种搭档叫何炅谢娜，有一种亲情也一样名叫何炅谢娜❤"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518190119,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=da60311013f4424683da2201706c64c0&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=da60311013f4424683da2201706c64c0&line=1"],
+				"uri": "da60311013f4424683da2201706c64c0"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/612c0003fdf94a212428.jpg", "https://pb9.pstatp.com/large/612c0003fdf94a212428.jpg", "https://pb3.pstatp.com/large/612c0003fdf94a212428.jpg"],
+				"uri": "large/612c0003fdf94a212428"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/612e00022912184b66d8", "http://pb9.pstatp.com/obj/612e00022912184b66d8", "http://pb3.pstatp.com/obj/612e00022912184b66d8"],
+				"uri": "612e00022912184b66d8"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6520576765247622403",
+		"user_digged": 0,
+		"group_id": 6520576765247622403,
+		"desc": "有一种友情叫何炅和谢娜，有一种搭档叫何炅谢娜，有一种亲情也一样名叫何炅谢娜❤"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 239523,
+			"aweme_id": "6522329913209392388",
+			"comment_count": 765,
+			"share_count": 2503,
+			"digg_count": 3157
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "财神面食",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"duration": 10,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/665d000019bf59b2393e"],
+				"uri": "665d000019bf59b2393e"
+			},
+			"mid": "6522330355133844232",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"source": 23,
+			"music_name": "@财神面食创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "81325736920",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"birthday": "1983-08-09",
+			"nickname": "财神面食",
+			"short_id": "204963486",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"signature": "这短短的一生，我们最终都会失去，你不妨大胆一些，爱一个人，攀一座山，追一个梦。",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"is_verified": true,
+			"unique_id": "LHM111999"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @财神面食 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@财神面食发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6522329913209392388",
+			"share_desc": "红心火龙果汁和面，制作小鱼的面食教程"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518598374,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b08094a3b4f74b9da8e157d40609ea50&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b08094a3b4f74b9da8e157d40609ea50&line=1"],
+				"uri": "b08094a3b4f74b9da8e157d40609ea50"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p9.pstatp.com/large/6359000dca5eefa45f41.jpg", "https://pb1.pstatp.com/large/6359000dca5eefa45f41.jpg", "https://pb3.pstatp.com/large/6359000dca5eefa45f41.jpg"],
+				"uri": "large/6359000dca5eefa45f41"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/635b000b4c303f50aec6", "http://pb9.pstatp.com/obj/635b000b4c303f50aec6", "http://pb3.pstatp.com/obj/635b000b4c303f50aec6"],
+				"uri": "635b000b4c303f50aec6"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6522329913209392388",
+		"user_digged": 0,
+		"group_id": 6522329913209392388,
+		"desc": "红心火龙果汁和面，制作小鱼的面食教程"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 118299,
+			"aweme_id": "6513111264074403079",
+			"comment_count": 35,
+			"share_count": 56,
+			"digg_count": 2722
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "POKO2",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/5ace001fc19df8967610.jpg"],
+				"uri": "5ace001fc19df8967610"
+			},
+			"duration": 30,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/5ace001fc19df8967610.jpg"],
+				"uri": "5ace001fc19df8967610"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/5ace001fc19df8967610.jpg"],
+				"uri": "5ace001fc19df8967610"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5ae500018eefb75a0219"],
+				"uri": "5ae500018eefb75a0219"
+			},
+			"mid": "6512659094145338116",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/5ace001fc19df8967610.jpg"],
+				"uri": "5ace001fc19df8967610"
+			},
+			"source": 22,
+			"music_name": "High",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "86033934992",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/670c001752314307a371.jpeg"],
+				"uri": "670c001752314307a371"
+			},
+			"birthday": "1996-08-27",
+			"nickname": "到车请故意",
+			"short_id": "201258931",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/720x720/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/720x720/670c001752314307a371.jpeg"],
+				"uri": "670c001752314307a371"
+			},
+			"signature": "👉私人VX：hg271182138\n👉观看详细视频教程🌻搜微博：到车请故意",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/100x100/670c001752314307a371.jpeg", "https://pb3.pstatp.com/aweme/100x100/670c001752314307a371.jpeg"],
+				"uri": "670c001752314307a371"
+			},
+			"is_verified": true,
+			"unique_id": "daoche2020"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @到车请故意 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@到车请故意发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6513111264074403079",
+			"share_desc": "折纸3D螺旋弹簧"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1516451891,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b7a9dde280b04535ae897d068cceb7f8&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b7a9dde280b04535ae897d068cceb7f8&line=1"],
+				"uri": "b7a9dde280b04535ae897d068cceb7f8"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5a5700147cffe6d74164.jpg", "https://pb9.pstatp.com/large/5a5700147cffe6d74164.jpg", "https://pb3.pstatp.com/large/5a5700147cffe6d74164.jpg"],
+				"uri": "large/5a5700147cffe6d74164"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5a5700147d628be932d7", "http://pb3.pstatp.com/obj/5a5700147d628be932d7", "http://pb3.pstatp.com/obj/5a5700147d628be932d7"],
+				"uri": "5a5700147d628be932d7"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6513111264074403079",
+		"user_digged": 0,
+		"group_id": 6513111264074403079,
+		"desc": "折纸3D螺旋弹簧"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 54374,
+			"aweme_id": "6518543269469621511",
+			"comment_count": 4,
+			"share_count": 341,
+			"digg_count": 723
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "财神面食",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"duration": 13,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5fca000039d538c01d66"],
+				"uri": "5fca000039d538c01d66"
+			},
+			"mid": "6518543301103225614",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"source": 23,
+			"music_name": "@财神面食创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "81325736920",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"birthday": "1983-08-09",
+			"nickname": "财神面食",
+			"short_id": "204963486",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"signature": "这短短的一生，我们最终都会失去，你不妨大胆一些，爱一个人，攀一座山，追一个梦。",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd10004b9086b188118.jpeg"],
+				"uri": "5fd10004b9086b188118"
+			},
+			"is_verified": true,
+			"unique_id": "LHM111999"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @财神面食 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@财神面食发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6518543269469621511",
+			"share_desc": "枣花慢教程"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517716628,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=de644f9fb82d45eda2e7cff45fecb95f&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=de644f9fb82d45eda2e7cff45fecb95f&line=1"],
+				"uri": "de644f9fb82d45eda2e7cff45fecb95f"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/600b000f9246ddd69b03.jpg", "https://pb3.pstatp.com/large/600b000f9246ddd69b03.jpg", "https://pb3.pstatp.com/large/600b000f9246ddd69b03.jpg"],
+				"uri": "large/600b000f9246ddd69b03"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/600a001024a7ce0a833a", "http://pb9.pstatp.com/obj/600a001024a7ce0a833a", "http://pb3.pstatp.com/obj/600a001024a7ce0a833a"],
+				"uri": "600a001024a7ce0a833a"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6518543269469621511",
+		"user_digged": 0,
+		"group_id": 6518543269469621511,
+		"desc": "枣花慢教程"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 2032716,
+			"aweme_id": "6515322877087059207",
+			"comment_count": 1566,
+			"share_count": 8933,
+			"digg_count": 47540
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "21.",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg"],
+				"uri": "67230017be4949b42bf3"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/67230017be4949b42bf3.jpeg", "https://pb9.pstatp.com/aweme/100x100/67230017be4949b42bf3.jpeg", "https://pb3.pstatp.com/aweme/100x100/67230017be4949b42bf3.jpeg"],
+				"uri": "67230017be4949b42bf3"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/67230017be4949b42bf3.jpeg"],
+				"uri": "67230017be4949b42bf3"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/42cf0003fc34210ad36f"],
+				"uri": "42cf0003fc34210ad36f"
+			},
+			"mid": "6479279279603059469",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/67230017be4949b42bf3.jpeg", "https://pb9.pstatp.com/aweme/720x720/67230017be4949b42bf3.jpeg", "https://pb3.pstatp.com/aweme/720x720/67230017be4949b42bf3.jpeg"],
+				"uri": "67230017be4949b42bf3"
+			},
+			"source": 23,
+			"music_name": "@21.创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "61272517712",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/5fd1000df703c7cfabd4.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/5fd1000df703c7cfabd4.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd1000df703c7cfabd4.jpeg"],
+				"uri": "5fd1000df703c7cfabd4"
+			},
+			"birthday": "",
+			"nickname": "一枚姑娘",
+			"short_id": "19141144",
+			"gender": 0,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/5fd1000df703c7cfabd4.jpeg", "https://pb9.pstatp.com/aweme/720x720/5fd1000df703c7cfabd4.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd1000df703c7cfabd4.jpeg"],
+				"uri": "5fd1000df703c7cfabd4"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/5fd1000df703c7cfabd4.jpeg", "https://pb9.pstatp.com/aweme/100x100/5fd1000df703c7cfabd4.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd1000df703c7cfabd4.jpeg"],
+				"uri": "5fd1000df703c7cfabd4"
+			},
+			"is_verified": true,
+			"unique_id": "maycheng"
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1586368761082926",
+			"user_count": 0,
+			"cid": "1586368761082926",
+			"cha_name": "西安之美食",
+			"author": {},
+			"desc": "吃货们的福利(西安回民街）一定记得去转转"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @一枚姑娘 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@一枚姑娘发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6515322877087059207",
+			"share_desc": "西安美食❤️"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1516966842,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=52da042d14a34e8dba48b6985f0af2fd&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=52da042d14a34e8dba48b6985f0af2fd&line=1"],
+				"uri": "52da042d14a34e8dba48b6985f0af2fd"
+			},
+			"height": 1168,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5c4c000eaa4fa1a49cab.jpg", "https://pb9.pstatp.com/large/5c4c000eaa4fa1a49cab.jpg", "https://pb3.pstatp.com/large/5c4c000eaa4fa1a49cab.jpg"],
+				"uri": "large/5c4c000eaa4fa1a49cab"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5c4f00027412a9c80ab9", "http://pb3.pstatp.com/obj/5c4f00027412a9c80ab9", "http://pb3.pstatp.com/obj/5c4f00027412a9c80ab9"],
+				"uri": "5c4f00027412a9c80ab9"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6515322877087059207",
+		"user_digged": 0,
+		"group_id": 6515322877087059207,
+		"desc": "西安美食❤️"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 7404,
+			"aweme_id": "6515721171235769608",
+			"comment_count": 8,
+			"share_count": 7,
+			"digg_count": 52
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "由Carey上传",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/5ada0029feba47154164.jpg"],
+				"uri": "5ada0029feba47154164"
+			},
+			"duration": 60,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/5ada0029feba47154164.jpg"],
+				"uri": "5ada0029feba47154164"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/5ada0029feba47154164.jpg"],
+				"uri": "5ada0029feba47154164"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5e580003ebf46929addb"],
+				"uri": "5e580003ebf46929addb"
+			},
+			"mid": "6515537421851953933",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/5ada0029feba47154164.jpg"],
+				"uri": "5ada0029feba47154164"
+			},
+			"source": 31,
+			"music_name": "张嘉译",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "60789391226",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/552f00086ae25408b8c0.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/552f00086ae25408b8c0.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/552f00086ae25408b8c0.jpeg"],
+				"uri": "552f00086ae25408b8c0"
+			},
+			"birthday": "1995-01-01",
+			"nickname": "小宝很无敌",
+			"short_id": "187595943",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/552f00086ae25408b8c0.jpeg", "https://pb9.pstatp.com/aweme/720x720/552f00086ae25408b8c0.jpeg", "https://pb3.pstatp.com/aweme/720x720/552f00086ae25408b8c0.jpeg"],
+				"uri": "552f00086ae25408b8c0"
+			},
+			"signature": "签名责任大、不敢随便签",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/552f00086ae25408b8c0.jpeg", "https://pb9.pstatp.com/aweme/100x100/552f00086ae25408b8c0.jpeg", "https://pb3.pstatp.com/aweme/100x100/552f00086ae25408b8c0.jpeg"],
+				"uri": "552f00086ae25408b8c0"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @小宝很无敌 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@小宝很无敌发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6515721171235769608",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517059717,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7ad6a8873fea4b308bca80eef5d96ca2&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7ad6a8873fea4b308bca80eef5d96ca2&line=1"],
+				"uri": "7ad6a8873fea4b308bca80eef5d96ca2"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/5c90000b6c61fa2927e9.jpg", "https://pb3.pstatp.com/large/5c90000b6c61fa2927e9.jpg", "https://pb3.pstatp.com/large/5c90000b6c61fa2927e9.jpg"],
+				"uri": "large/5c90000b6c61fa2927e9"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5c920003bfe31be9416a", "http://pb9.pstatp.com/obj/5c920003bfe31be9416a", "http://pb3.pstatp.com/obj/5c920003bfe31be9416a"],
+				"uri": "5c920003bfe31be9416a"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6515721171235769608",
+		"user_digged": 0,
+		"group_id": 6515721171235769608,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [{
+			"start": 22,
+			"user_id": "6796248446",
+			"end": 28,
+			"type": 0
+		}],
+		"statistics": {
+			"play_count": 8252074,
+			"aweme_id": "6513478445257723143",
+			"comment_count": 1396,
+			"share_count": 24227,
+			"digg_count": 175801
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "🌸花好月圆。",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg"],
+				"uri": "53060025eda616b4c09b"
+			},
+			"duration": 14,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/100x100/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/100x100/53060025eda616b4c09b.jpeg"],
+				"uri": "53060025eda616b4c09b"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/53060025eda616b4c09b.jpeg"],
+				"uri": "53060025eda616b4c09b"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5aea0001e1cc2a98ba01"],
+				"uri": "5aea0001e1cc2a98ba01"
+			},
+			"mid": "6513096922793380622",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/720x720/53060025eda616b4c09b.jpeg", "https://pb3.pstatp.com/aweme/720x720/53060025eda616b4c09b.jpeg"],
+				"uri": "53060025eda616b4c09b"
+			},
+			"source": 23,
+			"music_name": "@🌸花好月圆。创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "59615947102",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/3b5b002c4913cb2dcbeb.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/3b5b002c4913cb2dcbeb.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3b5b002c4913cb2dcbeb.jpeg"],
+				"uri": "3b5b002c4913cb2dcbeb"
+			},
+			"birthday": "2012-06-20",
+			"nickname": "🌸蕊萌🌸蕊华🌸",
+			"short_id": "11369151",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/3b5b002c4913cb2dcbeb.jpeg", "https://pb9.pstatp.com/aweme/720x720/3b5b002c4913cb2dcbeb.jpeg", "https://pb3.pstatp.com/aweme/720x720/3b5b002c4913cb2dcbeb.jpeg"],
+				"uri": "3b5b002c4913cb2dcbeb"
+			},
+			"signature": "两个磨人的小妖精",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/3b5b002c4913cb2dcbeb.jpeg", "https://pb9.pstatp.com/aweme/100x100/3b5b002c4913cb2dcbeb.jpeg", "https://pb3.pstatp.com/aweme/100x100/3b5b002c4913cb2dcbeb.jpeg"],
+				"uri": "3b5b002c4913cb2dcbeb"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1579023148695565",
+			"user_count": 0,
+			"cid": "1579023148695565",
+			"cha_name": "陈俊生丈母娘",
+			"author": {},
+			"desc": ""
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @🌸蕊萌🌸蕊华🌸 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@🌸蕊萌🌸蕊华🌸发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6513478445257723143",
+			"share_desc": "演这个姐姐一直笑场，还好笑着演完了😂😂_@抖音小助手"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1516537469,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=c536628ad68d4b149e5261cee4967376&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=c536628ad68d4b149e5261cee4967376&line=1"],
+				"uri": "c536628ad68d4b149e5261cee4967376"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5a8a00055fc1a272c859.jpg", "https://pb9.pstatp.com/large/5a8a00055fc1a272c859.jpg", "https://pb3.pstatp.com/large/5a8a00055fc1a272c859.jpg"],
+				"uri": "large/5a8a00055fc1a272c859"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5a8800084ad6d11ca686", "http://pb9.pstatp.com/obj/5a8800084ad6d11ca686", "http://pb3.pstatp.com/obj/5a8800084ad6d11ca686"],
+				"uri": "5a8800084ad6d11ca686"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6513478445257723143",
+		"user_digged": 0,
+		"group_id": 6513478445257723143,
+		"desc": "演这个姐姐一直笑场，还好笑着演完了😂😂_@抖音小助手"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 50879,
+			"aweme_id": "6517483126187363591",
+			"comment_count": 9,
+			"share_count": 18,
+			"digg_count": 178
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "吴亦凡",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/c15000006f5f0af1db7.jpg"],
+				"uri": "c15000006f5f0af1db7"
+			},
+			"duration": 46,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/c15000006f5f0af1db7.jpg"],
+				"uri": "c15000006f5f0af1db7"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/c15000006f5f0af1db7.jpg"],
+				"uri": "c15000006f5f0af1db7"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/33930000016ca19ac89f"],
+				"uri": "33930000016ca19ac89f"
+			},
+			"mid": "6350948851519589122",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/c15000006f5f0af1db7.jpg"],
+				"uri": "c15000006f5f0af1db7"
+			},
+			"source": 22,
+			"music_name": "JULY",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "66179890795",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3b5b00200a73a89b43fa.jpeg"],
+				"uri": "3b5b00200a73a89b43fa"
+			},
+			"birthday": "1995-05-01",
+			"nickname": "小白兔白又白",
+			"short_id": "58536278",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/720x720/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/720x720/3b5b00200a73a89b43fa.jpeg"],
+				"uri": "3b5b00200a73a89b43fa"
+			},
+			"signature": "微博有完整视频，感兴趣的自行观看，本人不代表任何公司视频只是录着好玩",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/100x100/3b5b00200a73a89b43fa.jpeg", "https://pb3.pstatp.com/aweme/100x100/3b5b00200a73a89b43fa.jpeg"],
+				"uri": "3b5b00200a73a89b43fa"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @小白兔白又白 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@小白兔白又白发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6517483126187363591",
+			"share_desc": "吧啦吧啦～"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517469802,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7ffee830b93a4610923e7771fe77343f&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7ffee830b93a4610923e7771fe77343f&line=1"],
+				"uri": "7ffee830b93a4610923e7771fe77343f"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5f2f00135d4c9c2d187a.jpg", "https://pb9.pstatp.com/large/5f2f00135d4c9c2d187a.jpg", "https://pb3.pstatp.com/large/5f2f00135d4c9c2d187a.jpg"],
+				"uri": "large/5f2f00135d4c9c2d187a"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5f32000889a15c8df1ed", "http://pb9.pstatp.com/obj/5f32000889a15c8df1ed", "http://pb3.pstatp.com/obj/5f32000889a15c8df1ed"],
+				"uri": "5f32000889a15c8df1ed"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6517483126187363591",
+		"user_digged": 0,
+		"group_id": 6517483126187363591,
+		"desc": "吧啦吧啦～"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 111201,
+			"aweme_id": "6518280941914295556",
+			"comment_count": 79,
+			"share_count": 542,
+			"digg_count": 1404
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "逆天化妆师茗香",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5fc40003913a575d161e"],
+				"uri": "5fc40003913a575d161e"
+			},
+			"mid": "6518281033803434760",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"source": 23,
+			"music_name": "@逆天化妆师茗香创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "70000787258",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"birthday": "1992-07-21",
+			"nickname": "逆天化妆师茗香",
+			"short_id": "82623916",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"signature": "一起美：mx223328",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fd2002313353321b944.jpeg"],
+				"uri": "5fd2002313353321b944"
+			},
+			"is_verified": true,
+			"unique_id": "mingxiang666"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @逆天化妆师茗香 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@逆天化妆师茗香发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6518280941914295556",
+			"share_desc": "帅哥别跑"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517655567,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=682284a351a243c6a42bab1786a3d7e2&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=682284a351a243c6a42bab1786a3d7e2&line=1"],
+				"uri": "682284a351a243c6a42bab1786a3d7e2"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5f9800139e9f51b87878.jpg", "https://pb9.pstatp.com/large/5f9800139e9f51b87878.jpg", "https://pb3.pstatp.com/large/5f9800139e9f51b87878.jpg"],
+				"uri": "large/5f9800139e9f51b87878"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5fa10008ec716bca9504", "http://pb9.pstatp.com/obj/5fa10008ec716bca9504", "http://pb3.pstatp.com/obj/5fa10008ec716bca9504"],
+				"uri": "5fa10008ec716bca9504"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6518280941914295556",
+		"user_digged": 0,
+		"group_id": 6518280941914295556,
+		"desc": "帅哥别跑"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 6618946,
+			"aweme_id": "6483409970405575950",
+			"comment_count": 3996,
+			"share_count": 18669,
+			"digg_count": 129684
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "由梦～～飞翔盐巴上传",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/6715001e9d3f3f7aa1ad.jpg"],
+				"uri": "6715001e9d3f3f7aa1ad"
+			},
+			"duration": 270,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/6715001e9d3f3f7aa1ad.jpg"],
+				"uri": "6715001e9d3f3f7aa1ad"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/6715001e9d3f3f7aa1ad.jpg"],
+				"uri": "6715001e9d3f3f7aa1ad"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/4399000492b28db2961d"],
+				"uri": "4399000492b28db2961d"
+			},
+			"mid": "6482313457726786317",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/6715001e9d3f3f7aa1ad.jpg"],
+				"uri": "6715001e9d3f3f7aa1ad"
+			},
+			"source": 31,
+			"music_name": "我们不一样",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "63764781375",
+			"avatar_larger": {
+				"url_list": ["https://p0.pstatp.com/origin/3793/3114521287"],
+				"uri": ""
+			},
+			"birthday": "1998-04-23",
+			"nickname": "大雷",
+			"short_id": "44369199",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p0.pstatp.com/origin/3793/3114521287"],
+				"uri": ""
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p0.pstatp.com/origin/3793/3114521287"],
+				"uri": ""
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @大雷 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@大雷发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6483409970405575950",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1509536754,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=82431b3d9ab047538594154dc0e3abc3&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=82431b3d9ab047538594154dc0e3abc3&line=1"],
+				"uri": "82431b3d9ab047538594154dc0e3abc3"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p9.pstatp.com/large/4257000771b735287993.jpg", "https://pb1.pstatp.com/large/4257000771b735287993.jpg", "https://pb3.pstatp.com/large/4257000771b735287993.jpg"],
+				"uri": "large/4257000771b735287993"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/42520012c838f524720e", "http://pb9.pstatp.com/obj/42520012c838f524720e", "http://pb3.pstatp.com/obj/42520012c838f524720e"],
+				"uri": "42520012c838f524720e"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6483409970405575950",
+		"user_digged": 0,
+		"group_id": 6483409970405575950,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 21468022,
+			"aweme_id": "6516035207366184196",
+			"comment_count": 5822,
+			"share_count": 25254,
+			"digg_count": 208365
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "Britney Spears",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/4d56001fa9f8e0d21bc4.jpg"],
+				"uri": "4d56001fa9f8e0d21bc4"
+			},
+			"duration": 37,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/4d56001fa9f8e0d21bc4.jpg"],
+				"uri": "4d56001fa9f8e0d21bc4"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/4d56001fa9f8e0d21bc4.jpg"],
+				"uri": "4d56001fa9f8e0d21bc4"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/4df800069b444000be2e"],
+				"uri": "4df800069b444000be2e"
+			},
+			"mid": "6499001248463457038",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/4d56001fa9f8e0d21bc4.jpg"],
+				"uri": "4d56001fa9f8e0d21bc4"
+			},
+			"source": 22,
+			"music_name": "Showdown ",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "84692167362",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/5530000ced65cdc6055a.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/5530000ced65cdc6055a.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5530000ced65cdc6055a.jpeg"],
+				"uri": "5530000ced65cdc6055a"
+			},
+			"birthday": "1978-01-10",
+			"nickname": "瑞爷不是盖的",
+			"short_id": "188471569",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/5530000ced65cdc6055a.jpeg", "https://pb9.pstatp.com/aweme/720x720/5530000ced65cdc6055a.jpeg", "https://pb3.pstatp.com/aweme/720x720/5530000ced65cdc6055a.jpeg"],
+				"uri": "5530000ced65cdc6055a"
+			},
+			"signature": "就两点好，这也好那也好",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/5530000ced65cdc6055a.jpeg", "https://pb9.pstatp.com/aweme/100x100/5530000ced65cdc6055a.jpeg", "https://pb3.pstatp.com/aweme/100x100/5530000ced65cdc6055a.jpeg"],
+				"uri": "5530000ced65cdc6055a"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @瑞爷不是盖的 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@瑞爷不是盖的发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6516035207366184196",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517132679,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=a3bb4d186fb7402c8e7fa4136e01f73c&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=a3bb4d186fb7402c8e7fa4136e01f73c&line=1"],
+				"uri": "a3bb4d186fb7402c8e7fa4136e01f73c"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/5cbd0004040367e78d1b.jpg", "https://pb3.pstatp.com/large/5cbd0004040367e78d1b.jpg", "https://pb3.pstatp.com/large/5cbd0004040367e78d1b.jpg"],
+				"uri": "large/5cbd0004040367e78d1b"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5cb9000e7b50116f69ec", "http://pb9.pstatp.com/obj/5cb9000e7b50116f69ec", "http://pb3.pstatp.com/obj/5cb9000e7b50116f69ec"],
+				"uri": "5cb9000e7b50116f69ec"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6516035207366184196",
+		"user_digged": 0,
+		"group_id": 6516035207366184196,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 179632,
+			"aweme_id": "6506810618207538439",
+			"comment_count": 156,
+			"share_count": 723,
+			"digg_count": 3787
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "龙凤胎",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/55100000088f86ee2b7e"],
+				"uri": "55100000088f86ee2b7e"
+			},
+			"mid": "6506810847321721608",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"source": 23,
+			"music_name": "@龙凤胎创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "71706994223",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"birthday": "2017-01-28",
+			"nickname": "龙凤胎",
+			"short_id": "120260754",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/720x720/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"signature": "2017，1，28大年初一（姐姐正月弟弟初一）不喜勿喷！WX:260970995",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg", "https://pb3.pstatp.com/aweme/100x100/553000079d04026513d3.jpeg"],
+				"uri": "553000079d04026513d3"
+			},
+			"is_verified": true,
+			"unique_id": "Babies_MlmQ"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @龙凤胎 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@龙凤胎发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6506810618207538439",
+			"share_desc": "儿歌多多是神器，就是怕对眼睛不好，坐的那看就要手拿着，只好这样看了，😂😂😂"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1514984957,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=8a725f4a7cf34bca901168fe75e71d58&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=8a725f4a7cf34bca901168fe75e71d58&line=1"],
+				"uri": "8a725f4a7cf34bca901168fe75e71d58"
+			},
+			"height": 720,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/554a000a22ab35e415f8.jpg", "https://pb3.pstatp.com/large/554a000a22ab35e415f8.jpg", "https://pb3.pstatp.com/large/554a000a22ab35e415f8.jpg"],
+				"uri": "large/554a000a22ab35e415f8"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5549001204e7bbbfc218", "http://pb3.pstatp.com/obj/5549001204e7bbbfc218", "http://pb3.pstatp.com/obj/5549001204e7bbbfc218"],
+				"uri": "5549001204e7bbbfc218"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6506810618207538439",
+		"user_digged": 0,
+		"group_id": 6506810618207538439,
+		"desc": "儿歌多多是神器，就是怕对眼睛不好，坐的那看就要手拿着，只好这样看了，😂😂😂"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 75979,
+			"aweme_id": "6521264678323096840",
+			"comment_count": 22,
+			"share_count": 97,
+			"digg_count": 1546
+		},
+		"music": {
+			"status": 0,
+			"is_original": false,
+			"author_name": "电音老傅",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/330b0019c14ed9abe2a5.jpg"],
+				"uri": "330b0019c14ed9abe2a5"
+			},
+			"duration": 213,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/330b0019c14ed9abe2a5.jpg"],
+				"uri": "330b0019c14ed9abe2a5"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/330b0019c14ed9abe2a5.jpg"],
+				"uri": "330b0019c14ed9abe2a5"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/619f00056789366b7d65"],
+				"uri": "619f00056789366b7d65"
+			},
+			"mid": "6519820064710429454",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/330b0019c14ed9abe2a5.jpg"],
+				"uri": "330b0019c14ed9abe2a5"
+			},
+			"source": 25,
+			"music_name": "故事与她",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "59080488044",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/67100016c915f28da962.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/67100016c915f28da962.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/67100016c915f28da962.jpeg"],
+				"uri": "67100016c915f28da962"
+			},
+			"birthday": "1998-10-29",
+			"nickname": "威",
+			"short_id": "75568041",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/67100016c915f28da962.jpeg", "https://pb9.pstatp.com/aweme/720x720/67100016c915f28da962.jpeg", "https://pb3.pstatp.com/aweme/720x720/67100016c915f28da962.jpeg"],
+				"uri": "67100016c915f28da962"
+			},
+			"signature": "微博：慕小威M\n平时会剪一些视频，希望大家喜欢。",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/67100016c915f28da962.jpeg", "https://pb9.pstatp.com/aweme/100x100/67100016c915f28da962.jpeg", "https://pb3.pstatp.com/aweme/100x100/67100016c915f28da962.jpeg"],
+				"uri": "67100016c915f28da962"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1581336082801678",
+			"user_count": 0,
+			"cid": "1581336082801678",
+			"cha_name": "天赋异禀",
+			"author": {},
+			"desc": ""
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @威 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@威发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6521264678323096840",
+			"share_desc": "帅气的北极星。"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518350341,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b5dbb7a15a7e4d9f87446b444d96fecd&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b5dbb7a15a7e4d9f87446b444d96fecd&line=1"],
+				"uri": "b5dbb7a15a7e4d9f87446b444d96fecd"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p9.pstatp.com/large/62bb00161e19b4836b91.jpg", "https://pb1.pstatp.com/large/62bb00161e19b4836b91.jpg", "https://pb3.pstatp.com/large/62bb00161e19b4836b91.jpg"],
+				"uri": "large/62bb00161e19b4836b91"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/62bc0014c0750ffae46e", "http://pb9.pstatp.com/obj/62bc0014c0750ffae46e", "http://pb3.pstatp.com/obj/62bc0014c0750ffae46e"],
+				"uri": "62bc0014c0750ffae46e"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6521264678323096840",
+		"user_digged": 0,
+		"group_id": 6521264678323096840,
+		"desc": "帅气的北极星。"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 2730648,
+			"aweme_id": "6515690927019789575",
+			"comment_count": 1616,
+			"share_count": 5120,
+			"digg_count": 80085
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "Gala Rizzatto",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"duration": 35,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/47cc0000a9304a64e74e"],
+				"uri": "47cc0000a9304a64e74e"
+			},
+			"mid": "6490757015895051021",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"source": 22,
+			"music_name": "Faraway (Main Version)",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "57864332200",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/49ec000d70de805d5416.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/49ec000d70de805d5416.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/49ec000d70de805d5416.jpeg"],
+				"uri": "49ec000d70de805d5416"
+			},
+			"birthday": "1995-08-01",
+			"nickname": "Queen.琪",
+			"short_id": "4491724",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/49ec000d70de805d5416.jpeg", "https://pb9.pstatp.com/aweme/720x720/49ec000d70de805d5416.jpeg", "https://pb3.pstatp.com/aweme/720x720/49ec000d70de805d5416.jpeg"],
+				"uri": "49ec000d70de805d5416"
+			},
+			"signature": "我就是我，不一样的烟火🎆",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/49ec000d70de805d5416.jpeg", "https://pb9.pstatp.com/aweme/100x100/49ec000d70de805d5416.jpeg", "https://pb3.pstatp.com/aweme/100x100/49ec000d70de805d5416.jpeg"],
+				"uri": "49ec000d70de805d5416"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @Queen.琪 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@Queen.琪发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6515690927019789575",
+			"share_desc": "时尚颜值爆表强大伴郎团❤❤胡是最帅的💋💋"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517052524,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=07ebf729ea9e4013bb5729dcd67beb75&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=07ebf729ea9e4013bb5729dcd67beb75&line=1"],
+				"uri": "07ebf729ea9e4013bb5729dcd67beb75"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5c89000e5cd82160de5c.jpg", "https://pb9.pstatp.com/large/5c89000e5cd82160de5c.jpg", "https://pb3.pstatp.com/large/5c89000e5cd82160de5c.jpg"],
+				"uri": "large/5c89000e5cd82160de5c"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5c86001348e27ba77394", "http://pb3.pstatp.com/obj/5c86001348e27ba77394", "http://pb3.pstatp.com/obj/5c86001348e27ba77394"],
+				"uri": "5c86001348e27ba77394"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6515690927019789575",
+		"user_digged": 0,
+		"group_id": 6515690927019789575,
+		"desc": "时尚颜值爆表强大伴郎团❤❤胡是最帅的💋💋"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 764799,
+			"aweme_id": "6528578310220287240",
+			"comment_count": 1702,
+			"share_count": 1779,
+			"digg_count": 18863
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "ラムジ",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/552400354f2fc4b420ea.jpg"],
+				"uri": "552400354f2fc4b420ea"
+			},
+			"duration": 46,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/552400354f2fc4b420ea.jpg"],
+				"uri": "552400354f2fc4b420ea"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/552400354f2fc4b420ea.jpg"],
+				"uri": "552400354f2fc4b420ea"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/57150000994ea3e63c78"],
+				"uri": "57150000994ea3e63c78"
+			},
+			"mid": "6507141718198029069",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/552400354f2fc4b420ea.jpg"],
+				"uri": "552400354f2fc4b420ea"
+			},
+			"source": 22,
+			"music_name": "PLANET",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "67134032970",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6f8a00104c7827b51234.jpeg"],
+				"uri": "6f8a00104c7827b51234"
+			},
+			"birthday": "2007-04-25",
+			"nickname": "喜欢可爱",
+			"short_id": "281568829",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/720x720/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/720x720/6f8a00104c7827b51234.jpeg"],
+				"uri": "6f8a00104c7827b51234"
+			},
+			"signature": "我是一名善良的、浪漫的、金牛座的、普通的、五年级的小学生😁",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/100x100/6f8a00104c7827b51234.jpeg", "https://pb3.pstatp.com/aweme/100x100/6f8a00104c7827b51234.jpeg"],
+				"uri": "6f8a00104c7827b51234"
+			},
+			"is_verified": true,
+			"unique_id": "2007425jingxinyi"
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1572365621142541",
+			"user_count": 0,
+			"cid": "1572365621142541",
+			"cha_name": "十二星座",
+			"author": {},
+			"desc": "因为我喜欢十二星座，"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @喜欢可爱 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@喜欢可爱发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6528578310220287240",
+			"share_desc": "十二星座排行，快来看看你的星座吧！"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520053097,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=75d18c9f6b514532b5a0f01409bad542&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=75d18c9f6b514532b5a0f01409bad542&line=1"],
+				"uri": "75d18c9f6b514532b5a0f01409bad542"
+			},
+			"height": 848,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/6a550005b8d19dafa759.jpg", "https://pb9.pstatp.com/large/6a550005b8d19dafa759.jpg", "https://pb3.pstatp.com/large/6a550005b8d19dafa759.jpg"],
+				"uri": "large/6a550005b8d19dafa759"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/6a550005b92829bade30", "http://pb3.pstatp.com/obj/6a550005b92829bade30", "http://pb3.pstatp.com/obj/6a550005b92829bade30"],
+				"uri": "6a550005b92829bade30"
+			},
+			"width": 480
+		},
+		"media_type": 4,
+		"aweme_id": "6528578310220287240",
+		"user_digged": 0,
+		"group_id": 6528578310220287240,
+		"desc": "十二星座排行，快来看看你的星座吧！"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 84191,
+			"aweme_id": "6517214789960207623",
+			"comment_count": 50,
+			"share_count": 557,
+			"digg_count": 1412
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "网络歌手",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/c16000004bb62d5baed.jpg"],
+				"uri": "c16000004bb62d5baed"
+			},
+			"duration": 53,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/c16000004bb62d5baed.jpg"],
+				"uri": "c16000004bb62d5baed"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/c16000004bb62d5baed.jpg"],
+				"uri": "c16000004bb62d5baed"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/29c70000252901e0d884"],
+				"uri": "29c70000252901e0d884"
+			},
+			"mid": "6340060637548251906",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/c16000004bb62d5baed.jpg"],
+				"uri": "c16000004bb62d5baed"
+			},
+			"source": 22,
+			"music_name": "容嬷嬷小黑屋进行曲",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "66784327913",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/thumb/3642000ca1d4b10fc8f5"],
+				"uri": ""
+			},
+			"birthday": "1995-05-09",
+			"nickname": "〆、______Dreams°",
+			"short_id": "61429081",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/thumb/3642000ca1d4b10fc8f5"],
+				"uri": ""
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/thumb/3642000ca1d4b10fc8f5"],
+				"uri": ""
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1559474431763457",
+			"user_count": 0,
+			"cid": "1559474431763457",
+			"cha_name": "容嬷嬷",
+			"author": {},
+			"desc": "太鬼畜了😂😂"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @〆、______Dreams° 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@〆、______Dreams°发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6517214789960207623",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517407323,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=4a2d297c9c3b476faaca95117c53d3c3&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=4a2d297c9c3b476faaca95117c53d3c3&line=1"],
+				"uri": "4a2d297c9c3b476faaca95117c53d3c3"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/5f150002d226b70c038f.jpg", "https://pb3.pstatp.com/large/5f150002d226b70c038f.jpg", "https://pb3.pstatp.com/large/5f150002d226b70c038f.jpg"],
+				"uri": "large/5f150002d226b70c038f"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5f1900081438e050f66f", "http://pb9.pstatp.com/obj/5f1900081438e050f66f", "http://pb3.pstatp.com/obj/5f1900081438e050f66f"],
+				"uri": "5f1900081438e050f66f"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6517214789960207623",
+		"user_digged": 0,
+		"group_id": 6517214789960207623,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 53131,
+			"aweme_id": "6518536041605893383",
+			"comment_count": 20,
+			"share_count": 556,
+			"digg_count": 1104
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "阿金呦",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5fc700048a84ab151abf"],
+				"uri": "5fc700048a84ab151abf"
+			},
+			"mid": "6518536145608346371",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"source": 23,
+			"music_name": "@阿金呦创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "84838334916",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"birthday": "1995-05-27",
+			"nickname": "阿金呦",
+			"short_id": "190567279",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/720x720/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"signature": "爱好，护肤，编发，👇🏻\n维🎀a1044347035",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg", "https://pb3.pstatp.com/aweme/100x100/5531001fac323d23e11c.jpeg"],
+				"uri": "5531001fac323d23e11c"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1591079012312135",
+			"user_count": 0,
+			"cid": "1591079012312135",
+			"cha_name": "抖音豆芽舞",
+			"author": {},
+			"desc": "不知道大家有没有觉得缺少一个专属昵称，来称呼在抖音上认识的彼此呢？抖音君征集了一些抖音小伙伴们的意见，选出了一个属于抖音er们的昵称——豆芽！\n——“在抖音，我看到了大千世界的精彩瞬间，也逐渐影响了我的生活，就像一颗小豆芽找到了合适的土壤，然后不断生根发芽，和抖音一起成长~”\n为此我们特意发起了豆芽舞的挑战，邀请各位豆芽们一起来和抖音君尬舞~各位豆芽们，请多关照！新的一年，要和抖音一起茁壮成长哦~"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @阿金呦 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@阿金呦发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6518536041605893383",
+			"share_desc": "最显高的发型这样扎，🔥❤"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517714966,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=6fe0908b0b6c4ceab6f29f9c80dbd31a&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=6fe0908b0b6c4ceab6f29f9c80dbd31a&line=1"],
+				"uri": "6fe0908b0b6c4ceab6f29f9c80dbd31a"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5fb80001824fddf3039e.jpg", "https://pb9.pstatp.com/large/5fb80001824fddf3039e.jpg", "https://pb3.pstatp.com/large/5fb80001824fddf3039e.jpg"],
+				"uri": "large/5fb80001824fddf3039e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/600b000b285a03cfb359", "http://pb3.pstatp.com/obj/600b000b285a03cfb359", "http://pb3.pstatp.com/obj/600b000b285a03cfb359"],
+				"uri": "600b000b285a03cfb359"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6518536041605893383",
+		"user_digged": 0,
+		"group_id": 6518536041605893383,
+		"desc": "最显高的发型这样扎，🔥❤"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 114211,
+			"aweme_id": "6523742619984465160",
+			"comment_count": 239,
+			"share_count": 215,
+			"digg_count": 9463
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "王源",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/c16000002057f957dbc.jpg"],
+				"uri": "c16000002057f957dbc"
+			},
+			"duration": 39,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/c16000002057f957dbc.jpg"],
+				"uri": "c16000002057f957dbc"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/c16000002057f957dbc.jpg"],
+				"uri": "c16000002057f957dbc"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/29c300003e02b994b431"],
+				"uri": "29c300003e02b994b431"
+			},
+			"mid": "6321638643605703426",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/c16000002057f957dbc.jpg"],
+				"uri": "c16000002057f957dbc"
+			},
+			"source": 22,
+			"music_name": "因为遇见你",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "52445738533",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/659f001f1a96976cfa86.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/659f001f1a96976cfa86.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/659f001f1a96976cfa86.jpeg"],
+				"uri": "659f001f1a96976cfa86"
+			},
+			"birthday": "1991-07-07",
+			"nickname": "热爱蛋糕的男神",
+			"short_id": "6362260",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/659f001f1a96976cfa86.jpeg", "https://pb9.pstatp.com/aweme/720x720/659f001f1a96976cfa86.jpeg", "https://pb3.pstatp.com/aweme/720x720/659f001f1a96976cfa86.jpeg"],
+				"uri": "659f001f1a96976cfa86"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/659f001f1a96976cfa86.jpeg", "https://pb9.pstatp.com/aweme/100x100/659f001f1a96976cfa86.jpeg", "https://pb3.pstatp.com/aweme/100x100/659f001f1a96976cfa86.jpeg"],
+				"uri": "659f001f1a96976cfa86"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @热爱蛋糕的男神 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@热爱蛋糕的男神发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6523742619984465160",
+			"share_desc": "你们要的王源男神来啦，喜欢的朋友双击关注吧"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518927244,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=6aa3658e9ee246bbb6cc5bc48ca17373&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=6aa3658e9ee246bbb6cc5bc48ca17373&line=1"],
+				"uri": "6aa3658e9ee246bbb6cc5bc48ca17373"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/64c2000bcc067a0aba2a.jpg", "https://pb9.pstatp.com/large/64c2000bcc067a0aba2a.jpg", "https://pb3.pstatp.com/large/64c2000bcc067a0aba2a.jpg"],
+				"uri": "large/64c2000bcc067a0aba2a"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/64c3000325dba44cf614", "http://pb9.pstatp.com/obj/64c3000325dba44cf614", "http://pb3.pstatp.com/obj/64c3000325dba44cf614"],
+				"uri": "64c3000325dba44cf614"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6523742619984465160",
+		"user_digged": 0,
+		"group_id": 6523742619984465160,
+		"desc": "你们要的王源男神来啦，喜欢的朋友双击关注吧"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 244793,
+			"aweme_id": "6524587954633968903",
+			"comment_count": 152,
+			"share_count": 609,
+			"digg_count": 9469
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "1M舞室Fanclub",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"duration": 58,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/66df0003d72a9761d52c"],
+				"uri": "66df0003d72a9761d52c"
+			},
+			"mid": "6524588074507340552",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"source": 23,
+			"music_name": "@1M舞室Fanclub创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "67567362368",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"birthday": "",
+			"nickname": "1M舞室Fanclub",
+			"short_id": "92937825",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/720x720/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"signature": "微博id：1M舞室Fanclub，完整版至微博观看，请勿用于商业用途。",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg", "https://pb3.pstatp.com/aweme/100x100/46b40027182b45adaa89.jpeg"],
+				"uri": "46b40027182b45adaa89"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1592102383065118",
+			"user_count": 0,
+			"cid": "1592102383065118",
+			"cha_name": "这样拜年才“抖音”！ ",
+			"author": {},
+			"desc": "你欣赏过激昂欢腾，锣鼓齐鸣的「金蛇狂舞」与电音的混编吗？当传统的民乐与当代电音糅合在一起，绝对惊艳你的耳朵~全家人欢聚一堂拜年之际，前一秒披着大红褂，穿着红袄子，梳个哪吒头，红火又喜庆地拜年；曲风突变电音时来个dab，立刻变身狂拽炫酷，最in时尚范儿，墨镜、皮鞋、潮帽统统上身~\n春节，带上你的家人用这首混编版「金蛇狂舞」开启最潮拜年方式吧！"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @1M舞室Fanclub 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@1M舞室Fanclub发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6524587954633968903",
+			"share_desc": "Tina Boo 编舞：Cheap Thrills - Sia"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1519124039,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=61cd43c2f3d547e9a6212a546ba05461&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=61cd43c2f3d547e9a6212a546ba05461&line=1"],
+				"uri": "61cd43c2f3d547e9a6212a546ba05461"
+			},
+			"height": 540,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/6556000d541c59110b91.jpg", "https://pb3.pstatp.com/large/6556000d541c59110b91.jpg", "https://pb3.pstatp.com/large/6556000d541c59110b91.jpg"],
+				"uri": "large/6556000d541c59110b91"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/655c00018bfd79932f37", "http://pb9.pstatp.com/obj/655c00018bfd79932f37", "http://pb3.pstatp.com/obj/655c00018bfd79932f37"],
+				"uri": "655c00018bfd79932f37"
+			},
+			"width": 960
+		},
+		"media_type": 4,
+		"aweme_id": "6524587954633968903",
+		"user_digged": 0,
+		"group_id": 6524587954633968903,
+		"desc": "Tina Boo 编舞：Cheap Thrills - Sia"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 96759,
+			"aweme_id": "6517270230996094215",
+			"comment_count": 40,
+			"share_count": 302,
+			"digg_count": 4839
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "Gala Rizzatto",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"duration": 35,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/47cc0000a9304a64e74e"],
+				"uri": "47cc0000a9304a64e74e"
+			},
+			"mid": "6490757015895051021",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/49e80010aff5d535ec84.jpg"],
+				"uri": "49e80010aff5d535ec84"
+			},
+			"source": 22,
+			"music_name": "Faraway (Main Version)",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "54627153727",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ae00033789ecde04b8e.jpeg"],
+				"uri": "5ae00033789ecde04b8e"
+			},
+			"birthday": "1999-10-17",
+			"nickname": "Jiangjingyi",
+			"short_id": "7404336",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ae00033789ecde04b8e.jpeg"],
+				"uri": "5ae00033789ecde04b8e"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ae00033789ecde04b8e.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ae00033789ecde04b8e.jpeg"],
+				"uri": "5ae00033789ecde04b8e"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1589284053867523",
+			"user_count": 0,
+			"cid": "1589284053867523",
+			"cha_name": "我被你“电”到了🙂",
+			"author": {},
+			"desc": "冬天，干燥的天气里，两个人彼此互相摩擦就可以起电~你想不想试一试，你和ta之间是否会摩擦来电呢？还等什么？放电时间已开始🙂，赶快来释放你的“十万伏特”吧~"
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @Jiangjingyi 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@Jiangjingyi发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6517270230996094215",
+			"share_desc": "最帅伴郎团 表白彭于晏❤️"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517420232,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=122033ca19564fe4b70f3b75f6cc0dcc&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=122033ca19564fe4b70f3b75f6cc0dcc&line=1"],
+				"uri": "122033ca19564fe4b70f3b75f6cc0dcc"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/5f13001024a2213d8722.jpg", "https://pb3.pstatp.com/large/5f13001024a2213d8722.jpg", "https://pb3.pstatp.com/large/5f13001024a2213d8722.jpg"],
+				"uri": "large/5f13001024a2213d8722"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5f1a0007e3f8bab8e2ff", "http://pb3.pstatp.com/obj/5f1a0007e3f8bab8e2ff", "http://pb3.pstatp.com/obj/5f1a0007e3f8bab8e2ff"],
+				"uri": "5f1a0007e3f8bab8e2ff"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6517270230996094215",
+		"user_digged": 0,
+		"group_id": 6517270230996094215,
+		"desc": "最帅伴郎团 表白彭于晏❤️"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 90304,
+			"aweme_id": "6509989902090767624",
+			"comment_count": 16,
+			"share_count": 52,
+			"digg_count": 579
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "毛银",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"duration": 10,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5733000695eaa480fff6"],
+				"uri": "5733000695eaa480fff6"
+			},
+			"mid": "6509990016582683400",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"source": 23,
+			"music_name": "@毛银创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "64045362424",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"birthday": "1986-05-24",
+			"nickname": "毛银",
+			"short_id": "185567233",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/720x720/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg", "https://pb9.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg", "https://pb3.pstatp.com/aweme/100x100/552400357a32893da4f4.jpeg"],
+				"uri": "552400357a32893da4f4"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @毛银 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@毛银发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6509989902090767624",
+			"share_desc": "弟弟不敢过，哥哥牵着手一起过"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1515725164,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=67a7c493ff764fae8d6df5fa9d38544a&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=67a7c493ff764fae8d6df5fa9d38544a&line=1"],
+				"uri": "67a7c493ff764fae8d6df5fa9d38544a"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p9.pstatp.com/large/5794000d97e3bd506a2e.jpg", "https://pb1.pstatp.com/large/5794000d97e3bd506a2e.jpg", "https://pb3.pstatp.com/large/5794000d97e3bd506a2e.jpg"],
+				"uri": "large/5794000d97e3bd506a2e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5797000481c724b3a621", "http://pb9.pstatp.com/obj/5797000481c724b3a621", "http://pb3.pstatp.com/obj/5797000481c724b3a621"],
+				"uri": "5797000481c724b3a621"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6509989902090767624",
+		"user_digged": 0,
+		"group_id": 6509989902090767624,
+		"desc": "弟弟不敢过，哥哥牵着手一起过"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 15579,
+			"aweme_id": "6524948650416672007",
+			"comment_count": 7,
+			"share_count": 20,
+			"digg_count": 244
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "小福麻米",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"duration": 47,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/66e3000382d8e222c323"],
+				"uri": "66e3000382d8e222c323"
+			},
+			"mid": "6524948834374650632",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"source": 23,
+			"music_name": "@小福麻米创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "61836457033",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"birthday": "1989-08-21",
+			"nickname": "小福麻米",
+			"short_id": "23566837",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"signature": "小福表情包在微博里哦 关注吧\nV💕 jenny_sister",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg", "https://pb9.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee500110f923279bac0.jpeg"],
+				"uri": "3ee500110f923279bac0"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @小福麻米 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@小福麻米发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6524948650416672007",
+			"share_desc": "看到最后哦！整个娃娃给自己咬急闹了.....今天出去没和心爱的金毛玩儿上....."
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1519208035,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=fc7556fbf0974631a3a77a74a8858c71&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=fc7556fbf0974631a3a77a74a8858c71&line=1"],
+				"uri": "fc7556fbf0974631a3a77a74a8858c71"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/67a10010f4741b670cc3.jpg", "https://pb3.pstatp.com/large/67a10010f4741b670cc3.jpg", "https://pb3.pstatp.com/large/67a10010f4741b670cc3.jpg"],
+				"uri": "large/67a10010f4741b670cc3"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/679f0013806198b9d926", "http://pb9.pstatp.com/obj/679f0013806198b9d926", "http://pb3.pstatp.com/obj/679f0013806198b9d926"],
+				"uri": "679f0013806198b9d926"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6524948650416672007",
+		"user_digged": 0,
+		"group_id": 6524948650416672007,
+		"desc": "看到最后哦！整个娃娃给自己咬急闹了.....今天出去没和心爱的金毛玩儿上....."
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 196299,
+			"aweme_id": "6531213133120277767",
+			"comment_count": 174,
+			"share_count": 25,
+			"digg_count": 2978
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "请叫我妞妞",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/6c640002381d5226a483"],
+				"uri": "6c640002381d5226a483"
+			},
+			"mid": "6531213167685864200",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"source": 23,
+			"music_name": "@请叫我妞妞创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "60366740957",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"birthday": "1982-08-01",
+			"nickname": "请叫我妞妞",
+			"short_id": "20823519",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/720x720/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"signature": "温馨提示 有很多人盗用我们妞妞视频 所以大家不要去相信任何抖音号 唯有此号为真",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg", "https://pb3.pstatp.com/aweme/100x100/6726002c1dcace2a8d53.jpeg"],
+				"uri": "6726002c1dcace2a8d53"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @请叫我妞妞 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@请叫我妞妞发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6531213133120277767",
+			"share_desc": "不要上当受骗哦 我们才是真正的 请叫我妞妞"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520666565,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=8fdd41f4165b4a20a3805ebd331416cc&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=8fdd41f4165b4a20a3805ebd331416cc&line=1"],
+				"uri": "8fdd41f4165b4a20a3805ebd331416cc"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/6d08000ffc98c73eff4e.jpg", "https://pb3.pstatp.com/large/6d08000ffc98c73eff4e.jpg", "https://pb3.pstatp.com/large/6d08000ffc98c73eff4e.jpg"],
+				"uri": "large/6d08000ffc98c73eff4e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6d0b00082efb8db063ab", "http://pb9.pstatp.com/obj/6d0b00082efb8db063ab", "http://pb3.pstatp.com/obj/6d0b00082efb8db063ab"],
+				"uri": "6d0b00082efb8db063ab"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6531213133120277767",
+		"user_digged": 0,
+		"group_id": 6531213133120277767,
+		"desc": "不要上当受骗哦 我们才是真正的 请叫我妞妞"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 142755,
+			"aweme_id": "6533441295573060871",
+			"comment_count": 13,
+			"share_count": 35,
+			"digg_count": 879
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "Jane【尐珍】🍒",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/6f6f0001d03a2b1410d5"],
+				"uri": "6f6f0001d03a2b1410d5"
+			},
+			"mid": "6533441505636715272",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"source": 23,
+			"music_name": "@Jane【尐珍】🍒创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "75914665254",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"birthday": "1994-06-25",
+			"nickname": "Jane【尐珍】🍒",
+			"short_id": "126036823",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"signature": "🍭  你的关注就是我最大的支持😁谢谢\n收学员：唯💓Tz5685988",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/thumb/474a000680f7b77fdf19"],
+				"uri": ""
+			},
+			"is_verified": true,
+			"unique_id": "Jane99999"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @Jane【尐珍】🍒 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@Jane【尐珍】🍒发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6533441295573060871",
+			"share_desc": "制作草莓棒棒糖🍭唇釉"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1521185391,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=16a1f1bb09794f978e78f497659fee92&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=16a1f1bb09794f978e78f497659fee92&line=1"],
+				"uri": "16a1f1bb09794f978e78f497659fee92"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/6e7000064960ce386847.jpg", "https://pb9.pstatp.com/large/6e7000064960ce386847.jpg", "https://pb3.pstatp.com/large/6e7000064960ce386847.jpg"],
+				"uri": "large/6e7000064960ce386847"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/6e710005532e92dc0667", "http://pb3.pstatp.com/obj/6e710005532e92dc0667", "http://pb3.pstatp.com/obj/6e710005532e92dc0667"],
+				"uri": "6e710005532e92dc0667"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6533441295573060871",
+		"user_digged": 0,
+		"group_id": 6533441295573060871,
+		"desc": "制作草莓棒棒糖🍭唇釉"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 36116384,
+			"aweme_id": "6506776177917562120",
+			"comment_count": 60542,
+			"share_count": 87349,
+			"digg_count": 1554616
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "费启鸣",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"duration": 32,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/55060000a0492730d428"],
+				"uri": "55060000a0492730d428"
+			},
+			"mid": "6506776242007182084",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"source": 23,
+			"music_name": "@费启鸣创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "63482523084",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"birthday": "1996-09-16",
+			"nickname": "费启鸣",
+			"short_id": "40103580",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/720x720/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"signature": "✌🏻",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg", "https://pb3.pstatp.com/aweme/100x100/3ee6001cbb6302350466.jpeg"],
+				"uri": "3ee6001cbb6302350466"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @费启鸣 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@费启鸣发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6506776177917562120",
+			"share_desc": "凑合着听吧，我自己都绝望了🤷🏻♂️抱歉了哈哈哈"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1514976899,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=c705ef6e6f0c49759372e8e5ea4b6c92&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=c705ef6e6f0c49759372e8e5ea4b6c92&line=1"],
+				"uri": "c705ef6e6f0c49759372e8e5ea4b6c92"
+			},
+			"height": 1168,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/554100152bf64c8a8b85.jpg", "https://pb9.pstatp.com/large/554100152bf64c8a8b85.jpg", "https://pb3.pstatp.com/large/554100152bf64c8a8b85.jpg"],
+				"uri": "large/554100152bf64c8a8b85"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5544000d9bf3e251c8dc", "http://pb9.pstatp.com/obj/5544000d9bf3e251c8dc", "http://pb3.pstatp.com/obj/5544000d9bf3e251c8dc"],
+				"uri": "5544000d9bf3e251c8dc"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6506776177917562120",
+		"user_digged": 0,
+		"group_id": 6506776177917562120,
+		"desc": "凑合着听吧，我自己都绝望了🤷🏻♂️抱歉了哈哈哈"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 190647,
+			"aweme_id": "6515300187085212935",
+			"comment_count": 24,
+			"share_count": 184,
+			"digg_count": 558
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "小顾",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg"],
+				"uri": "6728000d1f260ba4e9f9"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/100x100/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/100x100/6728000d1f260ba4e9f9.jpeg"],
+				"uri": "6728000d1f260ba4e9f9"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6728000d1f260ba4e9f9.jpeg"],
+				"uri": "6728000d1f260ba4e9f9"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5afa0006e947866c0109"],
+				"uri": "5afa0006e947866c0109"
+			},
+			"mid": "6514929376117820174",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/720x720/6728000d1f260ba4e9f9.jpeg", "https://pb3.pstatp.com/aweme/720x720/6728000d1f260ba4e9f9.jpeg"],
+				"uri": "6728000d1f260ba4e9f9"
+			},
+			"source": 23,
+			"music_name": "@小顾创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "16026452243",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad2002cec945bf4b5a6.jpeg"],
+				"uri": "5ad2002cec945bf4b5a6"
+			},
+			"birthday": "1985-09-11",
+			"nickname": "可少",
+			"short_id": "100748002",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad2002cec945bf4b5a6.jpeg"],
+				"uri": "5ad2002cec945bf4b5a6"
+			},
+			"signature": "随心所欲",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad2002cec945bf4b5a6.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad2002cec945bf4b5a6.jpeg"],
+				"uri": "5ad2002cec945bf4b5a6"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @可少 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@可少发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6515300187085212935",
+			"share_desc": "赌神"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1516961683,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=56f4d4529aae48b0af508d6ea6b2efbd&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=56f4d4529aae48b0af508d6ea6b2efbd&line=1"],
+				"uri": "56f4d4529aae48b0af508d6ea6b2efbd"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5c4d000053fe59fa936d.jpg", "https://pb9.pstatp.com/large/5c4d000053fe59fa936d.jpg", "https://pb3.pstatp.com/large/5c4d000053fe59fa936d.jpg"],
+				"uri": "large/5c4d000053fe59fa936d"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p9.pstatp.com/obj/5c49000a8ff4ecbed42e", "http://pb1.pstatp.com/obj/5c49000a8ff4ecbed42e", "http://pb3.pstatp.com/obj/5c49000a8ff4ecbed42e"],
+				"uri": "5c49000a8ff4ecbed42e"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6515300187085212935",
+		"user_digged": 0,
+		"group_id": 6515300187085212935,
+		"desc": "赌神"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 102317,
+			"aweme_id": "6532639169334742280",
+			"comment_count": 14,
+			"share_count": 266,
+			"digg_count": 1231
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "男幼师苹果哥哥❣幼儿舞蹈分享",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"duration": 11,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/6c7800037278c98d0a4e"],
+				"uri": "6c7800037278c98d0a4e"
+			},
+			"mid": "6532639225656183565",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"source": 23,
+			"music_name": "@男幼师苹果哥哥❣幼儿舞蹈分享创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "83576349743",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"birthday": "1997-01-01",
+			"nickname": "男幼师苹果哥哥❣幼儿舞蹈分享",
+			"short_id": "178369590",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"signature": "❣我是一颗小太阳☀浑身充满正能量❣广告合作请私信❣",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"is_verified": true,
+			"unique_id": "zz199755"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @男幼师苹果哥哥❣幼儿舞蹈分享 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@男幼师苹果哥哥❣幼儿舞蹈分享发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6532639169334742280",
+			"share_desc": "火遍全国的幼儿游戏❣❣❣"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520998595,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=f0103fc97d844e21b3cacba25ac2dc17&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=f0103fc97d844e21b3cacba25ac2dc17&line=1"],
+				"uri": "f0103fc97d844e21b3cacba25ac2dc17"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/6df3000596cead68b19c.jpg", "https://pb9.pstatp.com/large/6df3000596cead68b19c.jpg", "https://pb3.pstatp.com/large/6df3000596cead68b19c.jpg"],
+				"uri": "large/6df3000596cead68b19c"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6dee000ea63a6fe0141d", "http://pb9.pstatp.com/obj/6dee000ea63a6fe0141d", "http://pb3.pstatp.com/obj/6dee000ea63a6fe0141d"],
+				"uri": "6dee000ea63a6fe0141d"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6532639169334742280",
+		"user_digged": 0,
+		"group_id": 6532639169334742280,
+		"desc": "火遍全国的幼儿游戏❣❣❣"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 33971,
+			"aweme_id": "6518504098092813576",
+			"comment_count": 15,
+			"share_count": 110,
+			"digg_count": 433
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "宋小宝 小沈阳",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/33080022dffcbb2e59e8.jpg"],
+				"uri": "33080022dffcbb2e59e8"
+			},
+			"duration": 16,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/33080022dffcbb2e59e8.jpg"],
+				"uri": "33080022dffcbb2e59e8"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/33080022dffcbb2e59e8.jpg"],
+				"uri": "33080022dffcbb2e59e8"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/3395000054af8abe7e22"],
+				"uri": "3395000054af8abe7e22"
+			},
+			"mid": "6460339801136007950",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/33080022dffcbb2e59e8.jpg"],
+				"uri": "33080022dffcbb2e59e8"
+			},
+			"source": 22,
+			"music_name": "“一动不动是王八！”--宋小宝",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "59745305916",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5ad90035c854a4772ac2.jpeg"],
+				"uri": "5ad90035c854a4772ac2"
+			},
+			"birthday": "1980-03-23",
+			"nickname": "爱犬🐶皮皮💖救助领养🏠",
+			"short_id": "12123403",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/720x720/5ad90035c854a4772ac2.jpeg"],
+				"uri": "5ad90035c854a4772ac2"
+			},
+			"signature": "望大家点关注，粉丝5万，毛孩子就可以跟大家面对面现场直播视频，愿帮助它们🙏感恩",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad90035c854a4772ac2.jpeg", "https://pb3.pstatp.com/aweme/100x100/5ad90035c854a4772ac2.jpeg"],
+				"uri": "5ad90035c854a4772ac2"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @爱犬🐶皮皮💖救助领养🏠 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@爱犬🐶皮皮💖救助领养🏠发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6518504098092813576",
+			"share_desc": "抖音-原创音乐短视频社区"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1517707522,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=247284eb9856409e96548efc59f9cccb&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=247284eb9856409e96548efc59f9cccb&line=1"],
+				"uri": "247284eb9856409e96548efc59f9cccb"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/5fad000da618fe888132.jpg", "https://pb9.pstatp.com/large/5fad000da618fe888132.jpg", "https://pb3.pstatp.com/large/5fad000da618fe888132.jpg"],
+				"uri": "large/5fad000da618fe888132"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p1.pstatp.com/obj/5fb7000d7adb79aaa2b1", "http://pb3.pstatp.com/obj/5fb7000d7adb79aaa2b1", "http://pb3.pstatp.com/obj/5fb7000d7adb79aaa2b1"],
+				"uri": "5fb7000d7adb79aaa2b1"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6518504098092813576",
+		"user_digged": 0,
+		"group_id": 6518504098092813576,
+		"desc": ""
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 179652,
+			"aweme_id": "6529858125439175943",
+			"comment_count": 86,
+			"share_count": 164,
+			"digg_count": 3886
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "冯曦妤",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/552b003328bf89dc76fd.jpg"],
+				"uri": "552b003328bf89dc76fd"
+			},
+			"duration": 40,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/552b003328bf89dc76fd.jpg"],
+				"uri": "552b003328bf89dc76fd"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/552b003328bf89dc76fd.jpg"],
+				"uri": "552b003328bf89dc76fd"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5731000551709b9607e1"],
+				"uri": "5731000551709b9607e1"
+			},
+			"mid": "6509694617964382983",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/552b003328bf89dc76fd.jpg"],
+				"uri": "552b003328bf89dc76fd"
+			},
+			"source": 22,
+			"music_name": "A Little Love",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "72091288730",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/6716001ce422b80f732d.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/6716001ce422b80f732d.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/6716001ce422b80f732d.jpeg"],
+				"uri": "6716001ce422b80f732d"
+			},
+			"birthday": "1989-02-15",
+			"nickname": "爱分享的小女子",
+			"short_id": "118003225",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/6716001ce422b80f732d.jpeg", "https://pb9.pstatp.com/aweme/720x720/6716001ce422b80f732d.jpeg", "https://pb3.pstatp.com/aweme/720x720/6716001ce422b80f732d.jpeg"],
+				"uri": "6716001ce422b80f732d"
+			},
+			"signature": "长期更新最新影视花絮",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/6716001ce422b80f732d.jpeg", "https://pb9.pstatp.com/aweme/100x100/6716001ce422b80f732d.jpeg", "https://pb3.pstatp.com/aweme/100x100/6716001ce422b80f732d.jpeg"],
+				"uri": "6716001ce422b80f732d"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [{
+			"schema": "aweme://aweme/challenge/detail?cid=1573452457803789",
+			"user_count": 0,
+			"cid": "1573452457803789",
+			"cha_name": "蒋欣",
+			"author": {},
+			"desc": ""
+		}],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @爱分享的小女子 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@爱分享的小女子发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6529858125439175943",
+			"share_desc": "喜欢蒋欣饰演的哪个角色，古代的，现代的个人喜欢华妃娘娘，"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520351126,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=a7548b323d564c15833076b7dc2d19ff&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=a7548b323d564c15833076b7dc2d19ff&line=1"],
+				"uri": "a7548b323d564c15833076b7dc2d19ff"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/6b2800076634e74fc7e4.jpg", "https://pb3.pstatp.com/large/6b2800076634e74fc7e4.jpg", "https://pb3.pstatp.com/large/6b2800076634e74fc7e4.jpg"],
+				"uri": "large/6b2800076634e74fc7e4"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6b27000dd1e85bc1d74b", "http://pb9.pstatp.com/obj/6b27000dd1e85bc1d74b", "http://pb3.pstatp.com/obj/6b27000dd1e85bc1d74b"],
+				"uri": "6b27000dd1e85bc1d74b"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6529858125439175943",
+		"user_digged": 0,
+		"group_id": 6529858125439175943,
+		"desc": "喜欢蒋欣饰演的哪个角色，古代的，现代的个人喜欢华妃娘娘，"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 36291,
+			"aweme_id": "6530487315943394568",
+			"comment_count": 21,
+			"share_count": 77,
+			"digg_count": 417
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "男幼师苹果哥哥❣幼儿舞蹈分享",
+			"cover_large": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"cover_hd": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/6c56000675dd05f48646"],
+				"uri": "6c56000675dd05f48646"
+			},
+			"mid": "6530487374311328526",
+			"cover_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"source": 23,
+			"music_name": "@男幼师苹果哥哥❣幼儿舞蹈分享创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "83576349743",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"birthday": "1997-01-01",
+			"nickname": "男幼师苹果哥哥❣幼儿舞蹈分享",
+			"short_id": "178369590",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/720x720/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"signature": "❣我是一颗小太阳☀浑身充满正能量❣广告合作请私信❣",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg", "https://pb3.pstatp.com/aweme/100x100/671d001529e62ef53f82.jpeg"],
+				"uri": "671d001529e62ef53f82"
+			},
+			"is_verified": true,
+			"unique_id": "zz199755"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @男幼师苹果哥哥❣幼儿舞蹈分享 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@男幼师苹果哥哥❣幼儿舞蹈分享发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6530487315943394568",
+			"share_desc": "幼儿舞蹈❣甜蜜童话屋😍ོ"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520497578,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=3c24d155bca8453db01beb66f9112c4e&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=3c24d155bca8453db01beb66f9112c4e&line=1"],
+				"uri": "3c24d155bca8453db01beb66f9112c4e"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/6b86000b7e83ce75313e.jpg", "https://pb9.pstatp.com/large/6b86000b7e83ce75313e.jpg", "https://pb3.pstatp.com/large/6b86000b7e83ce75313e.jpg"],
+				"uri": "large/6b86000b7e83ce75313e"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6b88000937309be3a9e2", "http://pb9.pstatp.com/obj/6b88000937309be3a9e2", "http://pb3.pstatp.com/obj/6b88000937309be3a9e2"],
+				"uri": "6b88000937309be3a9e2"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6530487315943394568",
+		"user_digged": 0,
+		"group_id": 6530487315943394568,
+		"desc": "幼儿舞蹈❣甜蜜童话屋😍ོ"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 2026907,
+			"aweme_id": "6509416974135594248",
+			"comment_count": 321,
+			"share_count": 4035,
+			"digg_count": 17503
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "T. Mills",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/live/720x720/5305001d74b9a6b5b773.jpg"],
+				"uri": "5305001d74b9a6b5b773"
+			},
+			"duration": 36,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/live/100x100/5305001d74b9a6b5b773.jpg"],
+				"uri": "5305001d74b9a6b5b773"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/live/1080x1080/5305001d74b9a6b5b773.jpg"],
+				"uri": "5305001d74b9a6b5b773"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/530c00047eacb99b1c56"],
+				"uri": "530c00047eacb99b1c56"
+			},
+			"mid": "6503449855448582926",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/live/200x200/5305001d74b9a6b5b773.jpg"],
+				"uri": "5305001d74b9a6b5b773"
+			},
+			"source": 22,
+			"music_name": "Loud (Part 2)",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "59944992360",
+			"avatar_larger": {
+				"url_list": ["https://p1.pstatp.com/aweme/1080x1080/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/46bb002f8defcf6318af.jpeg"],
+				"uri": "46bb002f8defcf6318af"
+			},
+			"birthday": "1994-09-09",
+			"nickname": "西安凯哥",
+			"short_id": "13174854",
+			"gender": 1,
+			"avatar_medium": {
+				"url_list": ["https://p1.pstatp.com/aweme/720x720/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/720x720/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/720x720/46bb002f8defcf6318af.jpeg"],
+				"uri": "46bb002f8defcf6318af"
+			},
+			"signature": "想知道自己适合什么发型吗？关注我.每天更新原创发型\nV❤️15339070317",
+			"avatar_thumb": {
+				"url_list": ["https://p1.pstatp.com/aweme/100x100/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/100x100/46bb002f8defcf6318af.jpeg", "https://pb3.pstatp.com/aweme/100x100/46bb002f8defcf6318af.jpeg"],
+				"uri": "46bb002f8defcf6318af"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @西安凯哥 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@西安凯哥发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6509416974135594248",
+			"share_desc": "2018最新发型，进来的宝贝给个💗🙏"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1515591750,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7d25c41d54b446b9b178017599bf7993&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7d25c41d54b446b9b178017599bf7993&line=1"],
+				"uri": "7d25c41d54b446b9b178017599bf7993"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p3.pstatp.com/large/575b000e3f3d1766502a.jpg", "https://pb9.pstatp.com/large/575b000e3f3d1766502a.jpg", "https://pb3.pstatp.com/large/575b000e3f3d1766502a.jpg"],
+				"uri": "large/575b000e3f3d1766502a"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/575a0010e8d788ab120c", "http://pb9.pstatp.com/obj/575a0010e8d788ab120c", "http://pb3.pstatp.com/obj/575a0010e8d788ab120c"],
+				"uri": "575a0010e8d788ab120c"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6509416974135594248",
+		"user_digged": 0,
+		"group_id": 6509416974135594248,
+		"desc": "2018最新发型，进来的宝贝给个💗🙏"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 10866,
+			"aweme_id": "6531552274706074887",
+			"comment_count": 5,
+			"share_count": 16,
+			"digg_count": 74
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "猫猫躲雨不在",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/6c6900018f1d21b0634a"],
+				"uri": "6c6900018f1d21b0634a"
+			},
+			"mid": "6531552316582660877",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"source": 23,
+			"music_name": "@猫猫躲雨不在创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "83529349981",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"birthday": "1986-12-22",
+			"nickname": "猫猫躲雨不在",
+			"short_id": "178050755",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/720x720/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg", "https://pb9.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg", "https://pb3.pstatp.com/aweme/100x100/530b002bec26b8f1d6db.jpeg"],
+				"uri": "530b002bec26b8f1d6db"
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @猫猫躲雨不在 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@猫猫躲雨不在发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6531552274706074887",
+			"share_desc": "72岁的老阿姨，老年大学学了几个月的钢琴。为您点赞。"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1520745529,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b9da2f12de6f4691a4864432d72a6a21&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=b9da2f12de6f4691a4864432d72a6a21&line=1"],
+				"uri": "b9da2f12de6f4691a4864432d72a6a21"
+			},
+			"height": 1024,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/6d450007073ed3a75e44.jpg", "https://pb3.pstatp.com/large/6d450007073ed3a75e44.jpg", "https://pb3.pstatp.com/large/6d450007073ed3a75e44.jpg"],
+				"uri": "large/6d450007073ed3a75e44"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6d4700059e1c37a94c01", "http://pb9.pstatp.com/obj/6d4700059e1c37a94c01", "http://pb3.pstatp.com/obj/6d4700059e1c37a94c01"],
+				"uri": "6d4700059e1c37a94c01"
+			},
+			"width": 576
+		},
+		"media_type": 4,
+		"aweme_id": "6531552274706074887",
+		"user_digged": 0,
+		"group_id": 6531552274706074887,
+		"desc": "72岁的老阿姨，老年大学学了几个月的钢琴。为您点赞。"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 14305,
+			"aweme_id": "6515196659176049927",
+			"comment_count": 155,
+			"share_count": 158,
+			"digg_count": 498
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "柠檬少女",
+			"cover_large": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"cover_hd": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/5e5200051dfead271b3b"],
+				"uri": "5e5200051dfead271b3b"
+			},
+			"mid": "6515196682484124423",
+			"cover_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"source": 23,
+			"music_name": "@柠檬少女创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "71226599683",
+			"avatar_larger": {
+				"url_list": ["https://p3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/1080x1080/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"birthday": "2005-09-05",
+			"nickname": "柠檬少女",
+			"short_id": "91669777",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://p3.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/720x720/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"signature": "",
+			"avatar_thumb": {
+				"url_list": ["https://p3.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg", "https://pb9.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg", "https://pb3.pstatp.com/aweme/100x100/5fcf0030ea0c29e6e400.jpeg"],
+				"uri": "5fcf0030ea0c29e6e400"
+			},
+			"is_verified": true,
+			"unique_id": "1314520.250"
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @柠檬少女 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@柠檬少女发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6515196659176049927",
+			"share_desc": "看一下你们是什么，我是和迪丽热巴在湖边踢足球"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1516937437,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=90aee378ea2b4b27b6e96ddaeca9b823&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=90aee378ea2b4b27b6e96ddaeca9b823&line=1"],
+				"uri": "90aee378ea2b4b27b6e96ddaeca9b823"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/5c35000658c951597932.jpg", "https://pb3.pstatp.com/large/5c35000658c951597932.jpg", "https://pb3.pstatp.com/large/5c35000658c951597932.jpg"],
+				"uri": "large/5c35000658c951597932"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/5c32000a92c42a135198", "http://pb9.pstatp.com/obj/5c32000a92c42a135198", "http://pb3.pstatp.com/obj/5c32000a92c42a135198"],
+				"uri": "5c32000a92c42a135198"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6515196659176049927",
+		"user_digged": 0,
+		"group_id": 6515196659176049927,
+		"desc": "看一下你们是什么，我是和迪丽热巴在湖边踢足球"
+	}, {
+		"status": {
+			"allow_share": true,
+			"allow_comment": true,
+			"is_delete": false
+		},
+		"text_extra": [],
+		"statistics": {
+			"play_count": 9264,
+			"aweme_id": "6522364485548641543",
+			"comment_count": 1,
+			"share_count": 15,
+			"digg_count": 89
+		},
+		"music": {
+			"status": 1,
+			"is_original": false,
+			"author_name": "金毛荣耀的存储空间",
+			"cover_large": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"duration": 15,
+			"cover_thumb": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"cover_hd": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"user_count": 0,
+			"play_url": {
+				"url_list": ["https://p3.pstatp.com/obj/66580005b8a9525b487d"],
+				"uri": "66580005b8a9525b487d"
+			},
+			"mid": "6522364669117041411",
+			"cover_medium": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"source": 23,
+			"music_name": "@金毛荣耀的存储空间创作的原声",
+			"schema_url": ""
+		},
+		"author": {
+			"uid": "76062047268",
+			"avatar_larger": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"birthday": "2017-08-10",
+			"nickname": "金毛荣耀的存储空间",
+			"short_id": "127054763",
+			"gender": 2,
+			"avatar_medium": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"signature": "不要偷懒，给荣耀留点回忆",
+			"avatar_thumb": {
+				"url_list": ["https://q.qlogo.cn/qqapp/1105602870/9BAA51BD88F1327667CF99097F8E5016/40"],
+				"uri": ""
+			},
+			"is_verified": true,
+			"unique_id": ""
+		},
+		"cha_list": [],
+		"share_info": {
+			"share_weibo_desc": "#在抖音，记录美好生活# @金毛荣耀的存储空间 发了一个抖音短视频，你尽管点开，不好看算我输！戳这里>>",
+			"share_title": "@金毛荣耀的存储空间发了一个抖音短视频，你尽管点开，不好看算我输！",
+			"share_url": "https://www.amemv.com/share/video/6522364485548641543",
+			"share_desc": "我猜到了开头却没有猜到结尾。。。就这样“嫁”到了泰迪家"
+		},
+		"share_url": "",
+		"aweme_type": 0,
+		"create_time": 1518606360,
+		"video": {
+			"play_addr": {
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7837701a7b1744918d52b0603c9b6c06&line=0", "https://aweme.snssdk.com/aweme/v1/playwm/?video_id=7837701a7b1744918d52b0603c9b6c06&line=1"],
+				"uri": "7837701a7b1744918d52b0603c9b6c06"
+			},
+			"height": 960,
+			"cover": {
+				"url_list": ["https://p1.pstatp.com/large/636300074aaa2cffde70.jpg", "https://pb3.pstatp.com/large/636300074aaa2cffde70.jpg", "https://pb3.pstatp.com/large/636300074aaa2cffde70.jpg"],
+				"uri": "large/636300074aaa2cffde70"
+			},
+			"dynamic_cover": {
+				"url_list": ["http://p3.pstatp.com/obj/6362000e2f615ba58cb1", "http://pb9.pstatp.com/obj/6362000e2f615ba58cb1", "http://pb3.pstatp.com/obj/6362000e2f615ba58cb1"],
+				"uri": "6362000e2f615ba58cb1"
+			},
+			"width": 540
+		},
+		"media_type": 4,
+		"aweme_id": "6522364485548641543",
+		"user_digged": 0,
+		"group_id": 6522364485548641543,
+		"desc": "我猜到了开头却没有猜到结尾。。。就这样“嫁”到了泰迪家"
+	}]
+}
