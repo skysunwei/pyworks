@@ -53,6 +53,7 @@ if sys.getdefaultencoding() != 'utf-8':
 "is_verified": true,
 "unique_id": ""
 
+
 class Author(object):
     signature = 0
     uid = ''
