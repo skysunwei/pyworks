@@ -13,7 +13,7 @@ saler_guwens = {237: '赵影', 67413: '笑笑', 1167969: '白夜', 832631: '赵�
 
 lines = []
 
-vips = []
+new_vips = []
 
 tels = {}
 
@@ -42,8 +42,8 @@ def read():
 
         try:
             is_vip = int(line[3])
-            if is_vip == 1:
-                vips.append(id)
+            if is_vip == 0:
+                new_vips.append(id)
         except:
             continue
 
@@ -121,7 +121,7 @@ f.writelines('guwenID, zxsID, phone, day, nickname \n')
 for gonghuizhang in saler_guwens.keys():
 
     all_zxs = calculate(gonghuizhang)
-    intersection = [v for v in all_zxs if v in vips]
+    intersection = [v for v in all_zxs if v in new_vips]
 
     for vip_zxs in intersection:
         f.writelines(str(saler_guwens[gonghuizhang]) + ',' + str(vip_zxs) + ',' + tels[vip_zxs] + '\n')

@@ -6,7 +6,7 @@
 SELECT payorder.buyerid,
        saler.pid,
        concat(recipientaddress.tel,',',payorder.orderday, ',', userweixin.nickname) AS info,
-       '1' AS '1'
+       saler.channeluserid
 FROM
   payorder
     LEFT JOIN saler ON payorder.buyerid = saler.userid
