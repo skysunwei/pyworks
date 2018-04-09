@@ -42,8 +42,7 @@ def read():
 
         try:
             is_vip = int(line[3])
-            if is_vip == 0:
-                new_vips.append(id)
+            new_vips.append(id)
         except:
             continue
 
