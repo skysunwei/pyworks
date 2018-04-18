@@ -6,7 +6,7 @@ url = 'http://v.qq.com/page/k/f/k/k0302a3rmfk.html?ptag=v.qq.com%23v.play.adapto
 page = requests.get(url)
 
 if page.status_code == 200:
-    soup = BeautifulSoup(page.text).find('video')
+    soup = BeautifulSoup(page.text).find('item_main')
     print soup
     print soup['src']
 else:
