@@ -4,11 +4,12 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 168
-FanWei = 15
+Coupon = 366
+FanWei = 100
 N_Pin_Zu = 3
 Filter_Words = ['蛋糕', '大闸蟹','礼品卡']
-Focus_Tag = '仙女节'
+Focus_Tag = '活动'
+
 
 class Merchtype(object):
     merchandiseId = 0
@@ -33,7 +34,7 @@ class Merchtype(object):
 price_group = {}
 
 for line in open(file_name):
-    datas = line.strip('\n').split(',')
+    datas = line.strip('\n').split('\t')
 
     try:
         merchandiseId = int(datas[0])
@@ -42,10 +43,13 @@ for line in open(file_name):
 
         name = datas[3]
         price = float(datas[4])
-
         qimai = int(datas[5])
     except:
-        print(line)
+        # print line
+        for da in datas:
+            print da
+        # print datas
+        # print line
 
     if (merchandiseTag == '不可用券') is True:
         continue
@@ -97,9 +101,10 @@ output = open('result.csv', 'w')
 
 for items in output_data:
     for item in items:
-
         for merchtype in price_group[item]:
-            output.writelines('%s(%s: %s),' % (merchtype.merchandiseName, merchtype.name, merchtype.money))
+            info = '%s(%s: %s),' % (merchtype.merchandiseName, merchtype.name, merchtype.money)
+            # print info
+            output.writelines(info)
         output.writelines('\n')
 
     output.writelines('%s,\n\n' % sum(items))
