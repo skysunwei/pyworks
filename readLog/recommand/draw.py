@@ -151,8 +151,6 @@ print 'done'
 exit()
 
 
-
-
 def sum_orders(list):
     a = 0
     for l in list:
