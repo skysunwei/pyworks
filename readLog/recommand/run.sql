@@ -13,7 +13,7 @@ FROM
 , paysuborder, recipientaddress
 WHERE payorder.orderid = paysuborder.orderid
 AND payorder.addressid = recipientaddress.addressid
-AND paysuborder.merchandiseid = 998
+AND paysuborder.merchandiseid IN (998, 1106)
 AND paysuborder.orderstatus IN (2, 5)
 AND saler.pid != 0
 AND payorder.orderday >= '2018-03-12'
