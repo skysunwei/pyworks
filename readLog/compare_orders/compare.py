@@ -21,16 +21,18 @@
 zhongxin = []
 yhdx = []
 
-folder = 'zhongxin'
+folder = 'guild'
 
 
-for line in open(folder + '/zx'):
+for line in open(folder + '/db'):
     datas = line.strip('\n')
-    zhongxin.append(datas[0] + str(float(datas[1])))
+    # zhongxin.append(datas[0] + str(float(datas[1])))
+    zhongxin.append(datas)
 
-for line in open(folder + '/yhdx'):
+for line in open(folder + '/gw'):
     datas = line.strip('\n')
-    yhdx.append(datas[0] + str(float(datas[1])))
+    # yhdx.append(datas[0] + str(float(datas[1])))
+    yhdx.append(datas)
 
 
 a = {}
