@@ -3,11 +3,15 @@ womens = []
 
 #----------
 
+
+
 for line in open('data'):
     datas = line.strip('\n').split('\t')
     infos.append(datas[1])
 
 infos = list(set(infos))
+
+
 
 print len(infos)
 
