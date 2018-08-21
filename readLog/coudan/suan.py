@@ -4,8 +4,8 @@ import itertools
 
 file_name = 'data.txt'
 
-Coupon = 366
-FanWei = 100
+Coupon = 348
+FanWei = 30
 N_Pin_Zu = 3
 Filter_Words = ['蛋糕', '大闸蟹','礼品卡']
 Focus_Tag = '活动'
