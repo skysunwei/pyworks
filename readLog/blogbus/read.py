@@ -10,7 +10,12 @@ for line in open('data'):
         temp3 = temp2[1].split('\">')
 
         urls.append('<a href=\"%s\">%s</a><br><br>' % (domain + temp2[0], temp3[1].strip('</a>')))
-        # print temp2[0]
+        print temp3[1].strip('</a>')
+
+    if '<td class="last-col">20' in line:
+        print line.strip("</td>").replace("class=\"last-col\">", '')
+
+exit()
 
 for url in urls:
     print url
